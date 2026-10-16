@@ -2,22 +2,26 @@
 
 ## My Role and How I Used AI
 
-I developed and tested this assignment through an iterative
-process. I edited the Java source files, applied code changes,
-compiled the projects, deployed the server to EC2, ran the
-experiments, and collected the resulting logs and screenshots.
+I developed and tested this assignment through an iterative 
+process. I edited the Java source files, integrated and 
+adjusted code changes, compiled the projects, deployed the 
+server to EC2, ran the experiments, and collected the resulting
+logs and screenshots. I reviewed the results to identify 
+issues and determine what needed to be revised.
 
-I used OpenAI Codex as a programming and troubleshooting
-assistant. It suggested implementation approaches, supplied
-code snippets and documentation drafts, and helped me interpret
-errors and measurements. When I was unsure how to proceed,
-I asked it to check whether the direction is right and explain 
-the reasoning behind it.
+I used OpenAI Codex to support my work by discussing implementation
+options, reviewing my approach, and helping me understand 
+errors and performance measurements. It also provided documentation
+drafts, which I reviewed and adapted for the assignment. 
+When I was uncertain about my direction, I asked for feedback and
+explanations to inform my next steps.
 
-My workflow was to apply a proposed change, run it in my own
-environment, inspect the actual output, and decide whether
-the change worked or needed correction. I did not treat an
-AI response as sufficient evidence that the program was correct.
+For each change, I ran the program in my own environment, 
+inspected the actual output, and decided whether to keep 
+or correct the implementation. I based these decisions on
+the assignment requirements and observed results. I treated
+AI suggestions as input to my development process and verified
+their correctness through testing.
 
 ## Accepted Suggestion 1: Record HTTP Attempts Separately
 
