@@ -1,0 +1,23 @@
+WebSocket Clock Check After Mac Time Synchronization
+
+Test: 10 subscriptions, active for 15 seconds
+Total updates: 310
+Updates per resort: 31
+Connections per resort: 1
+Reconnections per resort: 0
+
+Observed push timestamp differences:
+Mean: -4.599 ms
+Median: -17.112 ms
+p95: 53.090 ms
+p99: 67.878 ms
+Negative samples: 223 / 310
+
+Interpretation:
+All subscriptions received updates successfully.
+Cross-machine clock uncertainty remains significant
+relative to the measured timestamp differences.
+These values are not reliable absolute one-way latencies.
+Raw negative samples were retained without correction.
+
+This was a subscription-only check, not an HTTP load test.

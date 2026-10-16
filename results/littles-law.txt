@@ -1,0 +1,15 @@
+Java POST baseline
+
+Total requests: 21
+Samples used for average: 20
+First request latency: 257.555 ms
+Average latency of last 20 requests: 37.171 ms
+
+Prediction:
+Each sender sends one request and waits for its response.
+Predicted throughput = concurrent senders / average latency in seconds
+32 / 0.037171 = approximately 861 swipes/second
+
+Assumption:
+Average latency remains similar under concurrent load.
+The first request is excluded from the average.

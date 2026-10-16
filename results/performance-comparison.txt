@@ -1,0 +1,33 @@
+Performance comparison
+
+All runs used 500,000 swipe events and 10 leaderboard subscribers.
+Warmup used 32 sender threads with 1,000 events per thread.
+
+Main sender threads | Main throughput (swipes/s) | Final failed swipes
+64                  | 1495.52                    | 0
+128                 | 2691.50                    | 0
+256, run 1          | 4632.00                    | 0
+256, run 2          | 4655.29                    | 0
+
+Selected configuration: 256 main sender threads.
+
+The two 256-thread runs differed in main throughput by approximately 0.5%.
+This was the fastest configuration among those tested.
+This does not establish a global maximum.
+
+Little's Law baseline:
+Average sequential Java POST latency: 37.171 ms.
+Predicted throughput with 256 concurrent senders:
+256 / 0.037171 = approximately 6,887 swipes/second.
+
+Measured main throughput in the selected run:
+4,655.29 swipes/second, approximately 67.6% of the baseline prediction.
+
+The prediction assumes unchanged latency under concurrency.
+Actual performance includes connection management, retries, backoff,
+thread scheduling, metrics recording, and phase completion overhead.
+These factors were not individually isolated.
+
+Latency statistics describe individual HTTP attempts.
+Successful-attempt latency excludes earlier failed attempts and backoff.
+Push latency is approximate and includes cross-machine clock skew.

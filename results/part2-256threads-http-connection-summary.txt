@@ -1,0 +1,31 @@
+HTTP Connection Reuse Observation
+
+Run ID: part2-3ddd1da3-69f0-4e3e-b0de-428042632df1
+Client location: Mac
+Server location: EC2
+Main sender threads: 256
+
+Successful events: 500000
+Failed events: 0
+Client HTTP attempts: 501904
+Client retries: 1904
+
+Server logged HTTP requests: 500417
+Distinct client IP:port pairs: 2843
+Pairs handling multiple requests: 2843
+Average requests per pair: 176.02
+
+Interpretation:
+Multiple requests per observed client endpoint provide
+evidence of HTTP connection reuse.
+
+Limitations:
+Distinct IP:port pairs are not an exact TCP connection count.
+Ports may be reused across different connections.
+Request retries are not equivalent to reconnections.
+Server request logs do not capture every failed client attempt.
+
+Push latency note:
+This run contained 2921 negative push-latency samples.
+Cross-machine clock differences prevent interpreting these
+measurements as reliable one-way latency.

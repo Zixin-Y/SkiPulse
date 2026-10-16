@@ -1,0 +1,1050 @@
+CSV output: /Users/zixin/Downloads/6650/assignment1/results/swipes-1792111470404.csv
+Waiting for all leaderboard subscriptions...
+Resort 6 connected: 177.789 ms, connections=1
+Resort 10 connected: 178.576 ms, connections=1
+Resort 2 connected: 181.050 ms, connections=1
+Resort 8 connected: 178.611 ms, connections=1
+Resort 5 connected: 179.634 ms, connections=1
+Resort 4 connected: 179.927 ms, connections=1
+Resort 9 connected: 178.429 ms, connections=1
+Resort 1 connected: 179.495 ms, connections=1
+Resort 7 connected: 177.920 ms, connections=1
+Resort 3 connected: 179.170 ms, connections=1
+All leaderboard subscriptions are receiving updates.
+
+Starting Warmup...
+Sender threads: 32
+Planned swipes: 32000
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/76373, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/63912, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/86060, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/67318, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/1441, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/34556, error=IOException, message=HTTP/1.1 header parser received no bytes
+Warmup time: 41.660 seconds
+Successful swipes: 32000
+Failed swipes: 0
+Retries: 6
+Warmup throughput: 768.13 successful swipes/second
+
+Starting Main...
+Sender threads: 64
+Planned swipes: 468000
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/35169, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/99943, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/73980, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/9315, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/13107, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/30148, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/42015, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/53090, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/18501, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/4934, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/45300, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/66130, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/77312, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/98586, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/41330, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/19905, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/75079, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/46257, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/75708, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/38880, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/14967, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/1410, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/31849, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/23633, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/82165, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/27147, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/43435, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/36994, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/62016, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/31067, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/5951, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/3116, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/34958, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/8675, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/98439, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/93800, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/18565, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/59125, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/2032, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/45051, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/85049, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/77062, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/76508, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/40578, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/97224, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/77199, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/14837, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/98856, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/26084, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/50713, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/5085, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/67656, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/66807, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/76878, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/25842, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/17958, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/71032, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/10393, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/84326, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/30043, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/50266, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/31238, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/47447, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/7149, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/87523, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/68171, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/62632, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/44633, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/54589, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/79044, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/66987, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/8904, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/63953, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/13917, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/45818, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/43711, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/57213, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/16657, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/5508, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/61921, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/19396, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/53288, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/7611, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/67141, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/92089, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/89498, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/22001, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/71799, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/88856, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/25265, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/28490, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/62046, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/26141, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/75671, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/40209, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/76644, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/68096, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/21390, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/492, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/79216, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/69668, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/81155, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/32531, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/42634, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/29437, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/50430, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/44168, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/96286, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/60104, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/17975, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/14538, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/29361, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/70217, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/64180, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/578, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/89220, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/55578, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/70952, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/43094, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/82915, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/59118, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/27150, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/67884, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/16406, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/98734, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/59694, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/14602, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/44483, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/70907, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/47594, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/36736, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/91747, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/24408, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/92933, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/37446, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/82814, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/27643, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/98321, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/76722, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/62015, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/97639, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/48087, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/37648, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/91856, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/57399, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/14071, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/75991, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/26836, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/10810, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/13550, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/58504, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/18375, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/36379, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/69405, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/23799, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/8047, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/34517, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/19095, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/93197, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/29871, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/96718, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/99977, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/78484, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/44943, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/48580, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/83433, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/3501, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/14896, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/86149, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/26223, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/73500, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/32156, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/60541, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/26033, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/9858, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/7940, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/5303, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/75230, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/53765, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/10267, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/87587, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/14583, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/89838, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/26426, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/36436, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/45099, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/7832, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/79749, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/16588, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/31586, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/42998, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/90617, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/25076, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/74681, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/7441, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/26996, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/46210, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/44471, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/83641, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/96043, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/30577, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/588, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/53033, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/64230, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/5182, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/91141, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/16651, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/73904, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/21396, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/48769, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/5206, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/12294, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/26042, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/87005, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/77887, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/927, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/12140, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/10559, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/97318, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/47418, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/70911, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/85896, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/22059, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/64360, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/41438, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/88034, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/35950, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/18040, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/84594, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/55556, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/96200, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/78915, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/46263, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/3001, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/51996, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/83663, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/10403, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/98777, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/88167, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/48836, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/43210, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/73938, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/17071, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/11039, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/79921, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/14285, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/59940, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/60945, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/9028, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/97378, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/43400, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/29532, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/5511, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/46815, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/36883, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/64610, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/22132, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/92935, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/1168, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/95285, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/53460, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/70177, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/21517, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/52910, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/63941, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/84409, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/12151, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/41942, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/55149, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/52153, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/35112, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/81648, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/31706, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/50900, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/34528, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/58383, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/70870, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/92551, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/79115, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/90806, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/70533, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/53898, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/64224, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/36615, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/67588, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/87108, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/7167, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/22239, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/75074, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/15336, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/47693, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/7316, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/57524, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/92136, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/99277, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/11686, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/82490, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/16719, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/82402, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/63217, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/11094, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/35884, error=HttpTimeoutException, message=request timed out
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/39635, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/48951, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/70457, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/78644, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/31516, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/7064, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/62114, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/47888, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/39979, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/95512, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/69758, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/63144, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/58219, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/79252, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/38136, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/44073, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/88707, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/47936, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/49543, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/56683, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/20968, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/68864, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/45282, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/46279, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/59788, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/6113, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/42864, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/174, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/8258, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/97960, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/6743, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/70471, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/2172, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/12099, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/68020, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/39418, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/84541, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/77603, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/31231, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/71035, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/59747, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/26818, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/42528, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/62883, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/56333, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/89293, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/51682, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/26954, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/9866, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/40436, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/21604, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/70422, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/80155, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/77397, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/64220, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/31455, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/77466, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/83712, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/44325, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/71055, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/62596, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/6138, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/7108, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/4386, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/75229, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/61108, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/47854, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/25718, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/9771, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/61022, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/63097, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/52387, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/76529, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/94924, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/61450, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/92245, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/39611, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/50286, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/37032, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/21862, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/95522, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/97370, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/1033, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/13607, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/29413, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/6323, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/82968, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/4755, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/14013, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/76190, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/7120, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/30392, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/11850, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/68725, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/47465, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/48, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/76088, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/6523, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/36403, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/12894, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/11970, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/56347, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/39783, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/1381, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/19150, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/35339, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/49420, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/17167, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/58827, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/85894, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/60009, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/63666, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/5015, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/40417, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/46631, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/15158, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/29567, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/62527, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/12264, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/98170, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/56050, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/89942, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/50065, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/16905, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/70615, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/43207, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/31022, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/88339, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/21677, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/16565, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/22999, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/11668, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/38323, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/26233, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/27217, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/48034, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/95421, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/64329, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/30652, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/79156, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/6700, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/54851, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/27543, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/20083, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/94245, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/776, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/62879, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/72202, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/11447, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/57554, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/71677, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/74941, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/21221, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/59252, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/74913, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/30817, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/13689, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/82908, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/88654, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/53364, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/32659, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/69397, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/77767, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/18658, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/35681, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/15416, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/89445, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/93328, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/6318, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/6967, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/81578, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/6103, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/81003, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/30802, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/89144, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/27947, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/2303, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/8575, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/251, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/92003, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/47323, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/32322, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/73100, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/50996, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/36651, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/72072, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/96241, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/46637, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/74028, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/79637, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/5334, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/30648, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/79716, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/35874, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/90712, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/84067, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/81338, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/36630, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/54496, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/64115, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/87359, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/11449, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/16173, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/13366, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/45775, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/89100, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/82978, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/4394, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/70535, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/72749, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/40465, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/57830, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/54595, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/89999, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/91675, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/49261, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/8794, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/90729, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/77534, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/50363, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/91720, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/91487, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/12866, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/76424, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/54922, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/41165, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/36039, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/33674, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/708, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/4935, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/76215, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/5596, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/65705, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/48771, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/29253, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/8031, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/99057, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/41883, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/71320, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/37892, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/64525, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/1740, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/13316, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/24921, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/13814, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/61741, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/92417, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/65257, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/78318, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/70527, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/32043, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/37757, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/82252, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/62778, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/45335, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/64863, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/46031, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/5092, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/81146, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/17396, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/37692, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/6493, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/10568, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/65017, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/83161, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/79669, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/34478, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/27291, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/23476, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/76569, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/92766, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/62395, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/28086, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/33223, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/93831, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/28077, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/58661, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/46879, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/92424, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/71216, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/66127, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/53796, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/90290, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/87505, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/7417, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/91363, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/33059, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/83666, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/22333, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/43396, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/2711, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/19360, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/47980, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/2016, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/18819, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/36652, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/41783, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/68098, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/61932, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/51058, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/36799, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/70352, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/70363, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/3952, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/49104, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/60779, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/40018, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/60247, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/29231, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/89158, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/58688, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/28815, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/94624, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/50443, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/30081, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/41257, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/70099, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/88704, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/50180, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/94557, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/33294, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/94065, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/15518, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/63156, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/9340, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/19541, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/10763, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/98623, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/22638, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/38575, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/18835, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/77690, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/97477, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/48777, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/46903, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/50539, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/31785, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/93257, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/96807, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/64424, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/30261, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/91074, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/22594, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/34153, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/78591, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/35922, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/43148, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/2065, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/8956, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/12191, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/62782, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/33990, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/37168, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/83740, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/68795, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/42269, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/14289, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/45354, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/41117, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/79675, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/64659, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/29254, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/4634, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/50623, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/91603, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/66518, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/83657, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/25163, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/26431, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/66021, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/17485, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/59403, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/10374, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/78719, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/42010, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/27670, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/23010, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/4318, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/74281, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/44053, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/9354, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/32574, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/50183, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/45406, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/8560, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/96546, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/97345, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/90235, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/34518, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/27377, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/13430, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/20652, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/90314, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/84201, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/57567, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/87535, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/51747, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/90134, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/58910, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/52220, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/62265, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/92204, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/78964, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/39471, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/55801, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/46011, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/9784, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/51166, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/62161, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/4068, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/15486, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/11942, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/82369, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/6669, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/5877, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/10497, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/71448, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/5525, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/41928, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/66632, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/32548, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/11184, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/79731, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/53987, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/95342, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/53368, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/95715, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/86093, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/75754, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/95266, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/95418, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/86771, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/30918, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/17923, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/42113, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/68401, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/95927, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/66469, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/1457, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/61489, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/31026, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/93614, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/98049, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/2836, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/96309, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/66010, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/30341, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/75945, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/32703, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/42246, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/24061, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/97023, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/11477, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/44355, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/87167, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/55270, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/15792, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/37550, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/37291, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/69966, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/8666, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/31741, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/46793, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/48447, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/61322, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/35289, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/15613, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/23299, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/1370, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/21830, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/55671, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/6691, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/6948, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/33920, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/5863, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/35372, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/58397, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/48257, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/40322, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/60390, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/58556, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/64565, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/75204, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/22440, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/53590, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/7621, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/42005, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/58421, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/70271, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/68822, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/49992, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/58931, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/5693, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/12152, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/93254, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/68613, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/47196, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/16694, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/51308, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/48901, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/5674, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/41483, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/46933, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/55945, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/99570, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/17109, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/46128, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/67269, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/9656, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/57023, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/64732, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/45111, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/18464, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/41074, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/13620, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/99737, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/74256, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/53159, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/91130, error=HttpTimeoutException, message=request timed out
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/87195, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/57512, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/86386, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/58669, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/64895, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/31351, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/17337, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/67447, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/98293, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/51236, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/79200, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/27620, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/98297, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/76642, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/70518, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/12996, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/52628, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/56730, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/24477, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/94322, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/93708, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/82654, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/53718, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/41067, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/31932, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/98000, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/70343, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/9204, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/337, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/91448, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/97445, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/97062, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/32133, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/12780, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/96415, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/45886, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/5267, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/95924, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/16721, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/53251, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/63966, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/80409, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/20580, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/29423, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/14975, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/37156, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/97272, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/47299, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/76771, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/1119, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/40205, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/90599, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/89428, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/7/seasons/2026/days/1/skiers/42096, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/16264, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/65759, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/70813, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/79717, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/30832, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/66566, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/85825, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/33880, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/39567, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/73548, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/8872, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/53759, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/10/seasons/2026/days/1/skiers/72252, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/91823, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/66235, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/77145, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/58066, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/54084, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/53068, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/59404, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/5/seasons/2026/days/1/skiers/92862, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/92370, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/2/seasons/2026/days/1/skiers/50427, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/4/seasons/2026/days/1/skiers/22786, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/36766, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/65763, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/99820, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/9541, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/3/seasons/2026/days/1/skiers/60916, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/8/seasons/2026/days/1/skiers/47903, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/1/seasons/2026/days/1/skiers/74203, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/6/seasons/2026/days/1/skiers/7029, error=IOException, message=HTTP/1.1 header parser received no bytes
+Attempt 1 failed: path=/skiers/9/seasons/2026/days/1/skiers/95276, error=IOException, message=HTTP/1.1 header parser received no bytes
+Main time: 312.935 seconds
+Successful swipes: 468000
+Failed swipes: 0
+Retries: 908
+Main throughput: 1495.52 successful swipes/second
+
+=== Subscription results ===
+Resort 1: updates=710, attempts=1, connections=1, reconnections=0, averageEstablishmentMs=179.495
+Resort 2: updates=710, attempts=1, connections=1, reconnections=0, averageEstablishmentMs=181.050
+Resort 3: updates=710, attempts=1, connections=1, reconnections=0, averageEstablishmentMs=179.170
+Resort 4: updates=710, attempts=1, connections=1, reconnections=0, averageEstablishmentMs=179.927
+Resort 5: updates=710, attempts=1, connections=1, reconnections=0, averageEstablishmentMs=179.634
+Resort 6: updates=710, attempts=1, connections=1, reconnections=0, averageEstablishmentMs=177.789
+Resort 7: updates=710, attempts=1, connections=1, reconnections=0, averageEstablishmentMs=177.920
+Resort 8: updates=710, attempts=1, connections=1, reconnections=0, averageEstablishmentMs=178.611
+Resort 9: updates=710, attempts=1, connections=1, reconnections=0, averageEstablishmentMs=178.429
+Resort 10: updates=710, attempts=1, connections=1, reconnections=0, averageEstablishmentMs=178.576
+Total leaderboard updates: 7100
+Resort 1 push latency: count=710, meanMs=12.370, medianMs=10.459, p95Ms=18.875, p99Ms=75.812, minMs=4.456, maxMs=168.663
+Resort 2 push latency: count=710, meanMs=12.976, medianMs=11.037, p95Ms=19.630, p99Ms=84.194, minMs=4.927, maxMs=168.859
+Resort 3 push latency: count=710, meanMs=12.958, medianMs=11.047, p95Ms=18.942, p99Ms=84.500, minMs=4.102, maxMs=168.664
+Resort 4 push latency: count=710, meanMs=13.034, medianMs=11.056, p95Ms=19.390, p99Ms=84.568, minMs=4.078, maxMs=168.699
+Resort 5 push latency: count=710, meanMs=13.105, medianMs=11.113, p95Ms=19.517, p99Ms=84.030, minMs=4.967, maxMs=168.761
+Resort 6 push latency: count=710, meanMs=14.568, medianMs=12.742, p95Ms=20.358, p99Ms=84.583, minMs=6.967, maxMs=168.698
+Resort 7 push latency: count=710, meanMs=13.008, medianMs=11.088, p95Ms=19.367, p99Ms=84.380, minMs=4.978, maxMs=168.530
+Resort 8 push latency: count=710, meanMs=12.835, medianMs=10.996, p95Ms=19.002, p99Ms=84.231, minMs=5.714, maxMs=168.088
+Resort 9 push latency: count=710, meanMs=12.928, medianMs=10.906, p95Ms=19.269, p99Ms=84.277, minMs=5.798, maxMs=168.385
+Resort 10 push latency: count=710, meanMs=13.267, medianMs=11.324, p95Ms=19.751, p99Ms=84.572, minMs=5.906, maxMs=168.803
+All subscribers push latency: count=7100, meanMs=13.105, medianMs=11.214, p95Ms=19.436, p99Ms=84.568, minMs=4.078, maxMs=168.859
+Negative push-latency samples: 0
+Push latency CSV: /Users/zixin/Downloads/6650/assignment1/results/push-latencies-1792111825929.csv
+
+=== Overall ingest results ===
+Ingest completed: true
+Generation time: 0.026 seconds
+Ingest time including warmup: 354.602 seconds
+Total wall-clock time: 355.509 seconds
+Successful swipes: 500000
+Failed swipes: 0
+HTTP attempts: 500914
+Retries: 914
+Remaining events: 0
+Overall throughput: 1406.44 successful swipes/second
+Ingest throughput including warmup: 1410.03 successful swipes/second
+CSV rows: 500914
+CSV file closed successfully.
+
+=== HTTP latency and resort analysis ===
+Input CSV: /Users/zixin/Downloads/6650/assignment1/results/swipes-1792111470404.csv
+HTTP attempts: 500914
+Successful responses: 500000
+Network-error attempts: 914
+Other HTTP responses: 0
+
+All HTTP attempt latencies: count=500914, meanMs=40.553, medianMs=39.098, p95Ms=54.070, p99Ms=94.627, minMs=10.109, maxMs=10006.071
+Successful HTTP attempt latencies: count=500000, meanMs=40.478, medianMs=39.104, p95Ms=54.023, p99Ms=93.104, minMs=17.648, maxMs=600.744
+
+Successful swipes by resort:
+Measurement duration: 354.602 seconds
+Resort 1: successful=49716, throughput=140.202 swipes/s
+Resort 2: successful=49818, throughput=140.490 swipes/s
+Resort 3: successful=50406, throughput=142.148 swipes/s
+Resort 4: successful=50221, throughput=141.627 swipes/s
+Resort 5: successful=50113, throughput=141.322 swipes/s
+Resort 6: successful=50066, throughput=141.189 swipes/s
+Resort 7: successful=50122, throughput=141.347 swipes/s
+Resort 8: successful=49982, throughput=140.953 swipes/s
+Resort 9: successful=49962, throughput=140.896 swipes/s
+Resort 10: successful=49594, throughput=139.858 swipes/s
+Total ingest throughput: 1410.033 swipes/s
+
+=== Throughput buckets ===
+0.000,10.000,10.000,9735,973.500
+10.000,20.000,10.000,8005,800.500
+20.000,30.000,10.000,6244,624.400
+30.000,40.000,10.000,7410,741.000
+40.000,50.000,10.000,13540,1354.000
+50.000,60.000,10.000,15764,1576.400
+60.000,70.000,10.000,16035,1603.500
+70.000,80.000,10.000,15942,1594.200
+80.000,90.000,10.000,15522,1552.200
+90.000,100.000,10.000,15293,1529.300
+100.000,110.000,10.000,15577,1557.700
+110.000,120.000,10.000,15870,1587.000
+120.000,130.000,10.000,15919,1591.900
+130.000,140.000,10.000,17611,1761.100
+140.000,150.000,10.000,15974,1597.400
+150.000,160.000,10.000,15608,1560.800
+160.000,170.000,10.000,15487,1548.700
+170.000,180.000,10.000,15982,1598.200
+180.000,190.000,10.000,15587,1558.700
+190.000,200.000,10.000,15402,1540.200
+200.000,210.000,10.000,15901,1590.100
+210.000,220.000,10.000,15097,1509.700
+220.000,230.000,10.000,15447,1544.700
+230.000,240.000,10.000,15793,1579.300
+240.000,250.000,10.000,15503,1550.300
+250.000,260.000,10.000,15703,1570.300
+260.000,270.000,10.000,15556,1555.600
+270.000,280.000,10.000,15402,1540.200
+280.000,290.000,10.000,15398,1539.800
+290.000,300.000,10.000,15761,1576.100
+300.000,310.000,10.000,15781,1578.100
+310.000,320.000,10.000,15831,1583.100
+320.000,330.000,10.000,15314,1531.400
+330.000,340.000,10.000,13427,1342.700
+340.000,350.000,10.000,1420,142.000
+350.000,354.588,4.588,159,34.659
+Successful swipes counted: 500000
+Throughput CSV saved to: /Users/zixin/Downloads/6650/assignment1/results/swipes-1792111470404-throughput.csv
