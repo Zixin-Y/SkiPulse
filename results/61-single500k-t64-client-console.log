@@ -1,0 +1,246 @@
+CSV output: /Users/zixin/Downloads/6650/assignment2/results/swipes-1794161820559.csv
+HTTP run ID: part2-8d33e4b7-19dd-4722-9e60-777e8794cf5a
+Waiting for all leaderboard subscriptions...
+Resort 6 connected: 257.294 ms, connections=1
+Resort 7 connected: 258.368 ms, connections=1
+Resort 8 connected: 258.237 ms, connections=1
+Resort 4 connected: 258.475 ms, connections=1
+Resort 2 connected: 258.137 ms, connections=1
+Resort 5 connected: 257.462 ms, connections=1
+Resort 9 connected: 257.197 ms, connections=1
+Resort 1 connected: 258.452 ms, connections=1
+Resort 10 connected: 256.773 ms, connections=1
+Resort 3 connected: 257.677 ms, connections=1
+All leaderboard WebSocket connections are established.
+
+Starting Warmup...
+Sender threads: 32
+Planned swipes: 32000
+Resort 1 baseline excluded: sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c, version=1
+Resort 4 baseline excluded: sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c, version=1
+Resort 9 baseline excluded: sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c, version=1
+Resort 2 baseline excluded: sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c, version=2
+Resort 6 baseline excluded: sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c, version=3
+Resort 10 baseline excluded: sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c, version=2
+Resort 7 baseline excluded: sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c, version=3
+Resort 3 baseline excluded: sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c, version=7
+Resort 8 baseline excluded: sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c, version=3
+Resort 5 baseline excluded: sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c, version=4
+CLOCK_WARNING resort=6 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=7 serverTime=2026-11-08T18:17:01.643131Z receiveTime=2026-11-08T18:17:01.640631Z latencyMs=-2.500000
+CLOCK_WARNING resort=3 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=17 serverTime=2026-11-08T18:17:01.642642Z receiveTime=2026-11-08T18:17:01.641460Z latencyMs=-1.182000
+CLOCK_WARNING resort=5 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=16 serverTime=2026-11-08T18:17:01.797847Z receiveTime=2026-11-08T18:17:01.796591Z latencyMs=-1.256000
+CLOCK_WARNING resort=9 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=33 serverTime=2026-11-08T18:17:02.670371Z receiveTime=2026-11-08T18:17:02.666164Z latencyMs=-4.207000
+CLOCK_WARNING resort=8 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=36 serverTime=2026-11-08T18:17:03.025130Z receiveTime=2026-11-08T18:17:03.021825Z latencyMs=-3.305000
+CLOCK_WARNING resort=10 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=33 serverTime=2026-11-08T18:17:03.024598Z receiveTime=2026-11-08T18:17:03.022143Z latencyMs=-2.455000
+CLOCK_WARNING resort=4 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=32 serverTime=2026-11-08T18:17:03.076757Z receiveTime=2026-11-08T18:17:03.069866Z latencyMs=-6.891000
+CLOCK_WARNING resort=10 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=40 serverTime=2026-11-08T18:17:03.378506Z receiveTime=2026-11-08T18:17:03.376175Z latencyMs=-2.331000
+CLOCK_WARNING resort=4 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=38 serverTime=2026-11-08T18:17:03.726081Z receiveTime=2026-11-08T18:17:03.724917Z latencyMs=-1.164000
+CLOCK_WARNING resort=8 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=41 serverTime=2026-11-08T18:17:03.981637Z receiveTime=2026-11-08T18:17:03.980856Z latencyMs=-0.781000
+CLOCK_WARNING resort=8 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=43 serverTime=2026-11-08T18:17:04.431323Z receiveTime=2026-11-08T18:17:04.429389Z latencyMs=-1.934000
+CLOCK_WARNING resort=9 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=40 serverTime=2026-11-08T18:17:04.434255Z receiveTime=2026-11-08T18:17:04.429734Z latencyMs=-4.521000
+CLOCK_WARNING resort=3 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=39 serverTime=2026-11-08T18:17:04.432889Z receiveTime=2026-11-08T18:17:04.429837Z latencyMs=-3.052000
+CLOCK_WARNING resort=9 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=41 serverTime=2026-11-08T18:17:04.636110Z receiveTime=2026-11-08T18:17:04.630806Z latencyMs=-5.304000
+CLOCK_WARNING resort=2 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=41 serverTime=2026-11-08T18:17:04.635538Z receiveTime=2026-11-08T18:17:04.631254Z latencyMs=-4.284000
+CLOCK_WARNING resort=10 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=50 serverTime=2026-11-08T18:17:04.782020Z receiveTime=2026-11-08T18:17:04.780121Z latencyMs=-1.899000
+CLOCK_WARNING resort=7 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=46 serverTime=2026-11-08T18:17:04.989267Z receiveTime=2026-11-08T18:17:04.984303Z latencyMs=-4.964000
+CLOCK_WARNING resort=3 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=46 serverTime=2026-11-08T18:17:05.643122Z receiveTime=2026-11-08T18:17:05.640383Z latencyMs=-2.739000
+CLOCK_WARNING resort=5 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=51 serverTime=2026-11-08T18:17:07.952043Z receiveTime=2026-11-08T18:17:07.945977Z latencyMs=-6.066000
+CLOCK_WARNING resort=5 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=56 serverTime=2026-11-08T18:17:10.409773Z receiveTime=2026-11-08T18:17:10.407020Z latencyMs=-2.753000
+CLOCK_WARNING resort=8 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=53 serverTime=2026-11-08T18:17:12.970653Z receiveTime=2026-11-08T18:17:12.970407Z latencyMs=-0.246000
+CLOCK_WARNING resort=6 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=59 serverTime=2026-11-08T18:17:13.071690Z receiveTime=2026-11-08T18:17:13.069463Z latencyMs=-2.227000
+CLOCK_WARNING resort=4 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=56 serverTime=2026-11-08T18:17:14.871208Z receiveTime=2026-11-08T18:17:14.870758Z latencyMs=-0.450000
+CLOCK_WARNING resort=9 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=63 serverTime=2026-11-08T18:17:19.390718Z receiveTime=2026-11-08T18:17:19.386811Z latencyMs=-3.907000
+CLOCK_WARNING resort=3 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=73 serverTime=2026-11-08T18:17:27.311107Z receiveTime=2026-11-08T18:17:27.308891Z latencyMs=-2.216000
+CLOCK_WARNING resort=10 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=82 serverTime=2026-11-08T18:17:29.771580Z receiveTime=2026-11-08T18:17:29.765142Z latencyMs=-6.438000
+CLOCK_WARNING resort=4 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=70 serverTime=2026-11-08T18:17:33.329939Z receiveTime=2026-11-08T18:17:33.328641Z latencyMs=-1.298000
+CLOCK_WARNING resort=5 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=79 serverTime=2026-11-08T18:17:39.398848Z receiveTime=2026-11-08T18:17:39.395032Z latencyMs=-3.816000
+Warmup time: 41.796 seconds
+Successful swipes: 32000
+Failed swipes: 0
+Retries: 0
+Warmup throughput: 765.62 successful swipes/second
+
+Starting Main...
+Sender threads: 64
+Planned swipes: 468000
+CLOCK_WARNING resort=5 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=81 serverTime=2026-11-08T18:17:43.409389Z receiveTime=2026-11-08T18:17:43.405113Z latencyMs=-4.276000
+CLOCK_WARNING resort=5 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=82 serverTime=2026-11-08T18:17:43.459267Z receiveTime=2026-11-08T18:17:43.457367Z latencyMs=-1.900000
+CLOCK_WARNING resort=8 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=82 serverTime=2026-11-08T18:17:46.166241Z receiveTime=2026-11-08T18:17:46.164768Z latencyMs=-1.473000
+CLOCK_WARNING resort=4 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=82 serverTime=2026-11-08T18:17:46.469470Z receiveTime=2026-11-08T18:17:46.468625Z latencyMs=-0.845000
+CLOCK_WARNING resort=6 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=94 serverTime=2026-11-08T18:17:55.095778Z receiveTime=2026-11-08T18:17:55.093773Z latencyMs=-2.005000
+CLOCK_WARNING resort=1 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=89 serverTime=2026-11-08T18:17:55.795767Z receiveTime=2026-11-08T18:17:55.791770Z latencyMs=-3.997000
+CLOCK_WARNING resort=9 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=94 serverTime=2026-11-08T18:17:58.452099Z receiveTime=2026-11-08T18:17:58.450911Z latencyMs=-1.188000
+CLOCK_WARNING resort=4 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=88 serverTime=2026-11-08T18:17:59.051475Z receiveTime=2026-11-08T18:17:59.050525Z latencyMs=-0.950000
+CLOCK_WARNING resort=9 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=95 serverTime=2026-11-08T18:18:00.970639Z receiveTime=2026-11-08T18:18:00.967318Z latencyMs=-3.321000
+CLOCK_WARNING resort=8 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=92 serverTime=2026-11-08T18:18:01.167694Z receiveTime=2026-11-08T18:18:01.167031Z latencyMs=-0.663000
+CLOCK_WARNING resort=6 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=97 serverTime=2026-11-08T18:18:04.689285Z receiveTime=2026-11-08T18:18:04.683850Z latencyMs=-5.435000
+CLOCK_WARNING resort=4 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=93 serverTime=2026-11-08T18:18:05.289850Z receiveTime=2026-11-08T18:18:05.285599Z latencyMs=-4.251000
+CLOCK_WARNING resort=8 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=96 serverTime=2026-11-08T18:18:06.945541Z receiveTime=2026-11-08T18:18:06.942476Z latencyMs=-3.065000
+CLOCK_WARNING resort=8 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=98 serverTime=2026-11-08T18:18:08.997450Z receiveTime=2026-11-08T18:18:08.997186Z latencyMs=-0.264000
+CLOCK_WARNING resort=9 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=101 serverTime=2026-11-08T18:18:10.503742Z receiveTime=2026-11-08T18:18:10.499446Z latencyMs=-4.296000
+CLOCK_WARNING resort=3 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=100 serverTime=2026-11-08T18:18:17.473093Z receiveTime=2026-11-08T18:18:17.472054Z latencyMs=-1.039000
+CLOCK_WARNING resort=1 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=105 serverTime=2026-11-08T18:18:19.075443Z receiveTime=2026-11-08T18:18:19.072672Z latencyMs=-2.771000
+CLOCK_WARNING resort=7 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=113 serverTime=2026-11-08T18:18:19.978293Z receiveTime=2026-11-08T18:18:19.976327Z latencyMs=-1.966000
+CLOCK_WARNING resort=3 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=103 serverTime=2026-11-08T18:18:21.633332Z receiveTime=2026-11-08T18:18:21.631358Z latencyMs=-1.974000
+CLOCK_WARNING resort=2 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=118 serverTime=2026-11-08T18:18:26.896597Z receiveTime=2026-11-08T18:18:26.893268Z latencyMs=-3.329000
+CLOCK_WARNING resort=7 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=117 serverTime=2026-11-08T18:18:31.910644Z receiveTime=2026-11-08T18:18:31.906040Z latencyMs=-4.604000
+CLOCK_WARNING resort=8 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=109 serverTime=2026-11-08T18:18:44.192435Z receiveTime=2026-11-08T18:18:44.190968Z latencyMs=-1.467000
+CLOCK_WARNING resort=7 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=121 serverTime=2026-11-08T18:18:48.552605Z receiveTime=2026-11-08T18:18:48.550454Z latencyMs=-2.151000
+CLOCK_WARNING resort=5 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=114 serverTime=2026-11-08T18:18:50.110Z receiveTime=2026-11-08T18:18:50.108510Z latencyMs=-1.490000
+CLOCK_WARNING resort=7 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=124 serverTime=2026-11-08T18:18:52.015463Z receiveTime=2026-11-08T18:18:52.015165Z latencyMs=-0.298000
+CLOCK_WARNING resort=8 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=112 serverTime=2026-11-08T18:18:54.173770Z receiveTime=2026-11-08T18:18:54.173287Z latencyMs=-0.483000
+CLOCK_WARNING resort=2 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=130 serverTime=2026-11-08T18:18:58.330999Z receiveTime=2026-11-08T18:18:58.329938Z latencyMs=-1.061000
+CLOCK_WARNING resort=9 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=122 serverTime=2026-11-08T18:19:04.251106Z receiveTime=2026-11-08T18:19:04.249091Z latencyMs=-2.015000
+CLOCK_WARNING resort=4 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=121 serverTime=2026-11-08T18:19:12.674427Z receiveTime=2026-11-08T18:19:12.672023Z latencyMs=-2.404000
+CLOCK_WARNING resort=10 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=120 serverTime=2026-11-08T18:19:20.240454Z receiveTime=2026-11-08T18:19:20.239252Z latencyMs=-1.202000
+CLOCK_WARNING resort=3 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=122 serverTime=2026-11-08T18:19:24.355645Z receiveTime=2026-11-08T18:19:24.351174Z latencyMs=-4.471000
+CLOCK_WARNING resort=10 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=124 serverTime=2026-11-08T18:19:26.009039Z receiveTime=2026-11-08T18:19:26.005723Z latencyMs=-3.316000
+CLOCK_WARNING resort=3 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=123 serverTime=2026-11-08T18:19:26.510800Z receiveTime=2026-11-08T18:19:26.507033Z latencyMs=-3.767000
+CLOCK_WARNING resort=4 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=129 serverTime=2026-11-08T18:19:30.067598Z receiveTime=2026-11-08T18:19:30.066432Z latencyMs=-1.166000
+CLOCK_WARNING resort=1 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=133 serverTime=2026-11-08T18:20:06.532945Z receiveTime=2026-11-08T18:20:06.532789Z latencyMs=-0.156000
+CLOCK_WARNING resort=2 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=149 serverTime=2026-11-08T18:20:15.355177Z receiveTime=2026-11-08T18:20:15.352619Z latencyMs=-2.558000
+CLOCK_WARNING resort=1 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=136 serverTime=2026-11-08T18:20:27.635113Z receiveTime=2026-11-08T18:20:27.633965Z latencyMs=-1.148000
+CLOCK_WARNING resort=5 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=135 serverTime=2026-11-08T18:20:48.590146Z receiveTime=2026-11-08T18:20:48.587697Z latencyMs=-2.449000
+CLOCK_WARNING resort=8 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=142 serverTime=2026-11-08T18:21:03.417270Z receiveTime=2026-11-08T18:21:03.415489Z latencyMs=-1.781000
+CLOCK_WARNING resort=5 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=139 serverTime=2026-11-08T18:21:07.277267Z receiveTime=2026-11-08T18:21:07.272843Z latencyMs=-4.424000
+CLOCK_WARNING resort=6 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=156 serverTime=2026-11-08T18:21:15.695297Z receiveTime=2026-11-08T18:21:15.693665Z latencyMs=-1.632000
+CLOCK_WARNING resort=7 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=140 serverTime=2026-11-08T18:21:21.611194Z receiveTime=2026-11-08T18:21:21.609643Z latencyMs=-1.551000
+CLOCK_WARNING resort=1 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=150 serverTime=2026-11-08T18:21:34.792035Z receiveTime=2026-11-08T18:21:34.790326Z latencyMs=-1.709000
+CLOCK_WARNING resort=4 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=157 serverTime=2026-11-08T18:21:37.450885Z receiveTime=2026-11-08T18:21:37.448538Z latencyMs=-2.347000
+CLOCK_WARNING resort=4 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=161 serverTime=2026-11-08T18:22:00.664582Z receiveTime=2026-11-08T18:22:00.663629Z latencyMs=-0.953000
+CLOCK_WARNING resort=7 sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c version=152 serverTime=2026-11-08T18:22:42.475215Z receiveTime=2026-11-08T18:22:42.474382Z latencyMs=-0.833000
+Main time: 316.870 seconds
+Successful swipes: 468000
+Failed swipes: 0
+Retries: 0
+Main throughput: 1476.95 successful swipes/second
+
+HTTP sending completed. WebSocket subscriptions remain open.
+Verify queue drain and the Consumer unique-event count.
+Press Enter here only after verification to close subscriptions.
+Resort 2 connected: 73.856 ms, connections=2
+Resort 6 baseline excluded: sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c, version=165
+Resort 6 connected: 165.346 ms, connections=2
+Resort 2 baseline excluded: sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c, version=175
+Resort 8 connected: 62.984 ms, connections=2
+Resort 8 baseline excluded: sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c, version=160
+Resort 5 connected: 60.908 ms, connections=2
+Resort 5 baseline excluded: sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c, version=157
+Resort 10 connected: 60.547 ms, connections=2
+Resort 10 baseline excluded: sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c, version=160
+Resort 4 connected: 51.483 ms, connections=2
+Resort 4 baseline excluded: sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c, version=168
+Resort 7 connected: 76.436 ms, connections=2
+Resort 9 baseline excluded: sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c, version=163
+Resort 9 connected: 165.564 ms, connections=2
+Resort 7 baseline excluded: sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c, version=157
+Resort 1 connected: 82.924 ms, connections=2
+Resort 1 baseline excluded: sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c, version=161
+Resort 3 connected: 72.715 ms, connections=2
+Resort 3 baseline excluded: sourceId=3c61b139-c4a3-4e92-a35c-212e46e1886c, version=158
+
+=== Subscription results ===
+Resort 1: updates=143, attempts=2, connections=2, reconnections=1, averageEstablishmentMs=170.688
+Resort 2: updates=156, attempts=2, connections=2, reconnections=1, averageEstablishmentMs=165.996
+Resort 3: updates=133, attempts=2, connections=2, reconnections=1, averageEstablishmentMs=165.196
+Resort 4: updates=153, attempts=2, connections=2, reconnections=1, averageEstablishmentMs=154.979
+Resort 5: updates=140, attempts=2, connections=2, reconnections=1, averageEstablishmentMs=159.185
+Resort 6: updates=146, attempts=2, connections=2, reconnections=1, averageEstablishmentMs=211.320
+Resort 7: updates=133, attempts=2, connections=2, reconnections=1, averageEstablishmentMs=167.402
+Resort 8: updates=138, attempts=2, connections=2, reconnections=1, averageEstablishmentMs=160.611
+Resort 9: updates=143, attempts=2, connections=2, reconnections=1, averageEstablishmentMs=211.380
+Resort 10: updates=138, attempts=2, connections=2, reconnections=1, averageEstablishmentMs=158.660
+Total leaderboard updates: 1423
+Resort 1 push latency: count=143, meanMs=25.501, medianMs=28.892, p95Ms=47.497, p99Ms=52.023, minMs=-3.997, maxMs=69.298
+Resort 2 push latency: count=156, meanMs=25.505, medianMs=27.324, p95Ms=46.470, p99Ms=51.627, minMs=-4.284, maxMs=57.337
+Resort 3 push latency: count=133, meanMs=24.459, medianMs=22.680, p95Ms=52.183, p99Ms=59.229, minMs=-4.471, maxMs=69.540
+Resort 4 push latency: count=153, meanMs=23.890, medianMs=22.364, p95Ms=48.053, p99Ms=57.691, minMs=-6.891, maxMs=58.754
+Resort 5 push latency: count=140, meanMs=23.372, medianMs=23.354, p95Ms=45.082, p99Ms=48.516, minMs=-6.066, maxMs=56.935
+Resort 6 push latency: count=146, meanMs=24.778, medianMs=25.381, p95Ms=50.297, p99Ms=86.673, minMs=-5.435, maxMs=97.779
+Resort 7 push latency: count=133, meanMs=22.440, medianMs=21.167, p95Ms=44.750, p99Ms=49.860, minMs=-4.964, maxMs=51.762
+Resort 8 push latency: count=138, meanMs=21.147, medianMs=19.560, p95Ms=47.052, p99Ms=51.550, minMs=-3.305, maxMs=86.983
+Resort 9 push latency: count=143, meanMs=22.324, medianMs=20.820, p95Ms=45.694, p99Ms=51.260, minMs=-5.304, maxMs=51.451
+Resort 10 push latency: count=138, meanMs=21.756, medianMs=21.334, p95Ms=46.575, p99Ms=53.514, minMs=-6.438, maxMs=59.885
+All subscribers push latency: count=1423, meanMs=23.556, medianMs=22.746, p95Ms=47.409, p99Ms=55.380, minMs=-6.891, maxMs=97.779
+Negative push-latency samples: 74
+INVALID PUSH-LATENCY RESULT: negative samples detected. Do not report these statistics as valid latency.
+Push latency CSV: /Users/zixin/Downloads/6650/assignment2/results/push-latencies-1794162380051.csv
+
+=== Overall ingest results ===
+Ingest completed: true
+Generation time: 0.306 seconds
+Ingest time including warmup: 358.670 seconds
+Total wall-clock time: 559.489 seconds
+Successful swipes: 500000
+Failed swipes: 0
+HTTP attempts: 500000
+Retries: 0
+Remaining events: 0
+Overall throughput: 893.67 successful swipes/second
+Ingest throughput including warmup: 1394.04 successful swipes/second
+CSV rows: 500000
+CSV file closed successfully.
+
+=== HTTP latency and resort analysis ===
+Input CSV: /Users/zixin/Downloads/6650/assignment2/results/swipes-1794161820559.csv
+HTTP attempts: 500000
+Successful responses: 500000
+Network-error attempts: 0
+Other HTTP responses: 0
+
+All HTTP attempt latencies: count=500000, meanMs=43.019, medianMs=40.722, p95Ms=59.821, p99Ms=80.323, minMs=19.289, maxMs=374.994
+Successful HTTP attempt latencies: count=500000, meanMs=43.019, medianMs=40.722, p95Ms=59.821, p99Ms=80.323, minMs=19.289, maxMs=374.994
+
+Successful swipes by resort:
+Measurement duration: 358.670 seconds
+Resort 1: successful=50176, throughput=139.894 swipes/s
+Resort 2: successful=50211, throughput=139.992 swipes/s
+Resort 3: successful=50145, throughput=139.808 swipes/s
+Resort 4: successful=50384, throughput=140.474 swipes/s
+Resort 5: successful=50010, throughput=139.432 swipes/s
+Resort 6: successful=49838, throughput=138.952 swipes/s
+Resort 7: successful=49812, throughput=138.880 swipes/s
+Resort 8: successful=49825, throughput=138.916 swipes/s
+Resort 9: successful=49594, throughput=138.272 swipes/s
+Resort 10: successful=50005, throughput=139.418 swipes/s
+Total ingest throughput: 1394.037 swipes/s
+
+=== Throughput buckets ===
+0.000,10.000,10.000,7543,754.300
+10.000,20.000,10.000,7420,742.000
+20.000,30.000,10.000,7908,790.800
+30.000,40.000,10.000,7954,795.400
+40.000,50.000,10.000,13410,1341.000
+50.000,60.000,10.000,15118,1511.800
+60.000,70.000,10.000,14236,1423.600
+70.000,80.000,10.000,14550,1455.000
+80.000,90.000,10.000,14969,1496.900
+90.000,100.000,10.000,15253,1525.300
+100.000,110.000,10.000,14505,1450.500
+110.000,120.000,10.000,13835,1383.500
+120.000,130.000,10.000,14159,1415.900
+130.000,140.000,10.000,15034,1503.400
+140.000,150.000,10.000,15154,1515.400
+150.000,160.000,10.000,15239,1523.900
+160.000,170.000,10.000,14682,1468.200
+170.000,180.000,10.000,14731,1473.100
+180.000,190.000,10.000,14444,1444.400
+190.000,200.000,10.000,14940,1494.000
+200.000,210.000,10.000,15054,1505.400
+210.000,220.000,10.000,14886,1488.600
+220.000,230.000,10.000,14161,1416.100
+230.000,240.000,10.000,14342,1434.200
+240.000,250.000,10.000,14292,1429.200
+250.000,260.000,10.000,14820,1482.000
+260.000,270.000,10.000,15280,1528.000
+270.000,280.000,10.000,14774,1477.400
+280.000,290.000,10.000,15098,1509.800
+290.000,300.000,10.000,14934,1493.400
+300.000,310.000,10.000,14251,1425.100
+310.000,320.000,10.000,15232,1523.200
+320.000,330.000,10.000,15418,1541.800
+330.000,340.000,10.000,15432,1543.200
+340.000,350.000,10.000,15279,1527.900
+350.000,358.662,8.662,11663,1346.489
+Successful swipes counted: 500000
+Throughput CSV saved to: /Users/zixin/Downloads/6650/assignment2/results/swipes-1794161820559-throughput.csv

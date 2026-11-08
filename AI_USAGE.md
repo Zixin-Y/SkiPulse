@@ -1,244 +1,212 @@
-# AI Usage Reflection
+# AI Usage Reflection — CS6650 Assignment 2
 
-## My Role and How I Used AI
+## How I Used AI
 
-I developed and tested this assignment through an iterative 
-process. I edited the Java source files, integrated and 
-adjusted code changes, compiled the projects, deployed the 
-server to EC2, ran the experiments, and collected the resulting
-logs and screenshots. I reviewed the results to identify 
-issues and determine what needed to be revised.
+I used OpenAI Codex to help interpret assignment requirements,
+discuss implementation choices, troubleshoot deployment issues,
+prepare monitoring code, analyze experimental results, and draft
+documentation.
 
-I used OpenAI Codex to support my work by discussing implementation
-options, reviewing my approach, and helping me understand 
-errors and performance measurements. It also provided documentation
-drafts, which I reviewed and adapted for the assignment. 
-When I was uncertain about my direction, I asked for feedback and
-explanations to inform my next steps.
+Topics included RabbitMQ connection and channel management,
+publisher confirmations, reconnection, eventId deduplication,
+per-resort aggregation, the leaderboard broadcast backplane,
+ALB configuration, and performance measurement.
 
-For each change, I ran the program in my own environment, 
-inspected the actual output, and decided whether to keep 
-or correct the implementation. I based these decisions on
-the assignment requirements and observed results. I treated
-AI suggestions as input to my development process and verified
-their correctness through testing.
+I manually edited files in IntelliJ, executed commands in Mac
+Terminal and EC2 SSH sessions, configured AWS resources, and
+collected logs and screenshots. AI supplied suggestions and code
+snippets; I compiled, deployed, and checked them against actual output.
 
-## Accepted Suggestion 1: Record HTTP Attempts Separately
+## Accepted Suggestion 1: Broadcast Backplane
 
-### What AI Suggested
+AI suggested using a RabbitMQ fanout exchange to distribute
+Consumer-generated leaderboard snapshots to every ingest server.
 
-Codex suggested recording every HTTP attempt in a CSV file
-and reporting successful responses separately from all attempts.
-This would distinguish a temporary request failure from an
-event that still failed after exhausting retries.
+I accepted this approach because a WebSocket connection belongs
+to the server that accepted it. The Consumer cannot directly access
+sessions held by another ingest server.
 
-### What I Did
+Each ingest server subscribes to the backplane and forwards updates
+to its own local WebSocket subscribers.
 
-I wrote the CSV recording and analysis code to client-part2.
-I compiled and ran the client, preserved the generated CSV
-files, and reviewed the attempt counts, successful responses,
-network errors, and retry counts.
+I verified the approach by sending HTTP events through one ingest
+server while subscribing through another and observing real
+leaderboard updates.
 
-### How I Verified It and Made a Decision
+The tradeoff is additional messaging and subscription management.
+Broadcasting to every ingest server also creates work on servers
+that may have no subscribers for a particular resort.
 
-In the connection observation run, the client reported:
+AI Chat History:
+my message: “5. Is a broadcast backplane the better choice? What are co-located deployment, 
+nodes, and stateful connections?”
 
-- Successful events: 500,000
-- Final failed events: 0
-- HTTP attempts: 501,904
-- Retries: 1,904
-- CSV rows: 501,904
+AI message:: For your assignment, I lean toward the RabbitMQ broadcast backplane. 
+You already have to deploy RabbitMQ, and you also need to compare 1, 2, 
+and 4 ingest servers, so a backplane lets the ingest layer scale independently.
 
-The CSV row count matched the HTTP attempt count.
-The attempt count also matched successful events plus retries
-for this run. I therefore retained attempt-level recording
-and kept final event failures separate from failed attempts.
 
-This helped me interpret the red error messages correctly:
-an individual attempt could fail while the event eventually
-succeeded after a retry.
+## Accepted Suggestion 2: Verify Processing Before Closing Subscribers
 
-## Accepted Suggestion 2: Compare Concurrency Levels
+AI suggested keeping WebSocket subscriptions open after HTTP
+sending completed.
 
-### What AI Suggested
+I accepted this because receiving HTTP 201 means the broker confirmed
+publication; it does not mean the Consumer has finished aggregation
+or the client has received the resulting leaderboard update.
 
-Codex suggested testing several sender thread counts and
-keeping warmup measurements separate from the main phase.
-It also helped me use Little's Law to form a throughput
-prediction from the sequential HTTP baseline.
+I added a manual verification step before closing subscriptions.
+For completed runs, I checked the unique processed-event counter,
+confirmed that the Consumer sourceId had not changed, and checked
+that resort queues and the dead-letter queue were empty.
 
-### What I Did
+This is a manual completion check, not an automatic distributed
+completion protocol.
 
-I configured and ran the load client with 64, 128, and 256
-main-phase sender threads. I retained the same total workload
-of 500,000 events and the 32-thread, 32,000-event warmup.
+AI Chat History:
+my message: “Automatic time is already enabled,”
+and the following assistant response discussing the client’s shutdown.
 
-I also repeated the 256-thread experiment and saved the
-logs, CSV files, screenshots, and throughput charts separately
-so that results from different runs would not be mixed.
+AI message:: As soon as HTTP sending finishes, the code enters finally and closes 
+all WebSockets, which may cause later leaderboard updates to be missed.
 
-### How I Verified It and Made a Decision
+## Corrected Suggestion 1: Direct Public-Port Testing
 
-The measured main-phase throughput was:
+AI suggested temporarily changing the client from the ALB address
+to an ingest server's public IP on port 8080.
 
-- 64 threads: 1,495.52 events/s
-- 128 threads: 2,691.50 events/s
-- 256 threads, Run 1: 4,632.00 events/s
-- 256 threads, Run 2: 4,655.29 events/s
+The WebSocket connections timed out before HTTP load generation
+started. I checked the health endpoint locally on EC2 and through
+the ALB. Both worked, while direct public access timed out.
 
-These runs completed 500,000 successful events with zero
-final failed events. I used the second 256-thread run as
-the main performance example and retained the other runs
-as comparison evidence.
+I continued through the working ALB endpoint rather than changing
+security-group rules merely to follow the proposed test path.
+The exact cause of the direct-access restriction was not established
+by those checks alone.
 
-The sequential baseline mean was 37.171 ms, giving a
-256-thread prediction of approximately 6,887 events/s.
-I reported the difference between prediction and measurement
-without claiming that the experiments identified one
-specific bottleneck.
+I also kept the test labels consistent with the actual endpoint:
+a run through the ALB with one healthy ingest server is not described
+as a direct-to-instance run.
 
-## Corrected Suggestion 1: A Method Name That Did Not Exist
+AI Chat History:
+AI message: “Now run a 1,000-request validation test, 
+connecting directly to ingest-1 and bypassing the ALB for now.”
 
-### What AI Suggested
+my message: “This problem showed up after step 2. Should I continue
+to use your way or should I continue to use my original way?” 
+with WebSocket connection-timeout screenshots.
 
-Codex supplied a short WebSocket test that called:
+AI message: The revised instruction was:
+No need to change the security group. For this round, switch back to 
+the ALB and continue verifying lag. Earlier, I had you switch to a 
+direct connection without first checking reachability, which added an 
+unnecessary detour.
 
-getPushLatencies()
 
-### What I Did
+## Measurement Decision: Negative Push Latency
 
-I added the proposed code to SubscriptionPoolCheck and
-attempted to compile and run it. Compilation failed with
-"cannot find symbol" for that method.
+AI helped identify that subtracting timestamps from different machines
+depends on clock alignment.
 
-I used the compiler output to identify the failing call.
-After the actual LeaderboardSubscriber method was checked,
-I changed the call to:
+I checked EC2 synchronization with timedatectl and chronyc, checked
+Mac automatic time settings, queried time.apple.com with sntp,
+and manually synchronized the Mac clock between tests.
 
-getPushLatenciesMs()
+One subsequent small test had no negative push-latency samples,
+but negative values returned in later experiments. Therefore,
+I did not treat one successful clock check as a permanent solution.
 
-### How I Verified It and Made a Decision
+I retained the raw negative values and marked affected push-latency
+summaries invalid. I did not take absolute values, remove negative
+samples, or add an unverified fixed correction.
 
-I compiled and ran the test again. It completed with
-exit code 0 and reported updates from all ten resorts.
+I distinguished three measurements:
 
-This was a concrete AI mistake: the suggested method name
-did not match my current code. I corrected the call rather
-than assuming the generated snippet was compatible.
+1. HTTP request latency measured with the client's monotonic clock.
+2. Consumer lag from the ingest event timestamp to the point before
+   aggregation begins.
+3. Push timestamp differences from Consumer leaderboard publication
+   to complete-message receipt on the Mac.
 
-## Corrected Suggestion 2: An Outdated Server Address
+Consumer lag is also a cross-host measurement and has clock-related
+uncertainty. Zero negative samples do not prove exact accuracy.
 
-### What AI Suggested
+## Design Decision: Ordering and Consumer Concurrency
 
-Codex provided example commands and run arguments using
-an EC2 public IP address from an earlier stage of the work.
+I preserved one serial aggregation execution stream per resort
+instead of distributing one resort's events across workers that
+could apply them out of order.
 
-### What I Did
+With ten resort queues, the current implementation caps effective
+resort aggregation concurrency at ten. Configuring a larger requested
+thread count does not establish that 20, 40, or 80 aggregation streams
+were active.
 
-When the address changed, I checked the current EC2 public
-IPv4 address and updated the client arguments and connection
-commands. I also distinguished commands that belonged on
-my Mac from commands that belonged inside the EC2 SSH session.
+I do not describe this fixed worker assignment as dynamic scaling.
+Dynamic Consumer scaling and the complete Assignment 2 thread
+experiment matrix remain incomplete.
 
-### How I Verified It and Made a Decision
+## Handling an Interrupted Experiment
 
-I checked the server locally on EC2 using the health endpoint.
-I then connected from my Mac using the current address.
+During an earlier 1M attempt, the EC2 instances underwent a stop/start
+cycle. SSH sessions disconnected, public IP addresses changed, and
+the Consumer restarted.
 
-The WebSocket command displayed "Connected" and received
-leaderboard JSON messages with changing server timestamps.
-I decided to supply the server address through program
-arguments instead of relying on an old default value.
+Because aggregation and deduplication state are in memory, the new
+Consumer process could not provide a continuous counter for the
+interrupted run.
 
-## Investigating a Measurement Problem: Negative Push Latency
+I retained that attempt separately rather than reporting it as a
+completed successful test. After restoring services, verifying four
+healthy ALB targets, and recording a new Consumer baseline, I ran a
+separate 1M retest with a new day ID and new result filenames.
 
-### What AI Suggested
+## Interpreting the Performance Results
 
-Codex helped me recognize that push timestamp differences
-depend on clock alignment between the Mac and EC2.
-It suggested checking both clocks and running a short
-subscription-only test before repeating a full load test.
+AI helped summarize client logs, queue samples, Consumer counters,
+and system-resource measurements.
 
-### What I Did
+At 64 main-phase sender threads, increasing the ingest server count
+from one to two or four did not improve throughput in the measured
+500K runs. I retained these results rather than claiming that horizontal
+scaling necessarily improved performance.
 
-On my Mac, I checked automatic time settings, measured the
-offset with sntp, and performed a time synchronization.
+The two-server access logs verified balanced request distribution.
+That evidence rules out all requests going to one server for that run,
+but it does not independently identify the throughput bottleneck.
 
-On EC2, I ran timedatectl status and chronyc tracking.
-I then modified and ran a 15-second SubscriptionPoolCheck
-that collected push timestamp differences and counted
-negative samples.
+Matching HTTP success counts, Consumer unique-count increments,
+and final drained queues support that no loss was observed in the
+completed runs. They do not prove loss-free behavior under every
+failure condition.
 
-### How I Verified It and Made a Decision
+## Documentation and Verification
 
-The initial Mac offset estimate was approximately 75.6 ms.
-After synchronization, the estimate was approximately
-0.437 ms, but its reported uncertainty was about 21 ms.
+AI provided drafts for README, design explanations, result summaries,
+and this reflection. I reviewed these against the implementation
+and preserved experimental evidence.
 
-The subsequent subscription-only test received 310 updates
-with zero reconnections, but 223 timestamp differences
-were still negative.
+I kept Assignment 1 measurements separate from Assignment 2 results.
+Unfinished requirements and measurement limitations are documented
+rather than presented as completed work.
 
-I therefore did not treat time synchronization as proof
-that the one-way latency measurement was accurate.
-I retained the negative values, documented the limitation,
-and kept this short test separate from the HTTP load runs.
+The source code, logs, CSV files, and screenshots provide the evidence
+for the claims made in the report.
 
-I did not take absolute values, remove negative samples,
-or apply an unverified fixed correction.
+## What I Learned
 
-## Deployment, Verification, and Documentation Work
+AI was useful for breaking complex deployment and debugging problems
+into concrete checks. However, its suggestions sometimes used an
+incorrect filename, assumed network access, or required adaptation
+to the current project.
 
-### What AI Suggested
+I learned to distinguish expected output from observed evidence,
+SSH disconnection from instance restart, HTTP acceptance from completed
+processing, and successful execution from valid measurement.
 
-Codex helped break deployment and submission into manageable
-steps: build the WAR, deploy it to Tomcat, check health,
-verify actual WebSocket messages, organize result evidence,
-and prepare documentation and Git commits.
+My responsibility is to understand and defend the submitted code,
+verify suggestions, preserve honest results, and explain the system's
+limitations.
 
-It also supplied draft README and design-report text.
+## Conversation Evidence
 
-### What I Did
-
-I executed the deployment and verification commands,
-edited configuration and source files, and collected the
-outputs from my own runs.
-
-I created and saved README.md and DESIGN.md, assembled
-the report with screenshots and charts, and revised its
-layout after review. I also created the GitHub repository,
-initialized Git locally, committed the project, and pushed
-the files.
-
-### How I Verified It and Made a Decision
-
-I used HTTP 200 health responses and actual WebSocket JSON
-messages as deployment evidence. I checked that the design
-section fit within two pages and kept results from different
-experiments clearly identified.
-
-For Git, I reviewed the ignore rules and staged file list,
-then verified the successful push and the uploaded files
-on the GitHub repository page.
-
-The documentation drafts were based on the implementation
-and measurements, rather than used as a substitute for
-running the project.
-
-## What I Learned About Using AI
-
-AI was most useful when I needed help turning an error or
-an unclear task into a sequence of checks. Compiler output,
-health responses, CSV counts, logs, and repeat experiments
-provided the evidence for accepting or correcting suggestions.
-
-I also learned that successful execution does not guarantee
-valid measurement. The WebSocket client worked correctly,
-but clock uncertainty still limited the interpretation of
-its push timestamp differences.
-
-My responsibility was to carry out the implementation and
-experiments, preserve the evidence, and explain both the
-results and their limitations. AI supported that process
-with code suggestions, explanations, and troubleshooting
-directions.

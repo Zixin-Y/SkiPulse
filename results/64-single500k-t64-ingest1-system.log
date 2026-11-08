@@ -1,0 +1,1531 @@
+Linux 6.18.44-99.149.amzn2023.x86_64 (ip-172-31-34-32.us-west-2.compute.internal) 	11/08/26 	_x86_64_	(2 CPU)
+
+18:14:05        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:14:10        all      0.20      0.00      1.10      0.00      0.00     98.70
+
+18:14:05    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:14:10       308320    494596    272536     29.14      2168    303944    430148     46.00     87824    402184       624
+
+18:14:05        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:14:10           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:14:10         ens5     48.00     27.60      4.18      2.78      0.00      0.00      0.00      0.00
+
+18:14:10        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:14:15        all      0.00      0.00      0.20      0.00      0.00     99.80
+
+18:14:10    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:14:15       308320    494596    272532     29.14      2168    303948    430148     46.00     87824    402184       628
+
+18:14:10        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:14:15           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:14:15         ens5      2.00      2.00      0.17      0.34      0.00      0.00      0.00      0.00
+
+18:14:15        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:14:20        all      0.10      0.00      0.00      0.00      0.00     99.90
+
+18:14:15    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:14:20       308320    494596    272532     29.14      2168    303948    430148     46.00     87828    402180       616
+
+18:14:15        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:14:20           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:14:20         ens5      0.20      0.20      0.01      0.16      0.00      0.00      0.00      0.00
+
+18:14:20        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:14:25        all      0.00      0.00      0.20      0.00      0.00     99.80
+
+18:14:20    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:14:25       308320    494596    272532     29.14      2168    303948    430148     46.00     87828    402180       608
+
+18:14:20        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:14:25           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:14:25         ens5      0.40      0.40      0.02      0.17      0.00      0.00      0.00      0.00
+
+18:14:25        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:14:30        all      0.00      0.00      0.10      0.00      0.00     99.90
+
+18:14:25    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:14:30       308320    494596    272532     29.14      2168    303948    430148     46.00     87828    402180       608
+
+18:14:25        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:14:30           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:14:30         ens5      0.80      0.80      0.06      0.21      0.00      0.00      0.00      0.00
+
+18:14:30        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:14:35        all      0.00      0.00      0.10      0.00      0.00     99.90
+
+18:14:30    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:14:35       308320    494596    272532     29.14      2168    303948    430148     46.00     87828    402180       616
+
+18:14:30        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:14:35           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:14:35         ens5      1.20      1.20      0.11      0.28      0.00      0.00      0.00      0.00
+
+18:14:35        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:14:40        all      0.20      0.00      0.00      0.30      0.00     99.50
+
+18:14:35    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:14:40       308320    494600    272528     29.14      2168    303952    430152     46.00     87828    402188        12
+
+18:14:35        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:14:40           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:14:40         ens5      0.20      0.20      0.01      0.16      0.00      0.00      0.00      0.00
+
+18:14:40        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:14:45        all      0.00      0.00      0.00      0.00      0.10     99.90
+
+18:14:40    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:14:45       308320    494600    272528     29.14      2168    303952    430216     46.00     87828    402188        12
+
+18:14:40        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:14:45           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:14:45         ens5      1.60      1.60      0.14      0.30      0.00      0.00      0.00      0.00
+
+18:14:45        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:14:50        all      0.00      0.00      0.10      0.00      0.00     99.90
+
+18:14:45    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:14:50       308320    494600    272528     29.14      2168    303952    430216     46.00     87832    402192        16
+
+18:14:45        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:14:50           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:14:50         ens5      0.60      0.80      0.15      0.27      0.00      0.00      0.00      0.00
+
+18:14:50        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:14:55        all      0.00      0.00      0.20      0.00      0.00     99.80
+
+18:14:50    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:14:55       308320    494600    272528     29.14      2168    303952    430216     46.00     87832    402192        16
+
+18:14:50        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:14:55           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:14:55         ens5      0.20      0.20      0.02      0.16      0.00      0.00      0.00      0.00
+
+18:14:55        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:15:00        all      0.00      0.00      0.00      0.00      0.40     99.60
+
+18:14:55    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:15:00       308320    494600    272528     29.14      2168    303952    430216     46.00     87832    402192        16
+
+18:14:55        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:15:00           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:15:00         ens5      0.60      0.60      0.04      0.19      0.00      0.00      0.00      0.00
+
+18:15:00        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:15:05        all      0.00      0.00      0.00      0.00      1.88     98.12
+
+18:15:00    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:15:05       308320    494600    272528     29.14      2168    303952    430216     46.00     87832    402192         4
+
+18:15:00        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:15:05           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:15:05         ens5      1.40      1.40      0.13      0.30      0.00      0.00      0.00      0.00
+
+18:15:05        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:15:10        all      0.00      0.00      0.00      0.00      0.00    100.00
+
+18:15:05    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:15:10       308320    494600    272524     29.14      2168    303956    430220     46.00     87832    402192         4
+
+18:15:05        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:15:10           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:15:10         ens5      0.20      0.40      0.01      0.20      0.00      0.00      0.00      0.00
+
+18:15:10        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:15:15        all      0.20      0.00      0.20      0.00      0.00     99.60
+
+18:15:10    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:15:15       308320    494600    272524     29.14      2168    303956    430220     46.00     87832    402192         8
+
+18:15:10        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:15:15           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:15:15         ens5      2.00      1.80      0.17      0.32      0.00      0.00      0.00      0.00
+
+18:15:15        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:15:20        all      0.10      0.00      0.10      0.00      0.00     99.80
+
+18:15:15    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:15:20       308320    494600    272524     29.14      2168    303956    430220     46.00     87836    402204        16
+
+18:15:15        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:15:20           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:15:20         ens5      0.40      0.40      0.03      0.18      0.00      0.00      0.00      0.00
+
+18:15:20        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:15:25        all      0.00      0.00      0.00      0.00      0.10     99.90
+
+18:15:20    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:15:25       308320    494600    272524     29.14      2168    303956    430220     46.00     87836    402204        20
+
+18:15:20        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:15:25           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:15:25         ens5      0.40      0.40      0.02      0.17      0.00      0.00      0.00      0.00
+
+18:15:25        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:15:30        all      0.00      0.00      0.10      0.00      0.00     99.90
+
+18:15:25    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:15:30       308320    494600    272524     29.14      2168    303956    430220     46.00     87836    402204        20
+
+18:15:25        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:15:30           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:15:30         ens5      0.80      0.60      0.06      0.19      0.00      0.00      0.00      0.00
+
+18:15:30        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:15:35        all      0.00      0.00      0.00      0.00      0.00    100.00
+
+18:15:30    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:15:35       308320    494600    272524     29.14      2168    303956    430220     46.00     87836    402204        20
+
+18:15:30        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:15:35           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:15:35         ens5      1.60      1.40      0.14      0.29      0.00      0.00      0.00      0.00
+
+18:15:35        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:15:40        all      0.10      0.00      0.10      0.00      0.00     99.80
+
+18:15:35    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:15:40       308320    494600    272520     29.14      2168    303960    430224     46.01     87836    402204        20
+
+18:15:35        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:15:40           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:15:40         ens5      0.20      0.20      0.01      0.16      0.00      0.00      0.00      0.00
+
+18:15:40        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:15:45        all      0.00      0.00      0.20      0.00      0.00     99.80
+
+18:15:40    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:15:45       308320    494600    272520     29.14      2168    303960    430224     46.01     87836    402204        20
+
+18:15:40        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:15:45           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:15:45         ens5      1.60      1.60      0.14      0.30      0.00      0.00      0.00      0.00
+
+18:15:45        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:15:50        all      0.00      0.00      0.00      0.00      0.00    100.00
+
+18:15:45    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:15:50       308320    494600    272520     29.14      2168    303960    430224     46.01     87840    402212        16
+
+18:15:45        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:15:50           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:15:50         ens5      0.20      0.20      0.01      0.16      0.00      0.00      0.00      0.00
+
+18:15:50        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:15:55        all      0.10      0.00      0.20      0.00      0.00     99.70
+
+18:15:50    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:15:55       308320    494600    272520     29.14      2168    303960    430224     46.01     87840    402252         4
+
+18:15:50        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:15:55           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:15:55         ens5      0.40      0.40      0.03      0.18      0.00      0.00      0.00      0.00
+
+18:15:55        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:16:00        all      0.10      0.00      0.20      0.00      0.79     98.91
+
+18:15:55    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:16:00       308320    494600    272520     29.14      2168    303960    430224     46.01     87840    402252         4
+
+18:15:55        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:16:00           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:16:00         ens5      0.80      0.60      0.06      0.19      0.00      0.00      0.00      0.00
+
+18:16:00        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:16:05        all      0.10      0.00      0.00      0.00      1.10     98.80
+
+18:16:00    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:16:05       308320    494600    272516     29.14      2168    303964    430228     46.01     87840    402252         8
+
+18:16:00        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:16:05           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:16:05         ens5      1.20      1.20      0.11      0.28      0.00      0.00      0.00      0.00
+
+18:16:05        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:16:10        all      0.80      0.00      0.30      0.00      0.00     98.90
+
+18:16:05    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:16:10       308320    494608    272428     29.13      2168    303968    430228     46.01     87844    402252       632
+
+18:16:05        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:16:10           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:16:10         ens5      6.40      6.40      0.73      0.81      0.00      0.00      0.00      0.00
+
+18:16:10        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:16:15        all      0.10      0.00      0.10      0.00      0.00     99.80
+
+18:16:10    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:16:15       308320    494608    272428     29.13      2168    303968    430228     46.01     87844    402252       632
+
+18:16:10        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:16:15           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:16:15         ens5      1.80      1.60      0.15      0.30      0.00      0.00      0.00      0.00
+
+18:16:15        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:16:20        all      0.00      0.00      0.00      0.00      0.00    100.00
+
+18:16:15    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:16:20       308320    494608    272428     29.13      2168    303968    430228     46.01     87844    402252       632
+
+18:16:15        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:16:20           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:16:20         ens5      0.40      0.40      0.03      0.18      0.00      0.00      0.00      0.00
+
+18:16:20        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:16:25        all      0.20      0.00      0.10      0.00      0.10     99.60
+
+18:16:20    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:16:25       308320    494612    272428     29.13      2168    303968    430228     46.01     87844    402268       632
+
+18:16:20        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:16:25           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:16:25         ens5      0.80      0.80      0.06      0.21      0.00      0.00      0.00      0.00
+
+18:16:25        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:16:30        all      0.00      0.00      0.00      0.00      0.00    100.00
+
+18:16:25    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:16:30       308320    494612    272428     29.13      2168    303968    430228     46.01     87844    402268       632
+
+18:16:25        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:16:30           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:16:30         ens5      0.60      0.60      0.04      0.19      0.00      0.00      0.00      0.00
+
+18:16:30        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:16:35        all      0.10      0.00      0.00      0.00      0.00     99.90
+
+18:16:30    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:16:35       308320    494612    272424     29.13      2168    303972    430232     46.01     87844    402268       628
+
+18:16:30        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:16:35           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:16:35         ens5      1.20      1.20      0.11      0.28      0.00      0.00      0.00      0.00
+
+18:16:35        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:16:40        all      0.00      0.00      0.10      0.20      0.00     99.70
+
+18:16:35    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:16:40       308320    494612    272424     29.13      2168    303972    430232     46.01     87848    402148        12
+
+18:16:35        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:16:40           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:16:40         ens5      0.40      0.40      0.03      0.18      0.00      0.00      0.00      0.00
+
+18:16:40        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:16:45        all      0.00      0.00      0.20      0.00      0.00     99.80
+
+18:16:40    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:16:45       308320    494612    272424     29.13      2168    303972    430232     46.01     87848    402148         4
+
+18:16:40        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:16:45           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:16:45         ens5      1.60      1.60      0.14      0.30      0.00      0.00      0.00      0.00
+
+18:16:45        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:16:50        all      0.00      0.00      0.00      0.00      0.00    100.00
+
+18:16:45    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:16:50       308320    494612    272424     29.13      2168    303972    430232     46.01     87848    402148         4
+
+18:16:45        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:16:50           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:16:50         ens5      0.20      0.20      0.01      0.16      0.00      0.00      0.00      0.00
+
+18:16:50        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:16:55        all      0.00      0.00      0.00      0.00      0.00    100.00
+
+18:16:50    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:16:55       308320    494612    272424     29.13      2168    303972    430232     46.01     87848    402148         8
+
+18:16:50        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:16:55           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:16:55         ens5      0.20      0.20      0.01      0.16      0.00      0.00      0.00      0.00
+
+18:16:55        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:17:00        all      0.00      0.00      0.10      0.00      0.60     99.30
+
+18:16:55    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:17:00       308320    494612    272424     29.13      2168    303972    430232     46.01     87848    402148        12
+
+18:16:55        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:17:00           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:17:00         ens5      0.80      0.80      0.06      0.21      0.00      0.00      0.00      0.00
+
+18:17:00        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:17:05        all     28.74      0.00      4.35      0.00      5.57     61.34
+
+18:17:00    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:17:05       304044    490868    276076     29.52      2168    304524    431140     46.10     87852    411192       560
+
+18:17:00        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:17:05           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:17:05         ens5   1624.80   1551.00    443.05    455.81      0.00      0.00      0.00      0.00
+
+18:17:05        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:17:10        all     21.98      0.00      3.92      0.00      0.21     73.89
+
+18:17:05    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:17:10       299500    486704    280076     29.95      2168    305044    431720     46.17     87852    410664      1080
+
+18:17:05        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:17:10           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:17:10         ens5   2019.40   1815.40    510.59    553.24      0.00      0.00      0.00      0.00
+
+18:17:10        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:17:15        all      6.33      0.00      2.64      0.00      0.00     91.03
+
+18:17:10    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:17:15       299248    487120    279784     29.92      2168    305652    431848     46.18     87852    411408      1692
+
+18:17:10        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:17:15           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:17:15         ens5   2026.80   1891.80    526.33    577.02      0.00      0.00      0.00      0.00
+
+18:17:15        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:17:20        all      5.38      0.00      3.62      0.00      0.00     91.00
+
+18:17:15    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:17:20       297484    486080    280848     30.03      2168    306292    431912     46.19     87852    412404      2332
+
+18:17:15        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:17:20           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:17:20         ens5   1962.40   1752.00    495.66    538.51      0.00      0.00      0.00      0.00
+
+18:17:20        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:17:25        all      2.70      0.00      1.51      0.00      0.11     95.68
+
+18:17:20    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:17:25       297484    486608    280268     29.97      2168    306920    431976     46.19     87852    413048       392
+
+18:17:20        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:17:25           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:17:25         ens5   1902.00   1902.60    518.67    580.06      0.00      0.00      0.00      0.00
+
+18:17:25        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:17:30        all      2.62      0.00      1.42      0.00      0.11     95.86
+
+18:17:25    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:17:30       297484    487264    279628     29.90      2168    307492    431976     46.19     87852    413724       964
+
+18:17:25        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:17:30           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:17:30         ens5   1905.20   1936.00    529.95    593.88      0.00      0.00      0.00      0.00
+
+18:17:30        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:17:35        all      2.81      0.00      1.62      0.00      0.00     95.56
+
+18:17:30    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:17:35       297232    487584    279244     29.86      2168    308140    431980     46.19     87856    414340      1416
+
+18:17:30        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:17:35           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:17:35         ens5   1947.40   1954.00    528.44    591.31      0.00      0.00      0.00      0.00
+
+18:17:35        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:17:40        all      4.84      0.00      2.11      0.00      0.00     93.05
+
+18:17:35    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:17:40       296980    487976    278744     29.81      2168    308840    431980     46.19     87856    415028      2116
+
+18:17:35        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:17:40           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:17:40         ens5   1948.80   1932.00    528.58    589.38      0.00      0.00      0.00      0.00
+
+18:17:40        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:17:45        all      8.84      0.00      4.63      0.00      0.32     86.21
+
+18:17:40    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:17:45       295464    487332    279312     29.87      2168    309636    432300     46.23     87860    417416      2908
+
+18:17:40        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:17:45           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:17:45         ens5   2499.80   2435.00    666.51    739.11      0.00      0.00      0.00      0.00
+
+18:17:45        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:17:50        all     17.34      0.00      7.84      0.00      0.52     74.30
+
+18:17:45    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:17:50       288912    482000    284480     30.42      2168    310776    445664     47.66     87860    424700      4048
+
+18:17:45        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:17:50           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:17:50         ens5   3751.60   3537.60    994.57   1099.17      0.00      0.00      0.00      0.00
+
+18:17:50        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:17:55        all     12.43      0.00      5.33      0.00      0.10     82.13
+
+18:17:50    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:17:55       291652    485780    280568     30.00      2168    311964    445728     47.66     87860    420028      5236
+
+18:17:50        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:17:55           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:17:55         ens5   3765.20   3597.80   1009.82   1118.75      0.00      0.00      0.00      0.00
+
+18:17:55        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:18:00        all     11.93      0.00      6.58      0.10      0.82     80.56
+
+18:17:55    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:18:00       291148    486688    279744     29.91      2168    313268    446740     47.77     87864    421592       456
+
+18:17:55        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:18:00           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:18:00         ens5   3767.07   3597.80   1011.50   1119.98      0.00      0.00      0.00      0.00
+
+18:18:00        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:18:05        all     13.78      0.00      7.60      0.00     13.59     65.02
+
+18:18:00    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:18:05       290648    487184    279240     29.86      2168    314296    446872     47.79     87864    422640      1416
+
+18:18:00        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:18:05           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:18:05         ens5   3401.60   3178.20    897.32    989.14      0.00      0.00      0.00      0.00
+
+18:18:05        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:18:10        all     12.47      0.00      7.11      0.00      0.00     80.41
+
+18:18:05    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:18:10       288884    486596    279308     29.87      2168    315500    446872     47.79     87880    423956      3208
+
+18:18:05        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:18:10           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:18:10         ens5   3817.20   3577.20   1004.81   1108.16      0.00      0.00      0.00      0.00
+
+18:18:10        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:18:15        all     12.34      0.00      6.98      0.00      0.20     80.49
+
+18:18:10    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:18:15       288884    487864    278036     29.73      2168    316696    447880     47.89     87880    425376      4404
+
+18:18:10        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:18:15           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:18:15         ens5   3712.60   3508.00    989.93   1093.13      0.00      0.00      0.00      0.00
+
+18:18:15        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:18:20        all     11.10      0.00      6.82      0.00      0.00     82.08
+
+18:18:15    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:18:20       288884    488960    276976     29.62      2168    317768    447880     47.89     87880    426480      5480
+
+18:18:15        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:18:20           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:18:20         ens5   3686.40   3401.20    967.07   1063.70      0.00      0.00      0.00      0.00
+
+18:18:20        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:18:25        all      9.73      0.00      6.38      0.00      0.10     83.79
+
+18:18:20    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:18:25       288884    490100    275708     29.48      2168    319004    447880     47.89     87880    427776      6716
+
+18:18:20        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:18:25           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:18:25         ens5   3677.20   3450.60    965.98   1065.63      0.00      0.00      0.00      0.00
+
+18:18:25        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:18:30        all     12.77      0.00      5.41      0.10      0.00     81.72
+
+18:18:25    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:18:30       288884    491180    274508     29.35      2168    320208    447884     47.89     87884    428920       960
+
+18:18:25        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:18:30           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:18:30         ens5   3688.00   3477.20    988.71   1092.48      0.00      0.00      0.00      0.00
+
+18:18:30        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:18:35        all      9.28      0.00      7.92      0.00      0.10     82.69
+
+18:18:30    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:18:35       288632    492324    273572     29.25      2168    321400    447884     47.89     87884    430340      2152
+
+18:18:30        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:18:35           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:18:35         ens5   3782.80   3613.00   1007.80   1119.76      0.00      0.00      0.00      0.00
+
+18:18:35        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:18:40        all     11.18      0.00      7.69      0.31      0.00     80.82
+
+18:18:35    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:18:40       288128    493088    272816     29.17      2168    322660    447884     47.89     87884    431624      2788
+
+18:18:35        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:18:40           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:18:40         ens5   3760.40   3638.00   1020.11   1133.29      0.00      0.00      0.00      0.00
+
+18:18:40        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:18:45        all     11.72      0.00      5.76      0.00      0.31     82.22
+
+18:18:40    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:18:45       286872    492952    272916     29.18      2168    323804    447884     47.89     87884    432864      3932
+
+18:18:40        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:18:45           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:18:45         ens5   3697.00   3447.20    975.10   1073.41      0.00      0.00      0.00      0.00
+
+18:18:45        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:18:50        all      9.84      0.00      5.40      0.00      0.42     84.34
+
+18:18:45    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:18:50       286368    493548    272268     29.11      2168    324940    447884     47.89     87884    434004      5064
+
+18:18:45        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:18:50           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:18:50         ens5   3710.40   3480.00    981.34   1084.38      0.00      0.00      0.00      0.00
+
+18:18:50        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:18:55        all     10.72      0.00      5.62      0.00      0.21     83.45
+
+18:18:50    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:18:55       285864    494276    271564     29.04      2168    326112    447884     47.89     87884    435244      6236
+
+18:18:50        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:18:55           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:18:55         ens5   3669.80   3422.60    966.15   1063.42      0.00      0.00      0.00      0.00
+
+18:18:55        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:19:00        all     10.88      0.00      5.85      0.10      1.03     82.14
+
+18:18:55    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:19:00       285360    494888    270944     28.97      2168    327252    447888     47.89     87884    436380       296
+
+18:18:55        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:19:00           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:19:00         ens5   3593.21   3333.13    941.72   1033.81      0.00      0.00      0.00      0.00
+
+18:19:00        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:19:05        all     10.48      0.00      6.82      0.00      3.96     78.73
+
+18:19:00    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:19:05       285360    495748    269916     28.86      2168    328144    447888     47.89     87884    438348      1184
+
+18:19:00        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:19:05           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:19:05         ens5   3246.80   3005.20    822.66    908.39      0.00      0.00      0.00      0.00
+
+18:19:05        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:19:10        all     10.71      0.00      6.34      0.00      0.10     82.85
+
+18:19:05    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:19:10       284856    496552    269132     28.78      2168    329456    447888     47.89     87884    439652      2472
+
+18:19:05        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:19:10           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:19:10         ens5   3753.20   3514.20    989.35   1090.43      0.00      0.00      0.00      0.00
+
+18:19:10        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:19:15        all     10.75      0.00      6.16      0.00      0.00     83.09
+
+18:19:10    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:19:15       284352    497072    268600     28.72      2168    330504    447888     47.89     87884    440712      3520
+
+18:19:10        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:19:15           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:19:15         ens5   3725.40   3531.00    994.59   1102.30      0.00      0.00      0.00      0.00
+
+18:19:15        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:19:20        all     10.72      0.00      6.45      0.00      0.00     82.83
+
+18:19:15    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:19:20       283600    497608    267948     28.65      2168    331816    447888     47.89     87884    442008      4832
+
+18:19:15        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:19:20           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:19:20         ens5   3746.40   3516.40    991.49   1092.51      0.00      0.00      0.00      0.00
+
+18:19:20        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:19:25        all     12.03      0.00      7.37      0.00      0.21     80.39
+
+18:19:20    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:19:25       275536    490732    274928     29.40      2168    332952    447952     47.90     87888    448668      5960
+
+18:19:20        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:19:25           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:19:25         ens5   3808.80   3632.80   1014.96   1125.06      0.00      0.00      0.00      0.00
+
+18:19:25        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:19:30        all     12.67      0.00      6.33      0.10      0.00     80.90
+
+18:19:25    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:19:30       275536    492044    273712     29.27      2168    334216    447956     47.90     87892    450088       288
+
+18:19:25        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:19:30           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:19:30         ens5   3730.80   3526.40    987.65   1092.59      0.00      0.00      0.00      0.00
+
+18:19:30        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:19:35        all     10.37      0.00      7.88      0.00      0.21     81.54
+
+18:19:30    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:19:35       275536    493124    272540     29.14      2168    335360    447956     47.90     87892    451204      1436
+
+18:19:30        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:19:35           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:19:35         ens5   3818.60   3656.40   1023.80   1137.06      0.00      0.00      0.00      0.00
+
+18:19:35        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:19:40        all     12.36      0.00      6.54      0.00      0.00     81.10
+
+18:19:35    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:19:40       275536    494484    271284     29.01      2168    336616    447956     47.90     87892    447256      2692
+
+18:19:35        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:19:40           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:19:40         ens5   3778.40   3591.00   1006.88   1115.16      0.00      0.00      0.00      0.00
+
+18:19:40        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:19:45        all     12.45      0.00      5.35      0.00      0.31     81.89
+
+18:19:40    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:19:45       275536    495512    270136     28.89      2168    337764    448020     47.91     87892    448324      3812
+
+18:19:40        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:19:45           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:19:45         ens5   3756.80   3532.80    992.51   1096.38      0.00      0.00      0.00      0.00
+
+18:19:45        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:19:50        all     11.73      0.00      5.56      0.00      0.10     82.61
+
+18:19:45    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:19:50       275536    496720    269052     28.77      2168    338896    448020     47.91     87892    449564      4948
+
+18:19:45        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:19:50           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:19:50         ens5   3635.80   3372.40    960.31   1057.36      0.00      0.00      0.00      0.00
+
+18:19:50        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:19:55        all     10.94      0.00      6.60      0.00      0.21     82.25
+
+18:19:50    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:19:55       275284    497672    268116     28.67      2168    340084    448024     47.91     87892    450804      6136
+
+18:19:50        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:19:55           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:19:55         ens5   3737.20   3506.60    990.40   1093.90      0.00      0.00      0.00      0.00
+
+18:19:55        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:20:00        all     10.23      0.00      6.05      0.10      0.63     82.99
+
+18:19:55    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:20:00       274576    498256    267624     28.62      2168    341280    448024     47.91     87892    452108       132
+
+18:19:55        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:20:00           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:20:00         ens5   3718.00   3520.60    987.87   1092.41      0.00      0.00      0.00      0.00
+
+18:20:00        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:20:05        all     10.49      0.00      8.60      0.00     11.15     69.75
+
+18:20:00    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:20:05       274276    498828    266892     28.54      2168    342304    448024     47.91     87896    452984      1120
+
+18:20:00        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:20:05           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:20:05         ens5   3262.20   3090.80    857.30    947.76      0.00      0.00      0.00      0.00
+
+18:20:05        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:20:10        all     12.80      0.00      5.88      0.00      0.00     81.32
+
+18:20:05    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:20:10       270748    496552    269092     28.77      2168    343560    448024     47.91     87900    454288      3024
+
+18:20:05        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:20:10           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:20:10         ens5   3866.20   3681.40   1028.52   1140.79      0.00      0.00      0.00      0.00
+
+18:20:10        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:20:15        all     11.25      0.00      7.02      0.00      0.10     81.63
+
+18:20:10    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:20:15       270748    497708    267912     28.65      2168    344724    448024     47.91     87900    455460      4188
+
+18:20:10        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:20:15           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:20:15         ens5   3801.40   3588.00   1007.88   1114.28      0.00      0.00      0.00      0.00
+
+18:20:15        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:20:20        all     10.86      0.00      8.02      0.00      0.00     81.12
+
+18:20:15    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:20:20       270748    498936    266772     28.53      2168    345924    448024     47.91     87900    456716      5360
+
+18:20:15        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:20:20           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:20:20         ens5   3728.20   3478.20    978.77   1079.02      0.00      0.00      0.00      0.00
+
+18:20:20        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:20:25        all     11.47      0.00      6.40      0.00      0.10     82.02
+
+18:20:20    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:20:25       269992    499244    266384     28.49      2168    347024    448028     47.91     87904    457792      6460
+
+18:20:20        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:20:25           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:20:25         ens5   3799.40   3517.60   1000.07   1101.13      0.00      0.00      0.00      0.00
+
+18:20:25        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:20:30        all      8.18      0.00      6.24      0.00      0.00     85.58
+
+18:20:25    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:20:30       268984    499484    266076     28.45      2168    348332    448028     47.91     87904    459088      7772
+
+18:20:25        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:20:30           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:20:30         ens5   3792.00   3598.60   1004.69   1112.17      0.00      0.00      0.00      0.00
+
+18:20:30        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:20:35        all      9.95      0.00      4.28      0.21      0.21     85.35
+
+18:20:30    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:20:35       267980    499720    266040     28.45      2168    349404    448028     47.91     87904    460360       688
+
+18:20:30        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:20:35           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:20:35         ens5   3739.20   3479.60    984.99   1085.41      0.00      0.00      0.00      0.00
+
+18:20:35        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:20:40        all      8.73      0.00      6.82      0.32      0.21     83.92
+
+18:20:35    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:20:40       267476    500508    265216     28.36      2168    350712    448028     47.91     87904    461668      1288
+
+18:20:35        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:20:40           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:20:40         ens5   3792.80   3598.80   1015.37   1124.48      0.00      0.00      0.00      0.00
+
+18:20:40        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:20:45        all     11.12      0.00      4.89      0.00      0.10     83.89
+
+18:20:40    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:20:45       266264    500340    265440     28.38      2168    351744    448092     47.92     87904    462752      2312
+
+18:20:40        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:20:45           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:20:45         ens5   3657.00   3335.80    941.08   1031.67      0.00      0.00      0.00      0.00
+
+18:20:45        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:20:50        all     10.70      0.00      6.83      0.00      0.10     82.36
+
+18:20:45    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:20:50       265208    500392    265340     28.37      2168    352864    448092     47.92     87904    463868      3432
+
+18:20:45        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:20:50           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:20:50         ens5   3573.60   3291.20    934.62   1027.65      0.00      0.00      0.00      0.00
+
+18:20:50        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:20:55        all      8.49      0.00      5.84      0.00      0.21     85.46
+
+18:20:50    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:20:55       264200    500520    265236     28.36      2168    354052    448160     47.92     87908    465036      4616
+
+18:20:50        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:20:55           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:20:55         ens5   3638.20   3382.00    953.28   1050.04      0.00      0.00      0.00      0.00
+
+18:20:55        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:21:00        all     10.13      0.00      5.22      0.00      1.25     83.40
+
+18:20:55    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:21:00       262940    500332    265284     28.37      2168    355184    448160     47.92     87908    466116      5740
+
+18:20:55        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:21:00           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:21:00         ens5   3630.20   3386.60    961.51   1057.02      0.00      0.00      0.00      0.00
+
+18:21:00        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:21:05        all     11.29      0.00      6.97      0.00      7.75     73.99
+
+18:21:00    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:21:05       261680    500084    265484     28.39      2168    356224    448160     47.92     87908    467176      6780
+
+18:21:00        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:21:05           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:21:05         ens5   3459.00   3248.60    906.20   1003.83      0.00      0.00      0.00      0.00
+
+18:21:05        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:21:10        all     11.09      0.00      6.37      0.00      0.00     82.55
+
+18:21:05    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:21:10       260420    500080    265616     28.40      2168    357404    448160     47.92     87908    468472      7960
+
+18:21:05        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:21:10           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:21:10         ens5   3674.80   3409.60    971.56   1070.48      0.00      0.00      0.00      0.00
+
+18:21:10        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:21:15        all     12.51      0.00      6.71      0.10      0.20     80.47
+
+18:21:10    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:21:15       259160    500092    265592     28.40      2168    358640    448160     47.92     87908    469760      1136
+
+18:21:10        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:21:15           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:21:15         ens5   3790.20   3580.40   1008.15   1115.01      0.00      0.00      0.00      0.00
+
+18:21:15        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:21:20        all     12.09      0.00      5.94      0.00      0.10     81.86
+
+18:21:15    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:21:20       257900    500048    265596     28.40      2168    359896    448160     47.92     87908    471000      2392
+
+18:21:15        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:21:20           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:21:20         ens5   3729.40   3522.80    986.29   1090.56      0.00      0.00      0.00      0.00
+
+18:21:20        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:21:25        all     10.92      0.00      6.80      0.00      0.10     82.18
+
+18:21:20    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:21:25       256644    499852    265804     28.42      2168    360984    448164     47.92     87912    472112      3476
+
+18:21:20        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:21:25           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:21:25         ens5   3727.60   3504.00    990.68   1094.62      0.00      0.00      0.00      0.00
+
+18:21:25        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:21:30        all     11.83      0.00      5.91      0.00      0.00     82.26
+
+18:21:25    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:21:30       255384    499804    265844     28.43      2168    362184    448164     47.92     87912    473352      4656
+
+18:21:25        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:21:30           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:21:30         ens5   3777.00   3559.80   1004.24   1110.23      0.00      0.00      0.00      0.00
+
+18:21:30        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:21:35        all     11.96      0.00      6.44      0.00      0.10     81.49
+
+18:21:30    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:21:35       253876    499460    266168     28.46      2168    363364    448164     47.92     87912    474524      5844
+
+18:21:30        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:21:35           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:21:35         ens5   3769.20   3528.80    997.02   1100.42      0.00      0.00      0.00      0.00
+
+18:21:35        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:21:40        all     12.38      0.00      5.26      0.00      0.00     82.35
+
+18:21:35    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:21:40       252664    499520    266212     28.47      2168    364560    448164     47.92     87912    475832      7040
+
+18:21:35        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:21:40           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:21:40         ens5   3768.60   3535.80    998.41   1102.44      0.00      0.00      0.00      0.00
+
+18:21:40        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:21:45        all      8.33      0.00      5.77      0.00      0.43     85.47
+
+18:21:40    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:21:45       251608    499544    266056     28.45      2168    365740    448164     47.92     87912    476932      8216
+
+18:21:40        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:21:45           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:21:45         ens5   3699.40   3474.20    979.64   1082.10      0.00      0.00      0.00      0.00
+
+18:21:45        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:21:50        all     10.77      0.00      5.70      0.11      0.32     83.10
+
+18:21:45    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:21:50       249844    499168    266516     28.50      2168    367004    448168     47.92     87916    478332      1168
+
+18:21:45        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:21:50           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:21:50         ens5   3814.40   3631.60   1019.75   1128.69      0.00      0.00      0.00      0.00
+
+18:21:50        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:21:55        all     12.69      0.00      6.85      0.00      0.00     80.46
+
+18:21:50    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:21:55       248836    499252    266388     28.49      2168    368160    448168     47.92     87916    479448      2324
+
+18:21:50        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:21:55           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:21:55         ens5   3713.00   3499.40    986.13   1090.89      0.00      0.00      0.00      0.00
+
+18:21:55        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:22:00        all     11.66      0.00      8.14      0.00      1.11     79.10
+
+18:21:55    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:22:00       247828    499420    266196     28.47      2168    369356    448168     47.92     87916    480632      3520
+
+18:21:55        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:22:00           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:22:00         ens5   3761.60   3582.20   1007.58   1116.19      0.00      0.00      0.00      0.00
+
+18:22:00        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:22:05        all     11.95      0.00      8.75      0.00      6.96     72.34
+
+18:22:00    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:22:05       246820    499456    266048     28.45      2168    370392    448168     47.92     87916    481684      4532
+
+18:22:00        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:22:05           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:22:05         ens5   3380.20   3119.60    858.12    942.82      0.00      0.00      0.00      0.00
+
+18:22:05        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:22:10        all     12.04      0.00      7.51      0.00      0.10     80.35
+
+18:22:05    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:22:10       242032    495936    269544     28.82      2168    371648    448168     47.92     87916    483032      6392
+
+18:22:05        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:22:10           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:22:10         ens5   3791.60   3617.40   1010.99   1120.63      0.00      0.00      0.00      0.00
+
+18:22:10        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:22:15        all     11.72      0.00      6.58      0.00      0.10     81.60
+
+18:22:10    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:22:15       241784    496780    268600     28.72      2168    372792    448168     47.92     87916    484152      7536
+
+18:22:10        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:22:15           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:22:15         ens5   3816.20   3566.00   1005.50   1110.01      0.00      0.00      0.00      0.00
+
+18:22:15        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:22:20        all     11.73      0.00      7.20      0.21      0.00     80.86
+
+18:22:15    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:22:20       241028    497328    268168     28.68      2168    373996    448172     47.92     87920    485512      1708
+
+18:22:15        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:22:20           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:22:20         ens5   3839.40   3613.60   1018.64   1125.77      0.00      0.00      0.00      0.00
+
+18:22:20        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:22:25        all     10.83      0.00      6.25      0.00      0.00     82.92
+
+18:22:20    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:22:25       238508    496080    269624     28.83      2168    375208    448172     47.92     87920    486732      2916
+
+18:22:20        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:22:25           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:22:25         ens5   3848.60   3621.40   1016.35   1122.46      0.00      0.00      0.00      0.00
+
+18:22:25        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:22:30        all     10.73      0.00      6.56      0.00      0.21     82.50
+
+18:22:25    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:22:30       238256    496896    268676     28.73      2168    376472    448172     47.92     87920    487972      4180
+
+18:22:25        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:22:30           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:22:30         ens5   3838.00   3631.20   1021.99   1130.19      0.00      0.00      0.00      0.00
+
+18:22:30        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:22:35        all     11.54      0.00      5.46      0.00      0.10     82.90
+
+18:22:30    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:22:35       237500    497364    268364     28.70      2168    377588    448236     47.93     87920    489260      5280
+
+18:22:30        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:22:35           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:22:35         ens5   3852.60   3677.80   1023.91   1136.15      0.00      0.00      0.00      0.00
+
+18:22:35        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:22:40        all     11.57      0.00      6.30      0.21      0.00     81.92
+
+18:22:35    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:22:40       236492    497648    268068     28.67      2168    378896    448236     47.93     87920    490580      5988
+
+18:22:35        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:22:40           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:22:40         ens5   3834.20   3616.20   1023.14   1130.28      0.00      0.00      0.00      0.00
+
+18:22:40        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:22:45        all     13.03      0.00      6.92      0.00      0.20     79.84
+
+18:22:40    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:22:45       235736    498076    267564     28.61      2168    380100    448236     47.93     87920    491820      7192
+
+18:22:40        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:22:45           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:22:45         ens5   3861.20   3664.80   1034.35   1145.77      0.00      0.00      0.00      0.00
+
+18:22:45        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:22:50        all     11.36      0.00      8.09      0.20      0.20     80.14
+
+18:22:45    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:22:50       234728    498444    267324     28.59      2168    381364    448240     47.93     87920    493248      1024
+
+18:22:45        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:22:50           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:22:50         ens5   3858.80   3608.80   1022.78   1128.29      0.00      0.00      0.00      0.00
+
+18:22:50        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:22:55        all     11.31      0.00      7.61      0.00      0.10     80.99
+
+18:22:50    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:22:55       233972    498756    266968     28.55      2168    382536    448308     47.94     87920    494364      2204
+
+18:22:50        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:22:55           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:22:55         ens5   3840.00   3561.80   1003.49   1105.83      0.00      0.00      0.00      0.00
+
+18:22:55        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:23:00        all     10.10      0.00      5.70      0.00      0.50     83.70
+
+18:22:55    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:23:00       232964    498736    266988     28.55      2168    383536    448308     47.94     87920    495356      3204
+
+18:22:55        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:23:00           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:23:00         ens5   2923.51   2739.84    778.42    860.16      0.00      0.00      0.00      0.00
+
+18:23:00        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:23:05        all      0.00      0.00      0.10      0.00      1.00     98.90
+
+18:23:00    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:23:05       232712    498604    267220     28.57      2168    383584    448308     47.94     87920    495480      3252
+
+18:23:00        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:23:05           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:23:05         ens5      1.20      1.40      0.11      0.30      0.00      0.00      0.00      0.00
+
+18:23:05        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:23:10        all      0.10      0.00      0.10      0.00      0.10     99.70
+
+18:23:05    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:23:10       232712    498644    267224     28.58      2168    383584    448308     47.94     87924    495516      3236
+
+18:23:05        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:23:10           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:23:10         ens5      0.40      0.40      0.03      0.18      0.00      0.00      0.00      0.00
+
+18:23:10        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:23:15        all      0.10      0.00      0.00      0.00      0.00     99.90
+
+18:23:10    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:23:15       232712    498644    267228     28.58      2168    383588    448312     47.94     87924    495516      3232
+
+18:23:10        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:23:15           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:23:15         ens5      1.20      1.20      0.11      0.28      0.00      0.00      0.00      0.00
+
+18:23:15        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:23:20        all      0.20      0.00      0.10      0.00      0.00     99.70
+
+18:23:15    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:23:20       232712    498652    267260     28.58      2168    383588    448312     47.94     87928    495536         8
+
+18:23:15        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:23:20           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:23:20         ens5      7.60     14.80      0.49      1.10      0.00      0.00      0.00      0.00
+
+18:23:20        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:23:25        all      0.00      0.00      0.00      0.00      0.00    100.00
+
+18:23:20    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:23:25       232712    498644    267356     28.59      2168    383592    448312     47.94     87928    495536        20
+
+18:23:20        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:23:25           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:23:25         ens5      2.60      4.80      0.17      0.46      0.00      0.00      0.00      0.00
+
+18:23:25        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:23:30        all      0.00      0.00      0.10      0.00      0.00     99.90
+
+18:23:25    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:23:30       232712    498644    267372     28.59      2168    383592    448312     47.94     87928    495536        12
+
+18:23:25        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:23:30           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:23:30         ens5      0.60      0.60      0.04      0.19      0.00      0.00      0.00      0.00
+
+18:23:30        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:23:35        all      0.00      0.00      0.00      0.00      0.00    100.00
+
+18:23:30    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:23:35       232712    498644    267380     28.59      2168    383592    448312     47.94     87928    495536        12
+
+18:23:30        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:23:35           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:23:35         ens5      1.40      1.40      0.12      0.29      0.00      0.00      0.00      0.00
+
+18:23:35        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:23:40        all      0.00      0.00      0.10      0.00      0.10     99.80
+
+18:23:35    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:23:40       232712    498644    267400     28.59      2168    383592    448312     47.94     87928    495536        12
+
+18:23:35        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:23:40           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:23:40         ens5      0.60      0.40      0.05      0.18      0.00      0.00      0.00      0.00
+
+18:23:40        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:23:45        all      0.10      0.00      0.10      0.00      0.10     99.70
+
+18:23:40    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:23:45       232712    498644    267408     28.59      2168    383596    448316     47.94     87928    495536        20
+
+18:23:40        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:23:45           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:23:45         ens5      1.80      1.80      0.15      0.32      0.00      0.00      0.00      0.00
+
+18:23:45        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:23:50        all      0.00      0.00      0.00      0.00      0.10     99.90
+
+18:23:45    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:23:50       232712    498644    267428     28.60      2168    383596    448316     47.94     87928    495536        20
+
+18:23:45        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:23:50           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:23:50         ens5      0.40      0.40      0.02      0.17      0.00      0.00      0.00      0.00
+
+18:23:50        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:23:55        all      0.10      0.00      0.10      0.00      0.00     99.80
+
+18:23:50    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:23:55       232712    498644    267456     28.60      2168    383596    448316     47.94     87928    495568        16
+
+18:23:50        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:23:55           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:23:55         ens5      0.20      0.20      0.01      0.16      0.00      0.00      0.00      0.00
+
+18:23:55        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:24:00        all      0.40      0.00      0.10      0.00      0.20     99.30
+
+18:23:55    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:24:00       232712    498648    267856     28.64      2168    383600    435212     46.54     87932    491560        16
+
+18:23:55        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:24:00           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:24:00         ens5      0.80      1.00      0.06      0.23      0.00      0.00      0.00      0.00
+
+18:24:00        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:24:05        all      0.10      0.00      0.00      0.00      2.66     97.24
+
+18:24:00    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:24:05       232712    498648    267952     28.65      2168    383600    434204     46.43     87932    491396        20
+
+18:24:00        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:24:05           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:24:05         ens5      1.20      1.20      0.11      0.28      0.00      0.00      0.00      0.00
+
+18:24:05        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:24:10        all      0.60      0.00      0.70      0.00      0.00     98.70
+
+18:24:05    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:24:10       231708    497652    268924     28.76      2168    383600    434204     46.43     87932    491544       608
+
+18:24:05        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:24:10           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:24:10         ens5      6.20      6.40      0.71      0.80      0.00      0.00      0.00      0.00
+
+18:24:10        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:24:15        all      0.10      0.00      0.00      0.00      0.10     99.80
+
+18:24:10    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:24:15       231708    497652    268920     28.76      2168    383604    434208     46.43     87932    491544       604
+
+18:24:10        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:24:15           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:24:15         ens5      2.00      1.80      0.17      0.32      0.00      0.00      0.00      0.00
+
+18:24:15        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:24:20        all      0.10      0.00      0.20      0.00      0.00     99.70
+
+18:24:15    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:24:20       231708    497652    268920     28.76      2168    383604    434208     46.43     87932    491544       604
+
+18:24:15        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:24:20           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:24:20         ens5      0.40      0.40      0.02      0.17      0.00      0.00      0.00      0.00
+
+18:24:20        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:24:25        all      0.00      0.00      0.00      0.00      0.00    100.00
+
+18:24:20    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:24:25       231708    497652    268936     28.76      2168    383604    434208     46.43     87932    491544       604
+
+18:24:20        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:24:25           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:24:25         ens5      0.20      0.20      0.01      0.16      0.00      0.00      0.00      0.00
+
+18:24:25        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:24:30        all      0.10      0.00      0.00      0.00      0.00     99.90
+
+18:24:25    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:24:30       231708    497652    268936     28.76      2168    383604    434208     46.43     87932    491544       604
+
+18:24:25        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:24:30           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:24:30         ens5      0.80      0.80      0.06      0.21      0.00      0.00      0.00      0.00
+
+18:24:30        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:24:35        all      0.10      0.00      0.00      0.00      0.00     99.90
+
+18:24:30    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:24:35       231708    497652    268936     28.76      2168    383604    434208     46.43     87932    491544       596
+
+18:24:30        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:24:35           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:24:35         ens5      1.40      1.40      0.12      0.31      0.00      0.00      0.00      0.00
+
+18:24:35        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:24:40        all      0.00      0.00      0.00      0.30      0.10     99.60
+
+18:24:35    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:24:40       231708    497652    268936     28.76      2168    383604    434208     46.43     87932    491416         8
+
+18:24:35        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:24:40           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:24:40         ens5      0.40      0.40      0.02      0.17      0.00      0.00      0.00      0.00
+
+18:24:40        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:24:45        all      0.20      0.00      0.30      0.00      0.00     99.50
+
+18:24:40    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:24:45       231708    497652    268932     28.76      2168    383608    434212     46.43     87932    491416        12
+
+18:24:40        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:24:45           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:24:45         ens5      3.20      2.80      0.24      0.40      0.00      0.00      0.00      0.00
+
+18:24:45        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:24:50        all      0.40      0.00      0.10      0.00      0.00     99.50
+
+18:24:45    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:24:50       231708    497652    268932     28.76      2168    383608    434212     46.43     87932    491420         4
+
+18:24:45        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:24:50           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:24:50         ens5      2.40      2.00      0.33      0.57      0.00      0.00      0.00      0.00
+
+18:24:50        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:24:55        all      0.40      0.00      0.20      0.00      0.00     99.40
+
+18:24:50    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:24:55       231708    497652    268936     28.76      2168    383608    434212     46.43     87932    491420         8
+
+18:24:50        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:24:55           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:24:55         ens5      6.60      5.00      0.74      1.05      0.00      0.00      0.00      0.00
+
+18:24:55        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:25:00        all      0.59      0.00      0.10      0.00      0.69     98.62
+
+18:24:55    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:25:00       231708    497652    268936     28.76      2168    383608    434212     46.43     87932    491420        12
+
+18:24:55        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:25:00           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:25:00         ens5      7.19      5.59      0.79      1.10      0.00      0.00      0.00      0.00
+
+18:25:00        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:25:05        all      0.20      0.00      0.20      0.00      1.78     97.82
+
+18:25:00    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:25:05       231708    497652    268940     28.76      2168    383608    434212     46.43     87932    491420        16
+
+18:25:00        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:25:05           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:25:05         ens5      1.60      1.60      0.14      0.31      0.00      0.00      0.00      0.00
+
+18:25:05        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:25:10        all      0.00      0.00      0.20      0.00      0.00     99.80
+
+18:25:05    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:25:10       231708    497652    268968     28.76      2168    383612    434216     46.43     87932    491432        16
+
+18:25:05        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:25:10           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:25:10         ens5      0.20      0.20      0.01      0.16      0.00      0.00      0.00      0.00
+
+18:25:10        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:25:15        all      0.00      0.00      0.00      0.00      0.00    100.00
+
+18:25:10    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:25:15       231708    497652    268968     28.76      2168    383612    434216     46.43     87932    491432        16
+
+18:25:10        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:25:15           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:25:15         ens5      1.80      1.60      0.15      0.30      0.00      0.00      0.00      0.00
+
+18:25:15        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:25:20        all      0.00      0.00      0.00      0.00      0.10     99.90
+
+18:25:15    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:25:20       231708    497652    268968     28.76      2168    383612    434216     46.43     87944    491452        16
+
+18:25:15        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:25:20           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:25:20         ens5      0.60      0.40      0.05      0.18      0.00      0.00      0.00      0.00
+
+18:25:20        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:25:25        all      0.00      0.00      0.00      0.00      0.00    100.00
+
+18:25:20    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:25:25       231708    497652    268968     28.76      2168    383612    434216     46.43     87944    491452        12
+
+18:25:20        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:25:25           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:25:25         ens5      0.20      0.20      0.01      0.16      0.00      0.00      0.00      0.00
+
+18:25:25        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:25:30        all      0.20      0.00      0.00      0.00      0.00     99.80
+
+18:25:25    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:25:30       231708    497652    268968     28.76      2168    383612    434216     46.43     87944    491452         8
+
+18:25:25        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:25:30           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:25:30         ens5      0.60      0.60      0.04      0.19      0.00      0.00      0.00      0.00
+
+18:25:30        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:25:35        all      0.20      0.00      0.00      0.00      0.00     99.80
+
+18:25:30    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:25:35       231708    497652    268968     28.76      2168    383612    434216     46.43     87944    491452        16
+
+18:25:30        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:25:35           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:25:35         ens5      1.40      1.40      0.13      0.29      0.00      0.00      0.00      0.00
+
+18:25:35        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:25:40        all      0.00      0.00      0.00      0.00      0.00    100.00
+
+18:25:35    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:25:40       231708    497652    268964     28.76      2168    383616    434220     46.43     87944    491452        16
+
+18:25:35        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:25:40           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:25:40         ens5      0.40      0.40      0.02      0.17      0.00      0.00      0.00      0.00
+
+18:25:40        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:25:45        all      0.00      0.00      0.10      0.00      0.00     99.90
+
+18:25:40    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:25:45       231708    497652    268964     28.76      2168    383616    434220     46.43     87944    491452        16
+
+18:25:40        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:25:45           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:25:45         ens5      1.80      1.60      0.15      0.30      0.00      0.00      0.00      0.00
+
+18:25:45        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:25:50        all      0.00      0.00      0.00      0.00      0.10     99.90
+
+18:25:45    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:25:50       231708    497652    268964     28.76      2168    383616    434220     46.43     87944    491452        16
+
+18:25:45        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:25:50           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:25:50         ens5      0.80      0.60      0.05      0.19      0.00      0.00      0.00      0.00
+
+18:25:50        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:25:55        all      0.00      0.00      0.10      0.00      0.00     99.90
+
+18:25:50    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:25:55       231708    497652    268964     28.76      2168    383616    434220     46.43     87948    491452        12
+
+18:25:50        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:25:55           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:25:55         ens5      0.20      0.20      0.01      0.16      0.00      0.00      0.00      0.00
+
+18:25:55        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:26:00        all      0.10      0.00      0.00      0.00      0.30     99.60
+
+18:25:55    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:26:00       231708    497652    268964     28.76      2168    383616    434220     46.43     87948    491452        12
+
+18:25:55        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:26:00           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:26:00         ens5      0.60      0.80      0.04      0.21      0.00      0.00      0.00      0.00
+
+18:26:00        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:26:05        all      0.40      0.00      0.10      0.00      0.70     98.80
+
+18:26:00    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:26:05       231708    497652    268964     28.76      2168    383616    434220     46.43     87948    491464        12
+
+18:26:00        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:26:05           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:26:05         ens5      1.40      1.40      0.13      0.29      0.00      0.00      0.00      0.00
+
+18:26:05        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:26:10        all      0.50      0.00      0.50      0.00      0.10     98.90
+
+18:26:05    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:26:10       231708    497656    268996     28.76      2168    383620    434224     46.43     87952    491468       576
+
+18:26:05        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:26:10           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:26:10         ens5      6.40      6.40      0.73      0.81      0.00      0.00      0.00      0.00
+
+18:26:10        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:26:15        all      0.00      0.00      0.10      0.00      0.00     99.90
+
+18:26:10    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:26:15       231708    497656    268996     28.76      2168    383620    434224     46.43     87952    491468       580
+
+18:26:10        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:26:15           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:26:15         ens5      1.80      1.80      0.15      0.32      0.00      0.00      0.00      0.00
+
+18:26:15        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:26:20        all      0.20      0.00      0.00      0.00      0.00     99.80
+
+18:26:15    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:26:20       231708    497656    268996     28.76      2168    383620    434224     46.43     87952    491468       580
+
+18:26:15        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:26:20           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:26:20         ens5      6.40      4.40      0.36      0.44      0.00      0.00      0.00      0.00
+
+18:26:20        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:26:25        all      0.00      0.00      0.10      0.00      0.00     99.90
+
+18:26:20    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:26:25       231708    497656    269028     28.77      2168    383620    433216     46.33     87952    491380       588
+
+18:26:20        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:26:25           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:26:25         ens5      0.60      0.40      0.05      0.18      0.00      0.00      0.00      0.00
+
+18:26:25        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:26:30        all      0.00      0.00      0.00      0.00      0.00    100.00
+
+18:26:25    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:26:30       231708    497656    269028     28.77      2168    383620    433216     46.33     87952    491380       588
+
+18:26:25        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:26:30           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:26:30         ens5      0.60      0.80      0.04      0.23      0.00      0.00      0.00      0.00
+
+18:26:30        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:26:35        all      0.10      0.00      0.00      0.00      0.00     99.90
+
+18:26:30    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:26:35       231708    497656    269028     28.77      2168    383620    433216     46.33     87952    491380       588
+
+18:26:30        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:26:35           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:26:35         ens5      1.20      1.20      0.11      0.28      0.00      0.00      0.00      0.00
+
+18:26:35        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:26:40        all      0.10      0.00      0.00      0.20      0.00     99.70
+
+18:26:35    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:26:40       231708    497656    269024     28.77      2168    383624    433220     46.33     87956    491380        16
+
+18:26:35        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:26:40           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:26:40         ens5      0.60      0.60      0.04      0.19      0.00      0.00      0.00      0.00
+
+18:26:40        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:26:45        all      0.20      0.00      0.10      0.00      0.00     99.70
+
+18:26:40    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:26:45       231708    497656    269024     28.77      2168    383624    433220     46.33     87956    491380        16
+
+18:26:40        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:26:45           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:26:45         ens5      1.60      1.60      0.14      0.30      0.00      0.00      0.00      0.00
+
+18:26:45        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:26:50        all      0.10      0.00      0.00      0.00      0.20     99.70
+
+18:26:45    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:26:50       231708    497656    269024     28.77      2168    383624    433220     46.33     87956    491380        12
+
+18:26:45        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:26:50           lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+18:26:50         ens5      0.40      0.40      0.02      0.17      0.00      0.00      0.00      0.00

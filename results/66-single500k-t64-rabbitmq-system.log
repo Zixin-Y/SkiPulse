@@ -1,0 +1,1777 @@
+Linux 6.18.56-125.164.amzn2023.x86_64 (ip-172-31-45-116.us-west-2.compute.internal) 	11/08/26 	_x86_64_	(2 CPU)
+
+18:14:14        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:14:19        all      0.10      0.00      0.10      0.00      0.10     99.70
+
+18:14:14    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:14:19      1108628   1460080    290848     14.87      2168    482352   1319460     67.48    140988    543340       792
+
+18:14:14        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:14:19           lo      1.20      1.20      0.70      0.70      0.00      0.00      0.00      0.00
+18:14:19         ens5     24.00     11.80      2.15      1.62      0.00      0.00      0.00      0.00
+18:14:19      docker0      0.40      0.80      0.47      0.24      0.00      0.00      0.00      0.00
+18:14:19    vetha518c6a      0.40      0.80      0.47      0.24      0.00      0.00      0.00      0.00
+
+18:14:19        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:14:24        all      0.20      0.00      0.10      0.00      0.00     99.70
+
+18:14:19    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:14:24      1108628   1460080    290848     14.87      2168    482352   1318872     67.45    140988    543112       792
+
+18:14:19        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:14:24           lo      1.20      1.20      0.70      0.70      0.00      0.00      0.00      0.00
+18:14:24         ens5      1.60      1.40      0.32      0.76      0.00      0.00      0.00      0.00
+18:14:24      docker0      0.80      1.20      0.49      0.27      0.00      0.00      0.00      0.00
+18:14:24    vetha518c6a      0.80      1.20      0.50      0.27      0.00      0.00      0.00      0.00
+
+18:14:24        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:14:29        all      0.10      0.00      0.20      0.20      0.00     99.50
+
+18:14:24    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:14:29      1108628   1460080    290848     14.87      2168    482352   1318284     67.42    140988    542584        16
+
+18:14:24        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:14:29           lo      1.20      1.20      0.70      0.70      0.00      0.00      0.00      0.00
+18:14:29         ens5      1.80      1.20      0.33      0.74      0.00      0.00      0.00      0.00
+18:14:29      docker0      0.80      1.20      0.49      0.27      0.00      0.00      0.00      0.00
+18:14:29    vetha518c6a      0.80      1.20      0.50      0.27      0.00      0.00      0.00      0.00
+
+18:14:29        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:14:34        all      0.20      0.00      0.00      0.00      0.00     99.80
+
+18:14:29    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:14:34      1108628   1460080    290848     14.87      2168    482352   1318284     67.42    140992    542540        12
+
+18:14:29        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:14:34           lo      1.20      1.20      0.70      0.70      0.00      0.00      0.00      0.00
+18:14:34         ens5      1.20      1.00      0.28      0.72      0.00      0.00      0.00      0.00
+18:14:34      docker0      0.40      0.80      0.47      0.24      0.00      0.00      0.00      0.00
+18:14:34    vetha518c6a      0.40      0.80      0.47      0.24      0.00      0.00      0.00      0.00
+
+18:14:34        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:14:39        all      0.30      0.00      0.10      0.00      0.00     99.60
+
+18:14:34    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:14:39      1108628   1460080    290848     14.87      2168    482352   1318872     67.45    140992    542800        16
+
+18:14:34        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:14:39           lo      1.20      1.20      0.70      0.70      0.00      0.00      0.00      0.00
+18:14:39         ens5      1.80      1.80      0.33      0.79      0.00      0.00      0.00      0.00
+18:14:39      docker0      0.80      1.20      0.49      0.27      0.00      0.00      0.00      0.00
+18:14:39    vetha518c6a      0.80      1.20      0.50      0.27      0.00      0.00      0.00      0.00
+
+18:14:39        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:14:44        all      0.10      0.00      0.10      0.00      0.20     99.60
+
+18:14:39    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:14:44      1108628   1460080    290844     14.87      2168    482356   1318288     67.42    140996    542540        16
+
+18:14:39        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:14:44           lo      1.20      1.20      0.70      0.70      0.00      0.00      0.00      0.00
+18:14:44         ens5      1.40      1.20      0.30      0.74      0.00      0.00      0.00      0.00
+18:14:44      docker0      0.80      1.20      0.49      0.27      0.00      0.00      0.00      0.00
+18:14:44    vetha518c6a      0.80      1.20      0.50      0.27      0.00      0.00      0.00      0.00
+
+18:14:44        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:14:49        all      0.30      0.00      0.20      0.00      0.00     99.50
+
+18:14:44    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:14:49      1108628   1460080    290840     14.87      2168    482360   1319464     67.48    140996    542804        20
+
+18:14:44        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:14:49           lo      1.20      1.20      0.70      0.70      0.00      0.00      0.00      0.00
+18:14:49         ens5      1.00      0.80      0.27      0.71      0.00      0.00      0.00      0.00
+18:14:49      docker0      0.40      0.80      0.47      0.24      0.00      0.00      0.00      0.00
+18:14:49    vetha518c6a      0.40      0.80      0.47      0.24      0.00      0.00      0.00      0.00
+
+18:14:49        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:14:54        all      0.30      0.00      0.00      0.00      0.00     99.70
+
+18:14:49    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:14:54      1108628   1460080    290840     14.87      2168    482360   1318288     67.42    140996    542540        20
+
+18:14:49        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:14:54           lo      1.20      1.20      0.70      0.70      0.00      0.00      0.00      0.00
+18:14:54         ens5      1.60      1.60      0.32      0.79      0.00      0.00      0.00      0.00
+18:14:54      docker0      0.80      1.20      0.49      0.27      0.00      0.00      0.00      0.00
+18:14:54    vetha518c6a      0.80      1.20      0.50      0.27      0.00      0.00      0.00      0.00
+
+18:14:54        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:14:59        all      0.30      0.00      0.10      0.00      0.00     99.60
+
+18:14:54    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:14:59      1108628   1460084    290840     14.87      2168    482360   1318876     67.45    140996    542592        20
+
+18:14:54        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:14:59           lo      1.20      1.20      0.70      0.70      0.00      0.00      0.00      0.00
+18:14:59         ens5      1.60      1.20      0.31      0.74      0.00      0.00      0.00      0.00
+18:14:59      docker0      0.80      1.20      0.49      0.27      0.00      0.00      0.00      0.00
+18:14:59    vetha518c6a      0.80      1.20      0.50      0.27      0.00      0.00      0.00      0.00
+
+18:14:59        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:15:04        all      0.30      0.00      0.00      0.00      1.39     98.31
+
+18:14:59    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:15:04      1108628   1460084    290836     14.87      2168    482364   1319468     67.48    141000    542932        20
+
+18:14:59        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:15:04           lo      1.20      1.20      0.70      0.70      0.00      0.00      0.00      0.00
+18:15:04         ens5      1.00      0.80      0.27      0.71      0.00      0.00      0.00      0.00
+18:15:04      docker0      0.40      0.80      0.47      0.24      0.00      0.00      0.00      0.00
+18:15:04    vetha518c6a      0.40      0.80      0.47      0.24      0.00      0.00      0.00      0.00
+
+18:15:04        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:15:09        all      0.10      0.00      0.00      0.00      0.10     99.80
+
+18:15:04    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:15:09      1108628   1460084    290836     14.87      2168    482364   1319468     67.48    141000    543000         0
+
+18:15:04        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:15:09           lo      1.20      1.20      0.70      0.70      0.00      0.00      0.00      0.00
+18:15:09         ens5      1.40      1.20      0.30      0.74      0.00      0.00      0.00      0.00
+18:15:09      docker0      0.80      1.20      0.49      0.27      0.00      0.00      0.00      0.00
+18:15:09    vetha518c6a      0.80      1.20      0.50      0.27      0.00      0.00      0.00      0.00
+
+18:15:09        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:15:14        all      0.30      0.00      0.20      0.00      0.00     99.50
+
+18:15:09    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:15:14      1108628   1460084    290836     14.87      2168    482364   1318368     67.42    141000    542208        16
+
+18:15:09        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:15:14           lo      1.20      1.20      0.70      0.70      0.00      0.00      0.00      0.00
+18:15:14         ens5      1.60      1.40      0.32      0.76      0.00      0.00      0.00      0.00
+18:15:14      docker0      0.80      1.20      0.49      0.27      0.00      0.00      0.00      0.00
+18:15:14    vetha518c6a      0.80      1.20      0.50      0.27      0.00      0.00      0.00      0.00
+
+18:15:14        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:15:19        all      0.30      0.00      0.00      0.00      0.00     99.70
+
+18:15:14    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:15:19      1108628   1460084    290836     14.87      2168    482364   1320568     67.53    141000    542584        16
+
+18:15:14        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:15:19           lo      3.40      3.40      4.18      4.18      0.00      0.00      0.00      0.00
+18:15:19         ens5      3.20      3.80      0.49      4.27      0.00      0.00      0.00      0.00
+18:15:19      docker0      1.80      2.40      3.87      0.38      0.00      0.00      0.00      0.00
+18:15:19    vetha518c6a      1.80      2.40      3.90      0.38      0.00      0.00      0.00      0.00
+
+18:15:19        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:15:24        all      0.20      0.00      0.10      0.00      0.00     99.70
+
+18:15:19    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:15:24      1108628   1460084    290836     14.87      2168    482364   1320568     67.53    141000    542652        16
+
+18:15:19        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:15:24           lo      3.40      3.40      4.18      4.18      0.00      0.00      0.00      0.00
+18:15:24         ens5      4.20      4.20      0.56      4.29      0.00      0.00      0.00      0.00
+18:15:24      docker0      2.20      2.80      3.89      0.41      0.00      0.00      0.00      0.00
+18:15:24    vetha518c6a      2.20      2.80      3.92      0.41      0.00      0.00      0.00      0.00
+
+18:15:24        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:15:29        all      0.40      0.00      0.30      0.00      0.00     99.30
+
+18:15:24    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:15:29      1108628   1460092    290824     14.87      2168    482376   1321748     67.59    141004    543048        24
+
+18:15:24        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:15:29           lo      3.20      3.20      4.17      4.17      0.00      0.00      0.00      0.00
+18:15:29         ens5      3.40      4.40      0.51      4.31      0.00      0.00      0.00      0.00
+18:15:29      docker0      2.20      2.60      3.89      0.40      0.00      0.00      0.00      0.00
+18:15:29    vetha518c6a      2.20      2.60      3.92      0.40      0.00      0.00      0.00      0.00
+
+18:15:29        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:15:34        all      0.20      0.00      0.00      0.00      0.00     99.80
+
+18:15:29    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:15:34      1108628   1460092    290820     14.87      2168    482380   1321084     67.56    141004    542856        28
+
+18:15:29        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:15:34           lo      3.40      3.40      4.18      4.18      0.00      0.00      0.00      0.00
+18:15:34         ens5      3.20      4.00      0.49      4.27      0.00      0.00      0.00      0.00
+18:15:34      docker0      1.80      2.40      3.87      0.38      0.00      0.00      0.00      0.00
+18:15:34    vetha518c6a      1.80      2.40      3.90      0.38      0.00      0.00      0.00      0.00
+
+18:15:34        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:15:39        all      0.30      0.00      0.00      0.00      0.00     99.70
+
+18:15:34    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:15:39      1108628   1460096    290820     14.87      2168    482380   1321084     67.56    141004    542928        28
+
+18:15:34        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:15:39           lo      3.40      3.40      4.18      4.18      0.00      0.00      0.00      0.00
+18:15:39         ens5      3.20      4.20      0.49      4.29      0.00      0.00      0.00      0.00
+18:15:39      docker0      2.20      2.80      3.89      0.41      0.00      0.00      0.00      0.00
+18:15:39    vetha518c6a      2.20      2.80      3.92      0.41      0.00      0.00      0.00      0.00
+
+18:15:39        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:15:44        all      0.40      0.00      0.10      0.00      0.00     99.50
+
+18:15:39    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:15:44      1108628   1460096    290820     14.87      2168    482380   1319548     67.48    141004    542904        16
+
+18:15:39        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:15:44           lo      3.20      3.20      4.17      4.17      0.00      0.00      0.00      0.00
+18:15:44         ens5      3.60      4.60      0.53      4.33      0.00      0.00      0.00      0.00
+18:15:44      docker0      2.20      2.60      3.89      0.40      0.00      0.00      0.00      0.00
+18:15:44    vetha518c6a      2.20      2.60      3.92      0.40      0.00      0.00      0.00      0.00
+
+18:15:44        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:15:49        all      0.40      0.00      0.00      0.00      0.00     99.60
+
+18:15:44    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:15:49      1108628   1460096    290816     14.87      2168    482384   1318964     67.45    141008    542936        16
+
+18:15:44        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:15:49           lo      3.40      3.40      4.18      4.18      0.00      0.00      0.00      0.00
+18:15:49         ens5      3.00      3.80      0.48      4.27      0.00      0.00      0.00      0.00
+18:15:49      docker0      1.80      2.40      3.87      0.38      0.00      0.00      0.00      0.00
+18:15:49    vetha518c6a      1.80      2.40      3.90      0.38      0.00      0.00      0.00      0.00
+
+18:15:49        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:15:54        all      0.30      0.00      0.00      0.00      0.20     99.50
+
+18:15:49    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:15:54      1108628   1460096    290816     14.87      2168    482384   1318888     67.45    141008    542392        16
+
+18:15:49        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:15:54           lo      3.40      3.40      4.18      4.18      0.00      0.00      0.00      0.00
+18:15:54         ens5      3.20      4.20      0.49      4.29      0.00      0.00      0.00      0.00
+18:15:54      docker0      2.20      2.80      3.89      0.41      0.00      0.00      0.00      0.00
+18:15:54    vetha518c6a      2.20      2.80      3.92      0.41      0.00      0.00      0.00      0.00
+
+18:15:54        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:15:59        all      1.01      0.00      0.50      0.00      0.00     98.49
+
+18:15:54    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:15:59      1105100   1456568    294408     15.06      2168    482384   1319476     67.48    141008    542604       812
+
+18:15:54        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:15:59           lo      3.40      3.40      4.18      4.18      0.00      0.00      0.00      0.00
+18:15:59         ens5      9.80     10.80      1.28      4.97      0.00      0.00      0.00      0.00
+18:15:59      docker0      2.20      2.80      3.89      0.41      0.00      0.00      0.00      0.00
+18:15:59    vetha518c6a      2.20      2.80      3.92      0.41      0.00      0.00      0.00      0.00
+
+18:15:59        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:16:04        all      0.20      0.00      0.00      0.00      1.78     98.02
+
+18:15:59    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:16:04      1105100   1456568    294448     15.06      2168    482384   1319476     67.48    141008    542808       812
+
+18:15:59        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:16:04           lo      3.40      3.40      4.18      4.18      0.00      0.00      0.00      0.00
+18:16:04         ens5      3.80      3.80      0.53      4.27      0.00      0.00      0.00      0.00
+18:16:04      docker0      1.80      2.40      3.87      0.38      0.00      0.00      0.00      0.00
+18:16:04    vetha518c6a      1.80      2.40      3.90      0.38      0.00      0.00      0.00      0.00
+
+18:16:04        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:16:09        all      0.30      0.00      0.00      0.00      0.10     99.60
+
+18:16:04    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:16:09      1105100   1456568    294448     15.06      2168    482384   1319476     67.48    141008    542780       812
+
+18:16:04        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:16:09           lo      3.20      3.20      4.17      4.17      0.00      0.00      0.00      0.00
+18:16:09         ens5      3.60      4.40      0.52      4.31      0.00      0.00      0.00      0.00
+18:16:09      docker0      2.20      2.60      3.89      0.40      0.00      0.00      0.00      0.00
+18:16:09    vetha518c6a      2.20      2.60      3.92      0.40      0.00      0.00      0.00      0.00
+
+18:16:09        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:16:14        all      0.10      0.00      0.20      0.00      0.00     99.70
+
+18:16:09    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:16:14      1105100   1456572    294440     15.06      2168    482392   1318892     67.45    141012    542772       796
+
+18:16:09        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:16:14           lo      3.20      3.20      4.17      4.17      0.00      0.00      0.00      0.00
+18:16:14         ens5      3.60      4.40      0.52      4.31      0.00      0.00      0.00      0.00
+18:16:14      docker0      2.20      2.60      3.89      0.40      0.00      0.00      0.00      0.00
+18:16:14    vetha518c6a      2.20      2.60      3.92      0.40      0.00      0.00      0.00      0.00
+
+18:16:14        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:16:19        all      0.10      0.00      0.10      0.00      0.00     99.80
+
+18:16:14    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:16:19      1105100   1456572    294436     15.06      2168    482392   1319480     67.48    141012    542888       812
+
+18:16:14        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:16:19           lo      3.40      3.40      4.18      4.18      0.00      0.00      0.00      0.00
+18:16:19         ens5      3.00      3.80      0.48      4.27      0.00      0.00      0.00      0.00
+18:16:19      docker0      1.80      2.40      3.87      0.38      0.00      0.00      0.00      0.00
+18:16:19    vetha518c6a      1.80      2.40      3.90      0.38      0.00      0.00      0.00      0.00
+
+18:16:19        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:16:24        all      0.20      0.00      0.20      0.00      0.00     99.60
+
+18:16:19    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:16:24      1105100   1456572    294436     15.06      2168    482392   1320144     67.51    141012    542720       812
+
+18:16:19        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:16:24           lo      3.40      3.40      4.18      4.18      0.00      0.00      0.00      0.00
+18:16:24         ens5      3.20      4.20      0.49      4.29      0.00      0.00      0.00      0.00
+18:16:24      docker0      2.20      2.80      3.89      0.41      0.00      0.00      0.00      0.00
+18:16:24    vetha518c6a      2.20      2.80      3.92      0.41      0.00      0.00      0.00      0.00
+
+18:16:24        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:16:29        all      0.20      0.00      0.10      0.20      0.00     99.50
+
+18:16:24    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:16:29      1105100   1456572    294436     15.06      2168    482392   1318968     67.45    141012    542408        16
+
+18:16:24        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:16:29           lo      3.40      3.40      4.18      4.18      0.00      0.00      0.00      0.00
+18:16:29         ens5      3.60      4.20      0.52      4.29      0.00      0.00      0.00      0.00
+18:16:29      docker0      2.20      2.80      3.89      0.41      0.00      0.00      0.00      0.00
+18:16:29    vetha518c6a      2.20      2.80      3.92      0.41      0.00      0.00      0.00      0.00
+
+18:16:29        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:16:34        all      0.30      0.00      0.10      0.00      0.00     99.60
+
+18:16:29    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:16:34      1105100   1456572    294432     15.06      2168    482396   1319560     67.48    141016    542744        16
+
+18:16:29        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:16:34           lo      3.40      3.40      4.18      4.18      0.00      0.00      0.00      0.00
+18:16:34         ens5      3.00      4.00      0.48      4.28      0.00      0.00      0.00      0.00
+18:16:34      docker0      1.80      2.40      3.87      0.38      0.00      0.00      0.00      0.00
+18:16:34    vetha518c6a      1.80      2.40      3.90      0.38      0.00      0.00      0.00      0.00
+
+18:16:34        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:16:39        all      0.50      0.00      0.60      0.00      0.00     98.90
+
+18:16:34    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:16:39      1105100   1456572    294432     15.06      2168    482396   1318972     67.45    141016    542596        16
+
+18:16:34        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:16:39           lo      3.40      3.40      4.18      4.18      0.00      0.00      0.00      0.00
+18:16:39         ens5      3.60      4.40      0.51      4.30      0.00      0.00      0.00      0.00
+18:16:39      docker0      2.20      2.80      3.89      0.41      0.00      0.00      0.00      0.00
+18:16:39    vetha518c6a      2.20      2.80      3.92      0.41      0.00      0.00      0.00      0.00
+
+18:16:39        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:16:44        all      0.20      0.00      0.10      0.00      0.10     99.60
+
+18:16:39    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:16:44      1105100   1456572    294432     15.06      2168    482396   1319484     67.48    141016    542728        16
+
+18:16:39        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:16:44           lo      3.40      3.40      4.18      4.18      0.00      0.00      0.00      0.00
+18:16:44         ens5      4.00      4.40      0.54      4.33      0.00      0.00      0.00      0.00
+18:16:44      docker0      2.20      2.80      3.89      0.41      0.00      0.00      0.00      0.00
+18:16:44    vetha518c6a      2.20      2.80      3.92      0.41      0.00      0.00      0.00      0.00
+
+18:16:44        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:16:49        all      0.20      0.00      0.10      0.00      0.00     99.70
+
+18:16:44    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:16:49      1105100   1456572    294428     15.06      2168    482400   1320072     67.51    141016    543092        20
+
+18:16:44        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:16:49           lo      3.20      3.20      4.17      4.17      0.00      0.00      0.00      0.00
+18:16:49         ens5      3.40      4.20      0.51      4.30      0.00      0.00      0.00      0.00
+18:16:49      docker0      1.80      2.20      3.87      0.37      0.00      0.00      0.00      0.00
+18:16:49    vetha518c6a      1.80      2.20      3.90      0.37      0.00      0.00      0.00      0.00
+
+18:16:49        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:16:54        all      0.10      0.00      0.30      0.00      0.00     99.60
+
+18:16:49    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:16:54      1105100   1456576    294428     15.06      2168    482400   1319484     67.48    141016    543064        20
+
+18:16:49        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:16:54           lo      3.40      3.40      4.18      4.18      0.00      0.00      0.00      0.00
+18:16:54         ens5      3.40      4.20      0.50      4.29      0.00      0.00      0.00      0.00
+18:16:54      docker0      2.20      2.80      3.89      0.41      0.00      0.00      0.00      0.00
+18:16:54    vetha518c6a      2.20      2.80      3.92      0.41      0.00      0.00      0.00      0.00
+
+18:16:54        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:16:59        all      0.30      0.00      0.00      0.00      0.00     99.70
+
+18:16:54    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:16:59      1105100   1456576    294424     15.06      2168    482404   1320000     67.50    141020    543584        20
+
+18:16:54        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:16:59           lo      3.40      3.40      4.18      4.18      0.00      0.00      0.00      0.00
+18:16:59         ens5      3.40      4.20      0.50      4.29      0.00      0.00      0.00      0.00
+18:16:59      docker0      2.20      2.80      3.89      0.41      0.00      0.00      0.00      0.00
+18:16:59    vetha518c6a      2.20      2.80      3.92      0.41      0.00      0.00      0.00      0.00
+
+18:16:59        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:17:04        all     13.81      0.00     11.48      0.00      9.44     65.27
+
+18:16:59    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:17:04      1105100   1456668    294216     15.05      2168    482440   1323144     67.67    141020    545952        56
+
+18:16:59        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:17:04           lo      3.40      3.40      4.18      4.18      0.00      0.00      0.00      0.00
+18:17:04         ens5   1307.60   1257.40    291.55    311.84      0.00      0.00      0.00      0.00
+18:17:04      docker0   1250.20   1307.00    294.04    291.45      0.00      0.00      0.00      0.00
+18:17:04    vetha518c6a   1250.20   1307.00    311.13    291.45      0.00      0.00      0.00      0.03
+
+18:17:04        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:17:09        all     20.86      0.00     16.38      0.00      0.00     62.76
+
+18:17:04    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:17:09      1104876   1456500    294416     15.06      2168    482432   1324608     67.74    141020    546516        48
+
+18:17:04        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:17:09           lo      3.40      3.40      4.23      4.23      0.00      0.00      0.00      0.00
+18:17:09         ens5   1865.00   1772.20    390.54    416.73      0.00      0.00      0.00      0.00
+18:17:09      docker0   1761.20   1864.40    391.71    390.45      0.00      0.00      0.00      0.00
+18:17:09    vetha518c6a   1761.20   1864.40    415.79    390.45      0.00      0.00      0.00      0.03
+
+18:17:09        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:17:14        all     17.64      0.00     14.01      0.00      0.00     68.35
+
+18:17:09    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:17:14      1104388   1456012    294928     15.08      2168    482404   1325848     67.80    141020    547520        20
+
+18:17:09        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:17:14           lo      3.40      3.40      4.26      4.26      0.00      0.00      0.00      0.00
+18:17:14         ens5   1892.20   1778.20    397.97    423.78      0.00      0.00      0.00      0.00
+18:17:14      docker0   1765.00   1891.20    398.55    397.85      0.00      0.00      0.00      0.00
+18:17:14    vetha518c6a   1765.00   1891.20    422.68    397.85      0.00      0.00      0.00      0.03
+
+18:17:14        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:17:19        all     14.87      0.00     10.13      0.00      0.11     74.89
+
+18:17:14    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:17:19      1103908   1455548    295312     15.10      2168    482492   1326968     67.86    141024    547820        84
+
+18:17:14        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:17:19           lo      3.40      3.40      4.26      4.26      0.00      0.00      0.00      0.00
+18:17:19         ens5   1732.00   1623.80    366.23    390.21      0.00      0.00      0.00      0.00
+18:17:19      docker0   1606.60   1731.40    366.88    366.13      0.00      0.00      0.00      0.00
+18:17:19    vetha518c6a   1606.60   1731.40    388.84    366.13      0.00      0.00      0.00      0.03
+
+18:17:19        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:17:24        all     14.15      0.00     12.87      0.00      0.11     72.87
+
+18:17:19    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:17:24      1103908   1455492    295408     15.11      2168    482412   1326824     67.85    141024    548096        20
+
+18:17:19        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:17:24           lo      3.40      3.40      4.29      4.29      0.00      0.00      0.00      0.00
+18:17:24         ens5   1868.80   1723.00    391.00    414.48      0.00      0.00      0.00      0.00
+18:17:24      docker0   1708.40   1868.00    389.95    390.89      0.00      0.00      0.00      0.00
+18:17:24    vetha518c6a   1708.40   1868.00    413.30    390.89      0.00      0.00      0.00      0.03
+
+18:17:24        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:17:29        all     10.57      0.00     11.26      0.00      0.11     78.05
+
+18:17:24    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:17:29      1103660   1455272    295548     15.11      2168    482488   1327336     67.88    141024    547652        96
+
+18:17:24        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:17:29           lo      3.40      3.40      4.29      4.29      0.00      0.00      0.00      0.00
+18:17:29         ens5   1920.00   1754.40    403.40    426.45      0.00      0.00      0.00      0.00
+18:17:29      docker0   1736.80   1919.60    401.33    403.32      0.00      0.00      0.00      0.00
+18:17:29    vetha518c6a   1736.80   1919.60    425.08    403.32      0.00      0.00      0.00      0.03
+
+18:17:29        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:17:34        all     15.30      0.00     13.21      0.00      0.00     71.49
+
+18:17:29    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:17:34      1103660   1455284    295692     15.12      2168    482412   1327192     67.87    141024    547692        20
+
+18:17:29        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:17:34           lo      3.20      3.20      4.30      4.30      0.00      0.00      0.00      0.00
+18:17:34         ens5   1926.60   1761.20    402.34    425.42      0.00      0.00      0.00      0.00
+18:17:34      docker0   1745.40   1926.00    400.29    402.24      0.00      0.00      0.00      0.00
+18:17:34    vetha518c6a   1745.40   1926.00    424.15    402.24      0.00      0.00      0.00      0.03
+
+18:17:34        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:17:39        all     14.89      0.00     13.31      0.00      0.00     71.81
+
+18:17:34    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:17:39      1103660   1455208    295584     15.12      2168    482504   1325664     67.79    141024    547788       108
+
+18:17:34        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:17:39           lo      3.40      3.40      4.31      4.31      0.00      0.00      0.00      0.00
+18:17:39         ens5   1914.00   1788.40    402.50    428.13      0.00      0.00      0.00      0.00
+18:17:39      docker0   1774.00   1913.20    402.71    402.40      0.00      0.00      0.00      0.00
+18:17:39    vetha518c6a   1774.00   1913.20    426.96    402.40      0.00      0.00      0.00      0.03
+
+18:17:39        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:17:44        all     15.03      0.00     14.92      0.00      0.11     69.95
+
+18:17:39    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:17:44      1102940   1454612    296216     15.15      2168    482420   1325224     67.77    141028    547364        24
+
+18:17:39        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:17:44           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:17:44         ens5   2149.80   2013.80    451.79    480.48      0.00      0.00      0.00      0.00
+18:17:44      docker0   1994.40   2148.80    451.72    451.67      0.00      0.00      0.00      0.00
+18:17:44    vetha518c6a   1994.40   2148.80    478.98    451.67      0.00      0.00      0.00      0.04
+
+18:17:44        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:17:49        all     31.60      0.00     22.69      0.00      0.21     45.49
+
+18:17:44    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:17:49      1102700   1454308    296368     15.16      2168    482504   1325388     67.78    141028    547768        92
+
+18:17:44        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:17:49           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:17:49         ens5   3514.00   3372.20    748.10    798.83      0.00      0.00      0.00      0.00
+18:17:49      docker0   3342.20   3513.60    750.96    748.01      0.00      0.00      0.00      0.00
+18:17:49    vetha518c6a   3342.20   3513.60    796.65    748.01      0.00      0.00      0.00      0.07
+
+18:17:49        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:17:54        all     28.68      0.00     25.32      0.00      0.11     45.90
+
+18:17:49    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:17:54      1102508   1454220    296628     15.17      2168    482412   1324952     67.76    141028    547712         8
+
+18:17:49        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:17:54           lo      3.40      3.40      4.31      4.31      0.00      0.00      0.00      0.00
+18:17:54         ens5   3560.00   3382.80    755.76    805.02      0.00      0.00      0.00      0.00
+18:17:54      docker0   3348.60   3558.60    756.78    755.60      0.00      0.00      0.00      0.00
+18:17:54    vetha518c6a   3348.60   3558.60    802.56    755.60      0.00      0.00      0.00      0.07
+
+18:17:54        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:17:59        all     30.41      0.00     24.63      0.00      0.11     44.86
+
+18:17:54    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:17:59      1100604   1452452    298288     15.25      2168    482552   1324876     67.75    141028    547504       936
+
+18:17:54        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:17:59           lo      3.40      3.40      4.33      4.33      0.00      0.00      0.00      0.00
+18:17:59         ens5   3558.20   3390.60    758.93    808.94      0.00      0.00      0.00      0.00
+18:17:59      docker0   3351.00   3551.60    760.09    758.14      0.00      0.00      0.00      0.00
+18:17:59    vetha518c6a   3351.00   3551.60    805.90    758.14      0.00      0.00      0.00      0.07
+
+18:17:59        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:18:04        all     28.54      0.00     22.81      0.00     12.46     36.18
+
+18:17:59    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:18:04      1100356   1452188    298468     15.26      2168    482644   1325228     67.77    141028    547716      1024
+
+18:17:59        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:18:04           lo      3.40      3.40      4.33      4.33      0.00      0.00      0.00      0.00
+18:18:04         ens5   3077.00   2958.00    657.00    702.64      0.00      0.00      0.00      0.00
+18:18:04      docker0   2933.80   3076.60    660.73    656.92      0.00      0.00      0.00      0.00
+18:18:04    vetha518c6a   2933.80   3076.60    700.84    656.92      0.00      0.00      0.00      0.06
+
+18:18:04        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:18:09        all     31.17      0.00     23.85      0.00      0.10     44.87
+
+18:18:04    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:18:09      1100932   1452692    297896     15.23      2168    482644   1325148     67.77    141032    547440      1024
+
+18:18:04        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:18:09           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:18:09         ens5   3538.00   3371.40    751.64    801.12      0.00      0.00      0.00      0.00
+18:18:09      docker0   3338.20   3537.20    753.09    751.53      0.00      0.00      0.00      0.00
+18:18:09    vetha518c6a   3338.20   3537.20    798.73    751.53      0.00      0.00      0.00      0.07
+
+18:18:09        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:18:14        all     29.93      0.00     23.18      0.00      0.11     46.79
+
+18:18:09    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:18:14      1100932   1452748    297988     15.24      2168    482628   1325664     67.79    141032    548236      1008
+
+18:18:09        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:18:14           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:18:14         ens5   3432.20   3286.60    734.27    783.86      0.00      0.00      0.00      0.00
+18:18:14      docker0   3252.20   3431.40    736.93    734.16      0.00      0.00      0.00      0.00
+18:18:14    vetha518c6a   3252.20   3431.40    781.40    734.16      0.00      0.00      0.00      0.06
+
+18:18:14        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:18:19        all     29.95      0.00     23.25      0.00      0.10     46.70
+
+18:18:14    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:18:19      1100932   1452796    297960     15.24      2168    482568   1325152     67.77    141032    548180       948
+
+18:18:14        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:18:19           lo      3.40      3.40      4.31      4.31      0.00      0.00      0.00      0.00
+18:18:19         ens5   3453.40   3286.00    735.73    784.32      0.00      0.00      0.00      0.00
+18:18:19      docker0   3258.80   3453.00    737.78    735.64      0.00      0.00      0.00      0.00
+18:18:19    vetha518c6a   3258.80   3453.00    782.33    735.64      0.00      0.00      0.00      0.06
+
+18:18:19        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:18:24        all     28.69      0.00     23.08      0.00      0.00     48.23
+
+18:18:19    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:18:24      1100940   1452756    297984     15.24      2168    482556   1324740     67.75    141032    548160       996
+
+18:18:19        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:18:24           lo      3.40      3.40      4.32      4.32      0.00      0.00      0.00      0.00
+18:18:24         ens5   3343.40   3182.80    709.80    756.43      0.00      0.00      0.00      0.00
+18:18:24      docker0   3152.20   3342.80    711.10    709.70      0.00      0.00      0.00      0.00
+18:18:24    vetha518c6a   3152.20   3342.80    754.20    709.70      0.00      0.00      0.00      0.06
+
+18:18:24        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:18:29        all     28.53      0.00     23.54      0.11      0.11     47.72
+
+18:18:24    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:18:29      1100940   1452728    297952     15.24      2168    482604   1325840     67.80    141036    548400        48
+
+18:18:24        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:18:29           lo      3.40      3.40      4.34      4.34      0.00      0.00      0.00      0.00
+18:18:29         ens5   3440.20   3277.60    732.72    781.28      0.00      0.00      0.00      0.00
+18:18:29      docker0   3249.60   3439.80    734.81    732.63      0.00      0.00      0.00      0.00
+18:18:29    vetha518c6a   3249.60   3439.80    779.24    732.63      0.00      0.00      0.00      0.06
+
+18:18:29        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:18:34        all     28.19      0.00     26.38      0.00      0.11     45.32
+
+18:18:29    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:18:34      1100940   1452800    297928     15.24      2168    482608   1325252     67.77    141036    547900        52
+
+18:18:29        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:18:34           lo      3.40      3.40      4.34      4.34      0.00      0.00      0.00      0.00
+18:18:34         ens5   3540.20   3375.80    753.55    803.71      0.00      0.00      0.00      0.00
+18:18:34      docker0   3342.80   3539.40    755.63    753.44      0.00      0.00      0.00      0.00
+18:18:34    vetha518c6a   3342.80   3539.40    801.34    753.44      0.00      0.00      0.00      0.07
+
+18:18:34        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:18:39        all     31.77      0.00     24.14      0.00      0.00     44.10
+
+18:18:34    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:18:39      1100692   1452516    298260     15.25      2168    482564   1325764     67.80    141036    548152         8
+
+18:18:34        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:18:39           lo      3.40      3.40      4.34      4.34      0.00      0.00      0.00      0.00
+18:18:39         ens5   3585.40   3410.40    762.35    812.58      0.00      0.00      0.00      0.00
+18:18:39      docker0   3377.60   3584.60    764.04    762.24      0.00      0.00      0.00      0.00
+18:18:39    vetha518c6a   3377.60   3584.60    810.22    762.24      0.00      0.00      0.00      0.07
+
+18:18:39        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:18:44        all     27.99      0.00     24.74      0.00      0.00     47.27
+
+18:18:39    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:18:44      1101160   1452932    297648     15.22      2168    482676   1325412     67.78    141036    548656       128
+
+18:18:39        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:18:44           lo      3.40      3.40      4.35      4.35      0.00      0.00      0.00      0.00
+18:18:44         ens5   3436.60   3274.20    732.10    780.63      0.00      0.00      0.00      0.00
+18:18:44      docker0   3243.00   3436.00    734.02    732.00      0.00      0.00      0.00      0.00
+18:18:44    vetha518c6a   3243.00   3436.00    778.36    732.00      0.00      0.00      0.00      0.06
+
+18:18:44        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:18:49        all     29.08      0.00     23.16      0.00      0.00     47.77
+
+18:18:44    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:18:49      1100732   1452564    298060     15.24      2168    482660   1325032     67.76    141040    548400       108
+
+18:18:44        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:18:49           lo      3.20      3.20      4.38      4.38      0.00      0.00      0.00      0.00
+18:18:49         ens5   3391.20   3251.60    720.42    769.51      0.00      0.00      0.00      0.00
+18:18:49      docker0   3220.80   3390.20    723.23    720.29      0.00      0.00      0.00      0.00
+18:18:49    vetha518c6a   3220.80   3390.20    767.27    720.29      0.00      0.00      0.00      0.06
+
+18:18:49        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:18:54        all     28.90      0.00     23.35      0.00      0.21     47.54
+
+18:18:49    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:18:54      1100660   1452508    298272     15.25      2168    482584   1325692     67.80    141040    548420        32
+
+18:18:49        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:18:54           lo      3.40      3.40      4.40      4.40      0.00      0.00      0.00      0.00
+18:18:54         ens5   3418.80   3260.20    729.31    777.23      0.00      0.00      0.00      0.00
+18:18:54      docker0   3230.60   3418.20    730.91    729.22      0.00      0.00      0.00      0.00
+18:18:54    vetha518c6a   3230.60   3418.20    775.07    729.22      0.00      0.00      0.00      0.06
+
+18:18:54        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:18:59        all     26.34      0.00     24.24      0.00      0.00     49.42
+
+18:18:54    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:18:59      1100660   1452488    298288     15.25      2168    482572   1325692     67.80    141040    548292        16
+
+18:18:54        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:18:59           lo      3.40      3.40      4.42      4.42      0.00      0.00      0.00      0.00
+18:18:59         ens5   3325.60   3157.40    704.16    750.34      0.00      0.00      0.00      0.00
+18:18:59      docker0   3126.20   3324.60    705.34    704.03      0.00      0.00      0.00      0.00
+18:18:59    vetha518c6a   3126.20   3324.60    748.08    704.03      0.00      0.00      0.00      0.06
+
+18:18:59        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:19:04        all     27.16      0.00     18.81      0.00     10.56     43.46
+
+18:18:59    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:19:04      1100660   1452472    298280     15.25      2168    482568   1324832     67.75    141040    548460        12
+
+18:18:59        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:19:04           lo      3.40      3.40      4.42      4.42      0.00      0.00      0.00      0.00
+18:19:04         ens5   2775.20   2658.00    586.98    628.21      0.00      0.00      0.00      0.00
+18:19:04      docker0   2635.40   2774.60    590.49    586.89      0.00      0.00      0.00      0.00
+18:19:04    vetha518c6a   2635.40   2774.60    626.52    586.89      0.00      0.00      0.00      0.05
+
+18:19:04        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:19:09        all     30.86      0.00     23.05      0.00      0.10     45.99
+
+18:19:04    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:19:09      1100412   1452212    298480     15.26      2168    482636   1326400     67.83    141040    548884        76
+
+18:19:04        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:19:09           lo      3.40      3.40      4.40      4.40      0.00      0.00      0.00      0.00
+18:19:09         ens5   3464.00   3294.60    735.51    783.57      0.00      0.00      0.00      0.00
+18:19:09      docker0   3259.80   3463.60    736.50    735.43      0.00      0.00      0.00      0.00
+18:19:09    vetha518c6a   3259.80   3463.60    781.07    735.43      0.00      0.00      0.00      0.06
+
+18:19:09        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:19:14        all     28.78      0.00     24.37      0.00      0.11     46.74
+
+18:19:09    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:19:14      1100172   1451932    298740     15.28      2168    482572   1326128     67.82    141044    548324        12
+
+18:19:09        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:19:14           lo      3.60      3.60      4.40      4.40      0.00      0.00      0.00      0.00
+18:19:14         ens5   3490.40   3315.20    740.83    789.36      0.00      0.00      0.00      0.00
+18:19:14      docker0   3280.60   3489.40    742.03    740.70      0.00      0.00      0.00      0.00
+18:19:14    vetha518c6a   3280.60   3489.40    786.89    740.70      0.00      0.00      0.00      0.06
+
+18:19:14        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:19:19        all     30.62      0.00     22.57      0.00      0.00     46.81
+
+18:19:14    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:19:19      1100728   1452556    298096     15.24      2168    482640   1326304     67.83    141044    548632        72
+
+18:19:14        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:19:19           lo      3.40      3.40      4.41      4.41      0.00      0.00      0.00      0.00
+18:19:19         ens5   3471.00   3320.80    739.50    789.66      0.00      0.00      0.00      0.00
+18:19:19      docker0   3283.40   3470.40    742.12    739.40      0.00      0.00      0.00      0.00
+18:19:19    vetha518c6a   3283.40   3470.40    787.01    739.40      0.00      0.00      0.00      0.06
+
+18:19:19        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:19:24        all     29.12      0.00     25.16      0.00      0.00     45.72
+
+18:19:19    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:19:24      1100248   1452092    298612     15.27      2168    482636   1326304     67.83    141044    548696        68
+
+18:19:19        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:19:24           lo      3.40      3.40      4.42      4.42      0.00      0.00      0.00      0.00
+18:19:24         ens5   3550.00   3391.80    754.66    805.29      0.00      0.00      0.00      0.00
+18:19:24      docker0   3357.60   3549.60    756.94    754.58      0.00      0.00      0.00      0.00
+18:19:24    vetha518c6a   3357.60   3549.60    802.84    754.58      0.00      0.00      0.00      0.07
+
+18:19:24        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:19:29        all     28.94      0.00     24.66      0.00      0.00     46.39
+
+18:19:24    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:19:29      1099588   1451364    299304     15.31      2168    482636   1325716     67.80    141044    548644        60
+
+18:19:24        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:19:29           lo      3.40      3.40      4.40      4.40      0.00      0.00      0.00      0.00
+18:19:29         ens5   3497.80   3316.80    740.61    788.50      0.00      0.00      0.00      0.00
+18:19:29      docker0   3286.40   3497.20    741.35    740.51      0.00      0.00      0.00      0.00
+18:19:29    vetha518c6a   3286.40   3497.20    786.28    740.51      0.00      0.00      0.00      0.06
+
+18:19:29        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:19:34        all     28.16      0.00     25.63      0.00      0.11     46.10
+
+18:19:29    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:19:34      1100044   1451832    298756     15.28      2168    482676   1326820     67.85    141048    549216       104
+
+18:19:29        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:19:34           lo      3.40      3.40      4.42      4.42      0.00      0.00      0.00      0.00
+18:19:34         ens5   3571.20   3417.60    759.00    810.28      0.00      0.00      0.00      0.00
+18:19:34      docker0   3384.80   3570.80    761.65    758.92      0.00      0.00      0.00      0.00
+18:19:34    vetha518c6a   3384.80   3570.80    807.93    758.92      0.00      0.00      0.00      0.07
+
+18:19:34        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:19:39        all     28.92      0.00     24.79      0.00      0.00     46.29
+
+18:19:34    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:19:39      1099564   1451352    299308     15.31      2168    482620   1327256     67.88    141048    549364        48
+
+18:19:34        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:19:39           lo      3.40      3.40      4.43      4.43      0.00      0.00      0.00      0.00
+18:19:39         ens5   3551.20   3376.40    752.63    802.09      0.00      0.00      0.00      0.00
+18:19:39      docker0   3343.60   3550.80    754.03    752.54      0.00      0.00      0.00      0.00
+18:19:39    vetha518c6a   3343.60   3550.80    799.74    752.54      0.00      0.00      0.00      0.07
+
+18:19:39        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:19:44        all     28.39      0.00     25.16      0.00      0.10     46.35
+
+18:19:39    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:19:44      1099316   1451156    299620     15.32      2168    482584   1327648     67.90    141048    549844        12
+
+18:19:39        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:19:44           lo      3.40      3.40      4.42      4.42      0.00      0.00      0.00      0.00
+18:19:44         ens5   3496.20   3338.20    744.42    794.25      0.00      0.00      0.00      0.00
+18:19:44      docker0   3302.80   3495.60    746.58    744.33      0.00      0.00      0.00      0.00
+18:19:44    vetha518c6a   3302.80   3495.60    791.73    744.33      0.00      0.00      0.00      0.06
+
+18:19:44        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:19:49        all     29.50      0.00     21.65      0.00      0.00     48.85
+
+18:19:44    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:19:49      1099316   1451140    299556     15.32      2168    482644   1327920     67.91    141048    549704        76
+
+18:19:44        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:19:49           lo      3.40      3.40      4.42      4.42      0.00      0.00      0.00      0.00
+18:19:49         ens5   3316.00   3178.80    709.63    758.32      0.00      0.00      0.00      0.00
+18:19:49      docker0   3144.80   3315.40    712.89    709.53      0.00      0.00      0.00      0.00
+18:19:49    vetha518c6a   3144.80   3315.40    755.88    709.53      0.00      0.00      0.00      0.06
+
+18:19:49        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:19:54        all     28.57      0.00     23.74      0.00      0.00     47.69
+
+18:19:49    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:19:54      1099316   1451148    299584     15.32      2168    482624   1328452     67.94    141052    549960        52
+
+18:19:49        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:19:54           lo      3.40      3.40      4.42      4.42      0.00      0.00      0.00      0.00
+18:19:54         ens5   3424.40   3280.80    731.20    781.18      0.00      0.00      0.00      0.00
+18:19:54      docker0   3246.40   3423.80    734.33    731.10      0.00      0.00      0.00      0.00
+18:19:54    vetha518c6a   3246.40   3423.80    778.71    731.10      0.00      0.00      0.00      0.06
+
+18:19:54        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:19:59        all     30.95      0.00     24.03      0.00      0.00     45.02
+
+18:19:54    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:19:59      1099316   1451208    299416     15.31      2168    482640   1327428     67.88    141052    548976       860
+
+18:19:54        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:19:59           lo      3.40      3.40      4.41      4.41      0.00      0.00      0.00      0.00
+18:19:59         ens5   3500.20   3336.20    742.47    791.73      0.00      0.00      0.00      0.00
+18:19:59      docker0   3301.20   3493.40    743.86    741.66      0.00      0.00      0.00      0.00
+18:19:59    vetha518c6a   3301.20   3493.40    788.99    741.66      0.00      0.00      0.00      0.06
+
+18:19:59        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:20:04        all     27.77      0.00     21.26      0.00     18.11     32.86
+
+18:19:59    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:20:04      1099068   1450984    299580     15.32      2168    482736   1326840     67.85    141052    549056       952
+
+18:19:59        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:20:04           lo      3.40      3.40      4.43      4.43      0.00      0.00      0.00      0.00
+18:20:04         ens5   2938.40   2818.40    631.11    674.52      0.00      0.00      0.00      0.00
+18:20:04      docker0   2789.20   2937.80    634.25    631.01      0.00      0.00      0.00      0.00
+18:20:04    vetha518c6a   2789.20   2937.80    672.38    631.01      0.00      0.00      0.00      0.06
+
+18:20:04        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:20:09        all     32.09      0.00     23.63      0.00      0.00     44.27
+
+18:20:04    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:20:09      1099068   1450916    299640     15.32      2168    482656   1328380     67.93    141052    549324       872
+
+18:20:04        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:20:09           lo      3.40      3.40      4.43      4.43      0.00      0.00      0.00      0.00
+18:20:09         ens5   3613.80   3442.80    766.12    817.11      0.00      0.00      0.00      0.00
+18:20:09      docker0   3411.80   3613.40    768.21    766.03      0.00      0.00      0.00      0.00
+18:20:09    vetha518c6a   3411.80   3613.40    814.86    766.03      0.00      0.00      0.00      0.07
+
+18:20:09        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:20:14        all     28.80      0.00     25.03      0.00      0.21     45.97
+
+18:20:09    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:20:14      1099068   1450900    299532     15.32      2168    482724   1328016     67.91    141052    548984       940
+
+18:20:09        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:20:14           lo      3.40      3.40      4.41      4.41      0.00      0.00      0.00      0.00
+18:20:14         ens5   3506.40   3336.80    746.33    795.60      0.00      0.00      0.00      0.00
+18:20:14      docker0   3305.20   3506.00    748.14    746.25      0.00      0.00      0.00      0.00
+18:20:14    vetha518c6a   3305.20   3506.00    793.33    746.25      0.00      0.00      0.00      0.06
+
+18:20:14        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:20:19        all     28.81      0.00     23.87      0.00      0.00     47.32
+
+18:20:14    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:20:19      1098820   1450692    299916     15.34      2168    482596   1327312     67.88    141056    548532       808
+
+18:20:14        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:20:19           lo      3.40      3.40      4.41      4.41      0.00      0.00      0.00      0.00
+18:20:19         ens5   3416.60   3265.20    727.32    776.28      0.00      0.00      0.00      0.00
+18:20:19      docker0   3227.80   3415.80    729.50    727.20      0.00      0.00      0.00      0.00
+18:20:19    vetha518c6a   3227.80   3415.80    773.63    727.20      0.00      0.00      0.00      0.06
+
+18:20:19        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:20:24        all     30.12      0.00     23.29      0.00      0.00     46.59
+
+18:20:19    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:20:24      1098820   1450648    299928     15.34      2168    482640   1327476     67.89    141056    549124       848
+
+18:20:19        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:20:24           lo      3.40      3.40      4.41      4.41      0.00      0.00      0.00      0.00
+18:20:24         ens5   3486.40   3341.60    744.06    794.89      0.00      0.00      0.00      0.00
+18:20:24      docker0   3304.80   3486.00    747.10    743.98      0.00      0.00      0.00      0.00
+18:20:24    vetha518c6a   3304.80   3486.00    792.29    743.98      0.00      0.00      0.00      0.06
+
+18:20:24        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:20:29        all     30.09      0.00     25.49      0.00      0.10     44.32
+
+18:20:24    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:20:29      1098572   1450412    300228     15.35      2168    482596   1326964     67.86    141056    549164        12
+
+18:20:24        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:20:29           lo      3.40      3.40      4.41      4.41      0.00      0.00      0.00      0.00
+18:20:29         ens5   3514.00   3360.00    745.17    795.26      0.00      0.00      0.00      0.00
+18:20:29      docker0   3332.60   3513.40    747.69    745.07      0.00      0.00      0.00      0.00
+18:20:29    vetha518c6a   3332.60   3513.40    793.25    745.07      0.00      0.00      0.00      0.06
+
+18:20:29        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:20:34        all     31.43      0.00     21.54      0.00      0.10     46.93
+
+18:20:29    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:20:34      1098396   1450156    300416     15.36      2168    482636   1326212     67.82    141056    549084        48
+
+18:20:29        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:20:34           lo      3.40      3.40      4.42      4.42      0.00      0.00      0.00      0.00
+18:20:34         ens5   3445.20   3304.80    735.74    786.06      0.00      0.00      0.00      0.00
+18:20:34      docker0   3273.80   3444.20    739.05    735.61      0.00      0.00      0.00      0.00
+18:20:34    vetha518c6a   3273.80   3444.20    783.81    735.61      0.00      0.00      0.00      0.06
+
+18:20:34        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:20:39        all     28.36      0.00     26.92      0.00      0.10     44.62
+
+18:20:34    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:20:39      1098332   1450088    300436     15.36      2168    482588   1325976     67.81    141056    548376         0
+
+18:20:34        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:20:39           lo      3.39      3.39      4.42      4.42      0.00      0.00      0.00      0.00
+18:20:39         ens5   3528.34   3377.84    752.16    803.51      0.00      0.00      0.00      0.00
+18:20:39      docker0   3345.51   3527.94    755.42    752.08      0.00      0.00      0.00      0.00
+18:20:39    vetha518c6a   3345.51   3527.94    801.16    752.08      0.00      0.00      0.00      0.07
+
+18:20:39        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:20:44        all     28.90      0.00     22.56      0.00      0.00     48.54
+
+18:20:39    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:20:44      1098332   1450136    300448     15.36      2168    482600   1326248     67.82    141060    548332         4
+
+18:20:39        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:20:44           lo      3.40      3.40      4.40      4.40      0.00      0.00      0.00      0.00
+18:20:44         ens5   3323.60   3129.80    704.48    748.47      0.00      0.00      0.00      0.00
+18:20:44      docker0   3097.20   3323.00    703.76    704.39      0.00      0.00      0.00      0.00
+18:20:44    vetha518c6a   3097.20   3323.00    746.10    704.39      0.00      0.00      0.00      0.06
+
+18:20:44        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:20:49        all     28.36      0.00     21.90      0.00      0.10     49.64
+
+18:20:44    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:20:49      1098332   1450188    300300     15.36      2168    482732   1324860     67.75    141060    548596       712
+
+18:20:44        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:20:49           lo      3.40      3.40      4.40      4.40      0.00      0.00      0.00      0.00
+18:20:49         ens5   3236.20   3070.40    688.58    734.28      0.00      0.00      0.00      0.00
+18:20:49      docker0   3038.80   3235.20    690.46    688.46      0.00      0.00      0.00      0.00
+18:20:49    vetha518c6a   3038.80   3235.20    732.01    688.46      0.00      0.00      0.00      0.06
+
+18:20:49        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:20:54        all     28.25      0.00     24.90      0.00      0.10     46.75
+
+18:20:49    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:20:54      1098084   1449920    300580     15.37      2168    482680   1326832     67.85    141060    548936       668
+
+18:20:49        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:20:54           lo      3.40      3.40      4.40      4.40      0.00      0.00      0.00      0.00
+18:20:54         ens5   3338.00   3179.80    706.52    753.41      0.00      0.00      0.00      0.00
+18:20:54      docker0   3144.00   3337.60    707.84    706.44      0.00      0.00      0.00      0.00
+18:20:54    vetha518c6a   3144.00   3337.60    750.83    706.44      0.00      0.00      0.00      0.06
+
+18:20:54        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:20:59        all     30.18      0.00     22.06      0.00      0.10     47.66
+
+18:20:54    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:20:59      1098084   1449996    300584     15.37      2168    482668   1327344     67.88    141060    548724        88
+
+18:20:54        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:20:59           lo      3.40      3.40      4.42      4.42      0.00      0.00      0.00      0.00
+18:20:59         ens5   3393.60   3234.60    722.44    770.82      0.00      0.00      0.00      0.00
+18:20:59      docker0   3202.80   3393.00    724.74    722.34      0.00      0.00      0.00      0.00
+18:20:59    vetha518c6a   3202.80   3393.00    768.52    722.34      0.00      0.00      0.00      0.06
+
+18:20:59        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:21:04        all     24.65      0.00     25.15      0.00     11.01     39.19
+
+18:20:59    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:21:04      1098084   1450000    300604     15.37      2168    482676   1327424     67.88    141060    549480        92
+
+18:20:59        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:21:04           lo      3.40      3.40      4.43      4.43      0.00      0.00      0.00      0.00
+18:21:04         ens5   3083.60   2945.80    661.45    706.50      0.00      0.00      0.00      0.00
+18:21:04      docker0   2916.40   3083.20    664.48    661.36      0.00      0.00      0.00      0.00
+18:21:04    vetha518c6a   2916.40   3083.20    704.36    661.36      0.00      0.00      0.00      0.06
+
+18:21:04        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:21:09        all     29.06      0.00     24.17      0.00      0.21     46.56
+
+18:21:04    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:21:09      1098084   1449920    300608     15.37      2168    482680   1326488     67.84    141064    549260        96
+
+18:21:04        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:21:09           lo      3.40      3.40      4.42      4.42      0.00      0.00      0.00      0.00
+18:21:09         ens5   3441.00   3297.80    736.83    787.36      0.00      0.00      0.00      0.00
+18:21:09      docker0   3266.00   3440.20    740.41    736.72      0.00      0.00      0.00      0.00
+18:21:09    vetha518c6a   3266.00   3440.20    785.06    736.72      0.00      0.00      0.00      0.06
+
+18:21:09        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:21:14        all     27.03      0.00     27.03      0.00      0.10     45.84
+
+18:21:09    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:21:14      1096452   1448224    302316     15.46      2168    482608   1326760     67.85    141064    548532        24
+
+18:21:09        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:21:14           lo      3.80      3.80      4.45      4.45      0.00      0.00      0.00      0.00
+18:21:14         ens5   3462.40   3300.00    737.04    786.08      0.00      0.00      0.00      0.00
+18:21:14      docker0   3267.00   3462.00    739.05    736.95      0.00      0.00      0.00      0.00
+18:21:14    vetha518c6a   3267.00   3462.00    783.72    736.95      0.00      0.00      0.00      0.06
+
+18:21:14        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:21:19        all     30.36      0.00     23.18      0.00      0.00     46.46
+
+18:21:14    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:21:19      1096404   1448240    302348     15.46      2168    482620   1326760     67.85    141064    549020        24
+
+18:21:14        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:21:19           lo      3.40      3.40      4.41      4.41      0.00      0.00      0.00      0.00
+18:21:19         ens5   3412.40   3268.80    725.43    774.70      0.00      0.00      0.00      0.00
+18:21:19      docker0   3235.40   3411.80    728.07    725.33      0.00      0.00      0.00      0.00
+18:21:19    vetha518c6a   3235.40   3411.80    772.30    725.33      0.00      0.00      0.00      0.06
+
+18:21:19        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:21:24        all     28.66      0.00     25.49      0.00      0.00     45.85
+
+18:21:19    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:21:24      1097416   1449260    301220     15.40      2168    482708   1328104     67.92    141068    548988       108
+
+18:21:19        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:21:24           lo      3.40      3.40      4.42      4.42      0.00      0.00      0.00      0.00
+18:21:24         ens5   3463.00   3285.60    734.92    782.84      0.00      0.00      0.00      0.00
+18:21:24      docker0   3256.40   3462.40    736.19    734.82      0.00      0.00      0.00      0.00
+18:21:24    vetha518c6a   3256.40   3462.40    780.71    734.82      0.00      0.00      0.00      0.06
+
+18:21:24        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:21:29        all     30.91      0.00     21.71      0.00      0.00     47.38
+
+18:21:24    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:21:29      1097416   1449268    301236     15.41      2168    482684   1328376     67.93    141068    549356        84
+
+18:21:24        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:21:29           lo      3.40      3.40      4.42      4.42      0.00      0.00      0.00      0.00
+18:21:29         ens5   3506.20   3376.00    748.49    800.63      0.00      0.00      0.00      0.00
+18:21:29      docker0   3348.20   3505.60    752.82    748.39      0.00      0.00      0.00      0.00
+18:21:29    vetha518c6a   3348.20   3505.60    798.60    748.39      0.00      0.00      0.00      0.07
+
+18:21:29        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:21:34        all     28.54      0.00     24.69      0.00      0.00     46.77
+
+18:21:29    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:21:34      1097416   1449276    301332     15.41      2168    482632   1328228     67.93    141068    550288        32
+
+18:21:29        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:21:34           lo      3.40      3.40      4.44      4.44      0.00      0.00      0.00      0.00
+18:21:34         ens5   3495.60   3357.00    744.89    796.20      0.00      0.00      0.00      0.00
+18:21:34      docker0   3322.20   3495.00    748.30    744.79      0.00      0.00      0.00      0.00
+18:21:34    vetha518c6a   3322.20   3495.00    793.72    744.79      0.00      0.00      0.00      0.07
+
+18:21:34        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:21:39        all     28.43      0.00     26.18      0.00      0.20     45.19
+
+18:21:34    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:21:39      1097456   1449248    301208     15.40      2168    482736   1328104     67.92    141068    549760       128
+
+18:21:34        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:21:39           lo      3.40      3.40      4.43      4.43      0.00      0.00      0.00      0.00
+18:21:39         ens5   3486.00   3329.00    741.72    791.22      0.00      0.00      0.00      0.00
+18:21:39      docker0   3295.80   3485.00    743.77    741.59      0.00      0.00      0.00      0.00
+18:21:39    vetha518c6a   3295.80   3485.00    788.83    741.59      0.00      0.00      0.00      0.06
+
+18:21:39        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:21:44        all     29.18      0.00     24.23      0.00      0.00     46.60
+
+18:21:39    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:21:44      1097488   1449348    301116     15.40      2168    482744   1328520     67.94    141068    549832       136
+
+18:21:39        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:21:44           lo      3.40      3.40      4.40      4.40      0.00      0.00      0.00      0.00
+18:21:44         ens5   3413.20   3271.20    725.47    775.09      0.00      0.00      0.00      0.00
+18:21:44      docker0   3233.20   3412.60    728.19    725.38      0.00      0.00      0.00      0.00
+18:21:44    vetha518c6a   3233.20   3412.60    772.40    725.38      0.00      0.00      0.00      0.06
+
+18:21:44        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:21:49        all     28.92      0.00     25.13      0.00      0.00     45.95
+
+18:21:44    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:21:49      1097488   1449288    301316     15.41      2168    482624   1328300     67.93    141072    550272        12
+
+18:21:44        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:21:49           lo      3.40      3.40      4.42      4.42      0.00      0.00      0.00      0.00
+18:21:49         ens5   3552.80   3387.20    756.40    806.81      0.00      0.00      0.00      0.00
+18:21:49      docker0   3353.00   3552.40    758.50    756.32      0.00      0.00      0.00      0.00
+18:21:49    vetha518c6a   3353.00   3552.40    804.35    756.32      0.00      0.00      0.00      0.07
+
+18:21:49        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:21:54        all     29.05      0.00     25.29      0.00      0.10     45.56
+
+18:21:49    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:21:54      1097240   1449124    301488     15.42      2168    482688   1328308     67.93    141072    550256        76
+
+18:21:49        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:21:54           lo      3.40      3.40      4.42      4.42      0.00      0.00      0.00      0.00
+18:21:54         ens5   3506.20   3345.40    744.71    794.37      0.00      0.00      0.00      0.00
+18:21:54      docker0   3312.60   3505.60    746.72    744.61      0.00      0.00      0.00      0.00
+18:21:54    vetha518c6a   3312.60   3505.60    792.01    744.61      0.00      0.00      0.00      0.06
+
+18:21:54        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:21:59        all     33.12      0.00     22.40      0.00      0.00     44.48
+
+18:21:54    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:21:59      1100672   1452512    298104     15.25      2168    482632   1327792     67.90    141072    550064       804
+
+18:21:54        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:21:59           lo      3.40      3.40      4.41      4.41      0.00      0.00      0.00      0.00
+18:21:59         ens5   3532.40   3389.40    755.59    807.52      0.00      0.00      0.00      0.00
+18:21:59      docker0   3349.00   3525.40    758.64    754.77      0.00      0.00      0.00      0.00
+18:21:59    vetha518c6a   3349.00   3525.40    804.43    754.77      0.00      0.00      0.00      0.07
+
+18:21:59        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:22:04        all     25.45      0.00     22.43      0.00     11.97     40.14
+
+18:21:59    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:22:04      1100672   1452576    298084     15.24      2168    482636   1328380     67.93    141072    549984       808
+
+18:21:59        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:22:04           lo      3.40      3.40      4.42      4.42      0.00      0.00      0.00      0.00
+18:22:04         ens5   2903.20   2780.60    618.72    661.42      0.00      0.00      0.00      0.00
+18:22:04      docker0   2753.00   2902.40    621.75    618.61      0.00      0.00      0.00      0.00
+18:22:04    vetha518c6a   2753.00   2902.40    659.39    618.61      0.00      0.00      0.00      0.05
+
+18:22:04        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:22:09        all     30.42      0.00     25.39      0.00      0.21     43.99
+
+18:22:04    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:22:09      1100672   1452556    298152     15.25      2168    482632   1328460     67.94    141076    550164       800
+
+18:22:04        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:22:09           lo      3.40      3.40      4.43      4.43      0.00      0.00      0.00      0.00
+18:22:09         ens5   3581.80   3384.80    756.69    804.78      0.00      0.00      0.00      0.00
+18:22:09      docker0   3353.20   3581.40    756.65    756.61      0.00      0.00      0.00      0.00
+18:22:09    vetha518c6a   3353.20   3581.40    802.50    756.61      0.00      0.00      0.00      0.07
+
+18:22:09        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:22:14        all     30.46      0.00     23.60      0.00      0.00     45.95
+
+18:22:09    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:22:14      1100432   1452304    298304     15.26      2168    482680   1329484     67.99    141076    550632       852
+
+18:22:09        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:22:14           lo      3.40      3.40      4.40      4.40      0.00      0.00      0.00      0.00
+18:22:14         ens5   3507.60   3329.00    744.75    793.46      0.00      0.00      0.00      0.00
+18:22:14      docker0   3294.20   3506.80    745.92    744.64      0.00      0.00      0.00      0.00
+18:22:14    vetha518c6a   3294.20   3506.80    790.96    744.64      0.00      0.00      0.00      0.06
+
+18:22:14        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:22:19        all     31.17      0.00     24.97      0.00      0.21     43.65
+
+18:22:14    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:22:19      1100604   1452436    298160     15.25      2168    482748   1328044     67.92    141076    550556       920
+
+18:22:14        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:22:19           lo      3.40      3.40      4.42      4.42      0.00      0.00      0.00      0.00
+18:22:19         ens5   3553.20   3416.60    758.43    810.98      0.00      0.00      0.00      0.00
+18:22:19      docker0   3381.20   3552.40    762.23    758.33      0.00      0.00      0.00      0.00
+18:22:19    vetha518c6a   3381.20   3552.40    808.46    758.33      0.00      0.00      0.00      0.07
+
+18:22:19        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:22:24        all     31.24      0.00     23.74      0.00      0.10     44.91
+
+18:22:19    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:22:24      1100140   1452000    298708     15.28      2168    482660   1326772     67.85    141076    550312       832
+
+18:22:19        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:22:24           lo      3.40      3.40      4.41      4.41      0.00      0.00      0.00      0.00
+18:22:24         ens5   3535.40   3401.20    754.11    806.33      0.00      0.00      0.00      0.00
+18:22:24      docker0   3367.20   3534.40    757.86    753.99      0.00      0.00      0.00      0.00
+18:22:24    vetha518c6a   3367.20   3534.40    803.90    753.99      0.00      0.00      0.00      0.07
+
+18:22:24        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:22:29        all     31.26      0.00     25.36      0.20      0.00     43.18
+
+18:22:24    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:22:29      1100396   1452288    298428     15.26      2168    482644   1328312     67.93    141076    550796        24
+
+18:22:24        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:22:29           lo      3.40      3.40      4.42      4.42      0.00      0.00      0.00      0.00
+18:22:29         ens5   3587.00   3429.00    760.00    811.01      0.00      0.00      0.00      0.00
+18:22:29      docker0   3397.40   3586.40    762.28    759.90      0.00      0.00      0.00      0.00
+18:22:29    vetha518c6a   3397.40   3586.40    808.73    759.90      0.00      0.00      0.00      0.07
+
+18:22:29        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:22:34        all     30.00      0.00     26.29      0.00      0.31     43.40
+
+18:22:29    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:22:34      1100164   1451972    298596     15.27      2168    482744   1327876     67.91    141080    550128       124
+
+18:22:29        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:22:34           lo      3.40      3.40      4.40      4.40      0.00      0.00      0.00      0.00
+18:22:34         ens5   3600.60   3403.00    760.30    808.73      0.00      0.00      0.00      0.00
+18:22:34      docker0   3374.20   3600.00    760.48    760.20      0.00      0.00      0.00      0.00
+18:22:34    vetha518c6a   3374.20   3600.00    806.62    760.20      0.00      0.00      0.00      0.07
+
+18:22:34        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:22:39        all     29.92      0.00     25.84      0.00      0.42     43.83
+
+18:22:34    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:22:39      1100164   1452080    298644     15.27      2168    482676   1326188     67.82    141080    549364        56
+
+18:22:34        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:22:39           lo      3.40      3.40      4.41      4.41      0.00      0.00      0.00      0.00
+18:22:39         ens5   3578.80   3446.40    764.97    818.12      0.00      0.00      0.00      0.00
+18:22:39      docker0   3412.40   3578.00    769.02    764.85      0.00      0.00      0.00      0.00
+18:22:39    vetha518c6a   3412.40   3578.00    815.68    764.85      0.00      0.00      0.00      0.07
+
+18:22:39        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:22:44        all     32.46      0.00     22.06      0.00      0.21     45.27
+
+18:22:39    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:22:44      1099692   1451608    299080     15.29      2168    482676   1328388     67.93    141080    549596        44
+
+18:22:39        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:22:44           lo      3.40      3.40      4.40      4.40      0.00      0.00      0.00      0.00
+18:22:44         ens5   3589.40   3462.80    767.46    821.21      0.00      0.00      0.00      0.00
+18:22:44      docker0   3424.80   3588.20    771.70    767.32      0.00      0.00      0.00      0.00
+18:22:44    vetha518c6a   3424.80   3588.20    818.52    767.32      0.00      0.00      0.00      0.07
+
+18:22:44        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:22:49        all     31.92      0.00     23.94      0.00      0.00     44.15
+
+18:22:44    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:22:49      1100288   1452204    298500     15.27      2168    482644   1325844     67.80    141080    549548        16
+
+18:22:44        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:22:49           lo      3.40      3.40      4.42      4.42      0.00      0.00      0.00      0.00
+18:22:49         ens5   3583.20   3455.40    764.02    817.40      0.00      0.00      0.00      0.00
+18:22:49      docker0   3422.80   3582.80    768.25    763.94      0.00      0.00      0.00      0.00
+18:22:49    vetha518c6a   3422.80   3582.80    815.05    763.94      0.00      0.00      0.00      0.07
+
+18:22:49        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:22:54        all     30.68      0.00     24.16      0.00      0.20     44.95
+
+18:22:49    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:22:54      1100240   1452140    298496     15.27      2168    482732   1327088     67.87    141084    549780       100
+
+18:22:49        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:22:54           lo      3.40      3.40      4.42      4.42      0.00      0.00      0.00      0.00
+18:22:54         ens5   3501.60   3350.40    743.71    793.93      0.00      0.00      0.00      0.00
+18:22:54      docker0   3315.00   3501.20    746.08    743.63      0.00      0.00      0.00      0.00
+18:22:54    vetha518c6a   3315.00   3501.20    791.40    743.63      0.00      0.00      0.00      0.06
+
+18:22:54        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:22:59        all     26.04      0.00     22.60      0.00      0.00     51.35
+
+18:22:54    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:22:59      1101004   1452880    297812     15.23      2168    482716   1324808     67.75    141084    549008        84
+
+18:22:54        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:22:59           lo      3.40      3.40      4.42      4.42      0.00      0.00      0.00      0.00
+18:22:59         ens5   3145.80   3038.40    672.87    720.92      0.00      0.00      0.00      0.00
+18:22:59      docker0   3010.60   3145.20    677.72    672.77      0.00      0.00      0.00      0.00
+18:22:59    vetha518c6a   3010.60   3145.20    718.88    672.77      0.00      0.00      0.00      0.06
+
+18:22:59        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:23:04        all      0.70      0.00      0.30      0.00      0.90     98.09
+
+18:22:59    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:23:04      1101424   1453144    297644     15.22      2168    482652   1328292     67.93    141084    550252        12
+
+18:22:59        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:23:04           lo      3.80      3.80      4.42      4.42      0.00      0.00      0.00      0.00
+18:23:04         ens5     41.60     41.20      8.11     12.60      0.00      0.00      0.00      0.00
+18:23:04      docker0     39.20     40.20     11.70      7.97      0.00      0.00      0.00      0.00
+18:23:04    vetha518c6a     39.20     40.20     12.24      7.97      0.00      0.00      0.00      0.00
+
+18:23:04        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:23:09        all      0.40      0.00      0.10      0.00      0.00     99.50
+
+18:23:04    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:23:09      1101424   1453144    297640     15.22      2168    482656   1323704     67.69    141084    547048        16
+
+18:23:04        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:23:09           lo      3.40      3.40      4.33      4.33      0.00      0.00      0.00      0.00
+18:23:09         ens5      3.60      4.00      0.52      4.43      0.00      0.00      0.00      0.00
+18:23:09      docker0      1.80      2.40      4.02      0.38      0.00      0.00      0.00      0.00
+18:23:09    vetha518c6a      1.80      2.40      4.05      0.38      0.00      0.00      0.00      0.00
+
+18:23:09        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:23:14        all      0.20      0.00      0.00      0.00      0.00     99.80
+
+18:23:09    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:23:14      1101424   1453144    297636     15.22      2168    482660   1323440     67.68    141088    547100        16
+
+18:23:09        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:23:14           lo      3.20      3.20      4.29      4.29      0.00      0.00      0.00      0.00
+18:23:14         ens5      3.60      3.80      0.52      4.39      0.00      0.00      0.00      0.00
+18:23:14      docker0      1.80      2.40      4.00      0.38      0.00      0.00      0.00      0.00
+18:23:14    vetha518c6a      1.80      2.40      4.02      0.38      0.00      0.00      0.00      0.00
+
+18:23:14        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:23:19        all      0.30      0.00      0.10      0.00      0.00     99.60
+
+18:23:14    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:23:19      1101424   1453148    297636     15.22      2168    482660   1323392     67.68    141088    547084         8
+
+18:23:14        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:23:19           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:23:19         ens5      3.40      4.20      0.51      4.42      0.00      0.00      0.00      0.00
+18:23:19      docker0      1.80      2.40      3.99      0.38      0.00      0.00      0.00      0.00
+18:23:19    vetha518c6a      1.80      2.40      4.02      0.38      0.00      0.00      0.00      0.00
+
+18:23:19        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:23:24        all      0.30      0.00      0.10      0.00      0.00     99.60
+
+18:23:19    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:23:24      1102828   1454552    296232     15.15      2168    482660   1321968     67.61    141088    545576         8
+
+18:23:19        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:23:24           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:23:24         ens5      3.60      4.20      0.52      4.41      0.00      0.00      0.00      0.00
+18:23:24      docker0      2.20      2.80      4.02      0.41      0.00      0.00      0.00      0.00
+18:23:24    vetha518c6a      2.20      2.80      4.05      0.41      0.00      0.00      0.00      0.00
+
+18:23:24        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:23:29        all      0.10      0.00      0.10      0.00      0.10     99.70
+
+18:23:24    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:23:29      1102828   1454552    296232     15.15      2168    482660   1321968     67.61    141088    545584         8
+
+18:23:24        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:23:29           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:23:29         ens5      4.00      4.20      0.54      4.41      0.00      0.00      0.00      0.00
+18:23:29      docker0      2.20      2.80      4.02      0.41      0.00      0.00      0.00      0.00
+18:23:29    vetha518c6a      2.20      2.80      4.05      0.41      0.00      0.00      0.00      0.00
+
+18:23:29        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:23:34        all      0.40      0.00      0.10      0.00      0.00     99.50
+
+18:23:29    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:23:34      1102828   1454552    296232     15.15      2168    482660   1323488     67.68    141088    546704        16
+
+18:23:29        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:23:34           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:23:34         ens5      3.80      4.00      0.53      4.40      0.00      0.00      0.00      0.00
+18:23:34      docker0      1.80      2.40      4.00      0.38      0.00      0.00      0.00      0.00
+18:23:34    vetha518c6a      1.80      2.40      4.02      0.38      0.00      0.00      0.00      0.00
+
+18:23:34        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:23:39        all      0.20      0.00      0.10      0.00      0.00     99.70
+
+18:23:34    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:23:39      1102828   1454528    296280     15.15      2168    482664   1323200     67.67    141092    546112        16
+
+18:23:34        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:23:39           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:23:39         ens5      3.60      4.40      0.52      4.43      0.00      0.00      0.00      0.00
+18:23:39      docker0      2.20      2.80      4.02      0.41      0.00      0.00      0.00      0.00
+18:23:39    vetha518c6a      2.20      2.80      4.05      0.41      0.00      0.00      0.00      0.00
+
+18:23:39        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:23:44        all      0.20      0.00      0.00      0.00      0.00     99.80
+
+18:23:39    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:23:44      1102828   1454528    296272     15.15      2168    482668   1323200     67.67    141092    546232        20
+
+18:23:39        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:23:44           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:23:44         ens5      4.40      4.20      0.57      4.41      0.00      0.00      0.00      0.00
+18:23:44      docker0      2.20      2.80      4.02      0.41      0.00      0.00      0.00      0.00
+18:23:44    vetha518c6a      2.20      2.80      4.05      0.41      0.00      0.00      0.00      0.00
+
+18:23:44        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:23:49        all      0.30      0.00      0.10      0.00      0.00     99.60
+
+18:23:44    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:23:49      1102828   1454532    296280     15.15      2168    482668   1323152     67.67    141092    546184        12
+
+18:23:44        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:23:49           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:23:49         ens5      3.40      4.40      0.50      4.43      0.00      0.00      0.00      0.00
+18:23:49      docker0      1.80      2.40      4.00      0.38      0.00      0.00      0.00      0.00
+18:23:49    vetha518c6a      1.80      2.40      4.02      0.38      0.00      0.00      0.00      0.00
+
+18:23:49        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:23:54        all      0.20      0.00      0.10      0.00      0.20     99.50
+
+18:23:49    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:23:54      1102828   1454532    296280     15.15      2168    482668   1322640     67.64    141092    545804        16
+
+18:23:49        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:23:54           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:23:54         ens5      3.40      4.20      0.50      4.41      0.00      0.00      0.00      0.00
+18:23:54      docker0      2.20      2.80      4.02      0.41      0.00      0.00      0.00      0.00
+18:23:54    vetha518c6a      2.20      2.80      4.05      0.41      0.00      0.00      0.00      0.00
+
+18:23:54        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:23:59        all      0.60      0.00      1.30      0.00      0.00     98.10
+
+18:23:54    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:23:59      1100812   1452520    298148     15.25      2168    482672   1323208     67.67    141096    546756       804
+
+18:23:54        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:23:59           lo      3.20      3.20      4.29      4.29      0.00      0.00      0.00      0.00
+18:23:59         ens5     10.00     10.40      1.24      5.05      0.00      0.00      0.00      0.00
+18:23:59      docker0      2.20      2.60      4.02      0.40      0.00      0.00      0.00      0.00
+18:23:59    vetha518c6a      2.20      2.60      4.05      0.40      0.00      0.00      0.00      0.00
+
+18:23:59        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:24:04        all      0.40      0.00      0.20      0.00      0.80     98.61
+
+18:23:59    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:24:04      1100812   1452520    298156     15.25      2168    482676   1324288     67.72    141096    546940       808
+
+18:23:59        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:24:04           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:24:04         ens5      3.40      4.00      0.51      4.40      0.00      0.00      0.00      0.00
+18:24:04      docker0      1.80      2.40      4.00      0.38      0.00      0.00      0.00      0.00
+18:24:04    vetha518c6a      1.80      2.40      4.02      0.38      0.00      0.00      0.00      0.00
+
+18:24:04        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:24:09        all      0.30      0.00      0.00      0.00      0.00     99.70
+
+18:24:04    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:24:09      1100812   1452524    298156     15.25      2168    482676   1321936     67.60    141096    546184       808
+
+18:24:04        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:24:09           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:24:09         ens5      3.80      4.20      0.53      4.41      0.00      0.00      0.00      0.00
+18:24:09      docker0      2.20      2.80      4.02      0.41      0.00      0.00      0.00      0.00
+18:24:09    vetha518c6a      2.20      2.80      4.05      0.41      0.00      0.00      0.00      0.00
+
+18:24:09        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:24:14        all      0.40      0.00      0.10      0.00      0.10     99.40
+
+18:24:09    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:24:14      1101552   1453264    297416     15.21      2168    482676   1323600     67.69    141096    546988       808
+
+18:24:09        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:24:14           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:24:14         ens5      4.20      4.40      0.56      4.43      0.00      0.00      0.00      0.00
+18:24:14      docker0      2.20      2.80      4.02      0.41      0.00      0.00      0.00      0.00
+18:24:14    vetha518c6a      2.20      2.80      4.05      0.41      0.00      0.00      0.00      0.00
+
+18:24:14        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:24:19        all      0.20      0.00      0.10      0.00      0.00     99.70
+
+18:24:14    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:24:19      1102548   1454260    296420     15.16      2168    482676   1322352     67.63    141096    545768       808
+
+18:24:14        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:24:19           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:24:19         ens5      3.80      3.80      0.53      4.38      0.00      0.00      0.00      0.00
+18:24:19      docker0      1.80      2.40      4.00      0.38      0.00      0.00      0.00      0.00
+18:24:19    vetha518c6a      1.80      2.40      4.02      0.38      0.00      0.00      0.00      0.00
+
+18:24:19        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:24:24        all      0.30      0.00      0.10      0.00      0.00     99.60
+
+18:24:19    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:24:24      1102548   1454260    296456     15.16      2168    482684   1322816     67.65    141100    545724       804
+
+18:24:19        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:24:24           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:24:24         ens5      3.80      4.80      0.54      4.48      0.00      0.00      0.00      0.00
+18:24:24      docker0      2.20      2.80      4.02      0.41      0.00      0.00      0.00      0.00
+18:24:24    vetha518c6a      2.20      2.80      4.05      0.41      0.00      0.00      0.00      0.00
+
+18:24:24        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:24:29        all      0.20      0.00      0.10      0.20      0.00     99.50
+
+18:24:24    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:24:29      1102548   1454260    296452     15.16      2168    482684   1323420     67.68    141100    546200        16
+
+18:24:24        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:24:29           lo      3.20      3.20      4.29      4.29      0.00      0.00      0.00      0.00
+18:24:29         ens5      3.80      4.40      0.53      4.43      0.00      0.00      0.00      0.00
+18:24:29      docker0      2.20      2.60      4.02      0.40      0.00      0.00      0.00      0.00
+18:24:29    vetha518c6a      2.20      2.60      4.05      0.40      0.00      0.00      0.00      0.00
+
+18:24:29        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:24:34        all      0.50      0.00      0.10      0.00      0.00     99.40
+
+18:24:29    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:24:34      1102548   1454260    296452     15.16      2168    482684   1324912     67.76    141100    547564        16
+
+18:24:29        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:24:34           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:24:34         ens5      3.40      3.80      0.50      4.38      0.00      0.00      0.00      0.00
+18:24:34      docker0      1.80      2.40      4.00      0.38      0.00      0.00      0.00      0.00
+18:24:34    vetha518c6a      1.80      2.40      4.02      0.38      0.00      0.00      0.00      0.00
+
+18:24:34        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:24:39        all      0.40      0.00      0.20      0.00      0.10     99.30
+
+18:24:34    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:24:39      1102548   1454260    296460     15.16      2168    482684   1327792     67.90    141100    547276         8
+
+18:24:34        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:24:39           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:24:39         ens5      4.20      4.40      0.56      4.43      0.00      0.00      0.00      0.00
+18:24:39      docker0      2.20      2.80      4.02      0.41      0.00      0.00      0.00      0.00
+18:24:39    vetha518c6a      2.20      2.80      4.05      0.41      0.00      0.00      0.00      0.00
+
+18:24:39        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:24:44        all      0.40      0.00      0.10      0.00      0.00     99.50
+
+18:24:39    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:24:44      1102548   1454260    296456     15.16      2168    482688   1326868     67.86    141104    547192         8
+
+18:24:39        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:24:44           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:24:44         ens5      3.60      4.20      0.52      4.41      0.00      0.00      0.00      0.00
+18:24:44      docker0      2.20      2.80      4.02      0.41      0.00      0.00      0.00      0.00
+18:24:44    vetha518c6a      2.20      2.80      4.05      0.41      0.00      0.00      0.00      0.00
+
+18:24:44        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:24:49        all      0.40      0.00      0.20      0.00      0.00     99.40
+
+18:24:44    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:24:49      1102548   1454260    296456     15.16      2168    482688   1324908     67.76    141104    546184         8
+
+18:24:44        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:24:49           lo      3.20      3.20      4.29      4.29      0.00      0.00      0.00      0.00
+18:24:49         ens5      3.60      4.00      0.51      4.39      0.00      0.00      0.00      0.00
+18:24:49      docker0      1.80      2.20      4.00      0.37      0.00      0.00      0.00      0.00
+18:24:49    vetha518c6a      1.80      2.20      4.02      0.37      0.00      0.00      0.00      0.00
+
+18:24:49        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:24:54        all      0.30      0.00      0.00      0.00      0.00     99.70
+
+18:24:49    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:24:54      1102548   1454260    296456     15.16      2168    482688   1324860     67.75    141104    546192        12
+
+18:24:49        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:24:54           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:24:54         ens5      4.00      4.40      0.55      4.43      0.00      0.00      0.00      0.00
+18:24:54      docker0      2.20      2.80      4.02      0.41      0.00      0.00      0.00      0.00
+18:24:54    vetha518c6a      2.20      2.80      4.05      0.41      0.00      0.00      0.00      0.00
+
+18:24:54        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:24:59        all      0.20      0.00      0.00      0.00      0.00     99.80
+
+18:24:54    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:24:59      1102548   1454264    296452     15.16      2168    482692   1324908     67.76    141104    546284        20
+
+18:24:54        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:24:59           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:24:59         ens5      4.20      4.20      0.56      4.41      0.00      0.00      0.00      0.00
+18:24:59      docker0      2.20      2.80      4.02      0.41      0.00      0.00      0.00      0.00
+18:24:59    vetha518c6a      2.20      2.80      4.05      0.41      0.00      0.00      0.00      0.00
+
+18:24:59        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:25:04        all      0.20      0.00      0.10      0.00      1.10     98.60
+
+18:24:59    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:25:04      1102548   1454264    296452     15.16      2168    482692   1326184     67.82    141104    546692        20
+
+18:24:59        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:25:04           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:25:04         ens5      3.20      3.80      0.49      4.38      0.00      0.00      0.00      0.00
+18:25:04      docker0      1.80      2.40      4.00      0.38      0.00      0.00      0.00      0.00
+18:25:04    vetha518c6a      1.80      2.40      4.02      0.38      0.00      0.00      0.00      0.00
+
+18:25:04        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:25:09        all      0.30      0.00      0.10      0.00      0.00     99.60
+
+18:25:04    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:25:09      1102548   1454264    296448     15.16      2168    482696   1324680     67.74    141108    546120        20
+
+18:25:04        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:25:09           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:25:09         ens5      3.80      4.40      0.53      4.43      0.00      0.00      0.00      0.00
+18:25:09      docker0      2.20      2.80      4.02      0.41      0.00      0.00      0.00      0.00
+18:25:09    vetha518c6a      2.20      2.80      4.05      0.41      0.00      0.00      0.00      0.00
+
+18:25:09        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:25:14        all      0.61      0.00      0.00      0.00      0.00     99.39
+
+18:25:09    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:25:14      1102548   1454264    296448     15.16      2168    482696   1325040     67.76    141108    545980        20
+
+18:25:09        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:25:14           lo     32.40     32.40     14.60     14.60      0.00      0.00      0.00      0.00
+18:25:14         ens5     18.80     13.60      5.87     10.30      0.00      0.00      0.00      0.00
+18:25:14      docker0     12.60     21.40      9.42      5.56      0.00      0.00      0.00      0.00
+18:25:14    vetha518c6a     12.60     21.40      9.59      5.56      0.00      0.00      0.00      0.00
+
+18:25:14        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:25:19        all      0.20      0.00      0.10      0.00      0.00     99.70
+
+18:25:14    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:25:19      1102548   1454264    296448     15.16      2168    482696   1325548     67.79    141108    546348        20
+
+18:25:14        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:25:19           lo      7.00      7.00      4.59      4.59      0.00      0.00      0.00      0.00
+18:25:19         ens5      6.80      5.60      0.91      4.80      0.00      0.00      0.00      0.00
+18:25:19      docker0      3.80      4.00      4.10      0.59      0.00      0.00      0.00      0.00
+18:25:19    vetha518c6a      3.80      4.00      4.15      0.59      0.00      0.00      0.00      0.00
+
+18:25:19        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:25:24        all      0.30      0.00      0.20      0.00      0.10     99.40
+
+18:25:19    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:25:24      1102548   1454268    296448     15.16      2168    482700   1325912     67.81    141108    546600        16
+
+18:25:19        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:25:24           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:25:24         ens5      3.80      4.20      0.53      4.41      0.00      0.00      0.00      0.00
+18:25:24      docker0      2.20      2.80      4.02      0.41      0.00      0.00      0.00      0.00
+18:25:24    vetha518c6a      2.20      2.80      4.05      0.41      0.00      0.00      0.00      0.00
+
+18:25:24        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:25:29        all      0.10      0.00      0.10      0.00      0.00     99.80
+
+18:25:24    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:25:29      1102548   1454268    296444     15.16      2168    482704   1326992     67.86    141112    546840        16
+
+18:25:24        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:25:29           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:25:29         ens5      3.80      4.40      0.54      4.43      0.00      0.00      0.00      0.00
+18:25:29      docker0      2.20      2.80      4.02      0.41      0.00      0.00      0.00      0.00
+18:25:29    vetha518c6a      2.20      2.80      4.05      0.41      0.00      0.00      0.00      0.00
+
+18:25:29        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:25:34        all      0.30      0.00      0.20      0.00      0.00     99.50
+
+18:25:29    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:25:34      1102548   1454268    296444     15.16      2168    482704   1326452     67.83    141112    546696        16
+
+18:25:29        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:25:34           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:25:34         ens5      3.60      3.80      0.51      4.38      0.00      0.00      0.00      0.00
+18:25:34      docker0      1.80      2.40      4.00      0.38      0.00      0.00      0.00      0.00
+18:25:34    vetha518c6a      1.80      2.40      4.02      0.38      0.00      0.00      0.00      0.00
+
+18:25:34        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:25:39        all      0.20      0.00      0.20      0.00      0.10     99.50
+
+18:25:34    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:25:39      1102548   1454268    296444     15.16      2168    482704   1328508     67.94    141112    547188        16
+
+18:25:34        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:25:39           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:25:39         ens5      3.80      4.20      0.53      4.41      0.00      0.00      0.00      0.00
+18:25:39      docker0      2.20      2.80      4.02      0.41      0.00      0.00      0.00      0.00
+18:25:39    vetha518c6a      2.20      2.80      4.05      0.41      0.00      0.00      0.00      0.00
+
+18:25:39        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:25:44        all      0.20      0.00      0.20      0.00      0.00     99.60
+
+18:25:39    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:25:44      1102548   1454268    296444     15.16      2168    482704   1327092     67.87    141112    547260        12
+
+18:25:39        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:25:44           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:25:44         ens5      4.00      4.40      0.55      4.43      0.00      0.00      0.00      0.00
+18:25:44      docker0      2.20      2.80      4.02      0.41      0.00      0.00      0.00      0.00
+18:25:44    vetha518c6a      2.20      2.80      4.05      0.41      0.00      0.00      0.00      0.00
+
+18:25:44        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:25:49        all      0.10      0.00      0.70      0.00      0.00     99.20
+
+18:25:44    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:25:49      1102548   1454268    296444     15.16      2168    482704   1326456     67.84    141112    547076        12
+
+18:25:44        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:25:49           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:25:49         ens5      4.20      4.00      0.55      4.39      0.00      0.00      0.00      0.00
+18:25:49      docker0      1.80      2.40      4.00      0.38      0.00      0.00      0.00      0.00
+18:25:49    vetha518c6a      1.80      2.40      4.02      0.38      0.00      0.00      0.00      0.00
+
+18:25:49        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:25:54        all      0.10      0.00      0.10      0.00      0.00     99.80
+
+18:25:49    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:25:54      1102548   1454268    296440     15.16      2168    482708   1325700     67.80    141116    546956        12
+
+18:25:49        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:25:54           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:25:54         ens5      3.40      4.20      0.51      4.41      0.00      0.00      0.00      0.00
+18:25:54      docker0      2.20      2.80      4.02      0.41      0.00      0.00      0.00      0.00
+18:25:54    vetha518c6a      2.20      2.80      4.05      0.41      0.00      0.00      0.00      0.00
+
+18:25:54        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:25:59        all      0.80      0.00      0.60      0.00      0.00     98.59
+
+18:25:54    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:25:59      1102548   1454276    296340     15.15      2168    482712   1327796     67.90    141120    547100       788
+
+18:25:54        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:25:59           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:25:59         ens5     10.40     11.00      1.27      5.10      0.00      0.00      0.00      0.00
+18:25:59      docker0      2.20      2.80      4.02      0.41      0.00      0.00      0.00      0.00
+18:25:59    vetha518c6a      2.20      2.80      4.05      0.41      0.00      0.00      0.00      0.00
+
+18:25:59        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:26:04        all      0.50      0.00      0.30      0.00      0.70     98.51
+
+18:25:59    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:26:04      1102548   1454276    296340     15.15      2168    482712   1326792     67.85    141120    546404       792
+
+18:25:59        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:26:04           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:26:04         ens5      3.20      3.80      0.49      4.38      0.00      0.00      0.00      0.00
+18:26:04      docker0      1.80      2.40      4.00      0.38      0.00      0.00      0.00      0.00
+18:26:04    vetha518c6a      1.80      2.40      4.02      0.38      0.00      0.00      0.00      0.00
+
+18:26:04        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:26:09        all      0.40      0.00      0.10      0.00      0.00     99.50
+
+18:26:04    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:26:09      1102548   1454276    296340     15.15      2168    482712   1326744     67.85    141120    546408       792
+
+18:26:04        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:26:09           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:26:09         ens5      3.20      4.20      0.49      4.41      0.00      0.00      0.00      0.00
+18:26:09      docker0      2.20      2.80      4.02      0.41      0.00      0.00      0.00      0.00
+18:26:09    vetha518c6a      2.20      2.80      4.05      0.41      0.00      0.00      0.00      0.00
+
+18:26:09        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:26:14        all      0.10      0.00      0.30      0.00      0.00     99.60
+
+18:26:09    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:26:14      1102548   1454276    296336     15.15      2168    482716   1327356     67.88    141124    546676       800
+
+18:26:09        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:26:14           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:26:14         ens5      4.40      4.60      0.57      4.47      0.00      0.00      0.00      0.00
+18:26:14      docker0      2.20      2.80      4.02      0.41      0.00      0.00      0.00      0.00
+18:26:14    vetha518c6a      2.20      2.80      4.05      0.41      0.00      0.00      0.00      0.00
+
+18:26:14        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:26:19        all      0.30      0.00      0.10      0.00      0.00     99.60
+
+18:26:14    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:26:19      1102548   1454276    296336     15.15      2168    482716   1327212     67.87    141124    546756       800
+
+18:26:14        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:26:19           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:26:19         ens5      4.00      4.00      0.54      4.62      0.00      0.00      0.00      0.00
+18:26:19      docker0      1.80      2.40      3.99      0.38      0.00      0.00      0.00      0.00
+18:26:19    vetha518c6a      1.80      2.40      4.02      0.38      0.00      0.00      0.00      0.00
+
+18:26:19        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:26:24        all      0.40      0.00      0.10      0.00      0.10     99.40
+
+18:26:19    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:26:24      1102044   1453772    296840     15.18      2168    482716   1329264     67.98    141124    547400       800
+
+18:26:19        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:26:24           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:26:24         ens5      4.00      4.20      0.54      4.41      0.00      0.00      0.00      0.00
+18:26:24      docker0      2.20      2.80      4.02      0.41      0.00      0.00      0.00      0.00
+18:26:24    vetha518c6a      2.20      2.80      4.05      0.41      0.00      0.00      0.00      0.00
+
+18:26:24        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:26:29        all      0.20      0.00      0.20      0.20      0.00     99.40
+
+18:26:24    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:26:29      1102044   1453772    296844     15.18      2168    482716   1329044     67.97    141124    547824        12
+
+18:26:24        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:26:29           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:26:29         ens5      4.00      4.60      0.55      4.45      0.00      0.00      0.00      0.00
+18:26:29      docker0      2.20      2.80      4.02      0.41      0.00      0.00      0.00      0.00
+18:26:29    vetha518c6a      2.20      2.80      4.05      0.41      0.00      0.00      0.00      0.00
+
+18:26:29        CPU     %user     %nice   %system   %iowait    %steal     %idle
+18:26:34        all      0.30      0.00      0.00      0.00      0.00     99.70
+
+18:26:29    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+18:26:34      1102044   1453772    296840     15.18      2168    482720   1328872     67.96    141128    547912        16
+
+18:26:29        IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+18:26:34           lo      3.40      3.40      4.30      4.30      0.00      0.00      0.00      0.00
+18:26:34         ens5      3.60      3.80      0.52      4.38      0.00      0.00      0.00      0.00
+18:26:34      docker0      1.80      2.40      4.00      0.38      0.00      0.00      0.00      0.00
+18:26:34    vetha518c6a      1.80      2.40      4.02      0.38      0.00      0.00      0.00      0.00

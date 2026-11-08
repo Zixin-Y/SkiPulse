@@ -1,132 +1,107 @@
-# Assignment 1 Design
+# CS6650 Assignment 2 — System Design
 
 ## Architecture
 
-The Java 11 load client runs on a local Mac and communicates
-with a Tomcat 9 server deployed on EC2.
+Client → ALB → Ingest servers → RabbitMQ resort queues
+→ Consumer aggregation → RabbitMQ fanout backplane
+→ Ingest servers → Local WebSocket subscribers.
 
-HTTP flow:
-SwipeGenerator → BlockingQueue → sender threads →
-shared HttpClient → EC2 SkierServlet.
+RabbitMQ and the Consumer run on separate EC2 instances.
+The ingest tier was tested with one, two, and four instances.
 
-WebSocket flow:
-EC2 LeaderboardEndpoint → ten persistent
-LeaderboardSubscriber instances → client metrics.
+## Ingestion and Queue Topology
 
-SkierServlet validates request paths and JSON bodies.
-Valid ski events receive HTTP 201; invalid requests receive
-HTTP 400. HealthServlet provides a health-check endpoint.
+Each ingest server validates requests, looks up the lift's vertical
+drop, and publishes an event to skitrak.exchange, a topic exchange.
+Routing key resort.{resortID} selects one of ten durable resort queues.
 
-LeaderboardEndpoint publishes synthetic leaderboard messages
-approximately every 500 ms. These messages are independent
-of the submitted events. No database or event aggregation
-is used in this assignment.
+The producer reuses one publishing connection and borrows channels
+from a thread-safe pool. Each borrowed channel has one owner at a time.
+HTTP 201 is returned only after broker confirmation.
+Connection recovery rebuilds the connection and channel pool.
 
-## Classes and Threading
+Resort queues use a 24-hour TTL, a maximum of 100,000 ready messages,
+and reject-publish overflow behavior. Dead-lettered events are routed
+through skitrak.dlx to skitrak.expired.
 
-SwipeEvent represents one generated ski event.
+## Processing Sequence
 
-SwipeGenerator runs on one dedicated thread and places
-500,000 events into an ArrayBlockingQueue. Generation finishes
-before sender execution, so senders do not wait for the
-generator during the measured ingestion phases.
+1. The client assigns an eventId and reuses it for retries.
+2. The ingest server validates and publishes the event.
+3. RabbitMQ confirms publication; the server returns HTTP 201.
+4. The Consumer validates the delivery and checks eventId.
+5. A new event updates the skier's resort/day vertical total.
+6. If Top N changes, the Consumer publishes a leaderboard snapshot.
+7. Each ingest server receives the snapshot and forwards it to its
+   local subscribers.
+8. The Consumer acknowledges the original swipe after successful
+   processing and required snapshot publication.
 
-IngestLoadClient coordinates generation, subscriptions,
-warmup, the main phase, shutdown, and reporting.
+Broker confirmation does not prove that a WebSocket client received
+an update. HTTP completion and downstream completion are distinct.
 
-Warmup uses 32 sender threads to send 32,000 events.
-The main phase sends the remaining 468,000 events.
-Main thread counts of 64, 128, and 256 were tested.
+## Connection Locality and Backplane
 
-Each sender task receives a fixed event quota, polls events
-from the shared queue, and calls SwipeSender. The coordinator
-waits for all tasks to finish before ending a phase.
+A WebSocket session belongs to the ingest server that accepted it.
+The Consumer therefore publishes snapshots to leaderboard.fanout.
 
-SwipeSender shares one HTTP/1.1 HttpClient across sender
-threads, allowing persistent connection reuse. It uses
-thread-safe counters and retries unsuccessful requests
-up to five times with exponential backoff starting at 100 ms.
+Each ingest server has its own temporary bound queue and forwards
+updates to its local sessions. A shared queue would distribute updates
+among servers rather than deliver a copy to every server.
 
-## WebSocket Strategy
+This approach allows ingest servers to scale independently of resort
+aggregation. Its costs include extra network traffic, subscriptions,
+and snapshot management. Temporary backplane queues do not provide
+durable replay across disconnects.
 
-Ten LeaderboardSubscriber instances subscribe to resorts
-1 through 10 using a shared subscription HttpClient.
+## Threading and Delivery
 
-Each subscriber has a background worker that establishes
-the connection, waits for disconnection, and reconnects
-with backoff. Message callbacks assemble fragmented text,
-parse JSON, and record update counts and timestamp differences.
+Resorts are distributed across configurable workers without overlapping
+ownership. Each resort has one serial aggregation execution stream.
+The current implementation caps active workers at ten.
 
-Ingestion starts after every subscriber has received an
-update. Subscribers remain active throughout ingestion
-and are closed during cleanup.
+Manual acknowledgements support redelivery after processing failure.
+Local retries complete before later deliveries are processed.
+eventId deduplication prevents duplicate aggregation within the
+lifetime of the in-memory state.
 
-Metrics include connection attempts, successful connections,
-reconnections, connection establishment time, and updates.
+Aggregation and deduplication state survive connection recovery within
+the same process, but not a process restart. This implementation does
+not provide durable exactly-once processing.
 
-## Measurement Design
+## Load Balancer and Deployment
 
-SwipeCsvRecorder records each HTTP attempt with timestamp,
-request type, latency, status code, and resort ID.
-Writes are synchronized. Network failures use status code zero.
+The ALB accepts HTTP on port 80 and forwards to Tomcat on port 8080.
+Health checks use /ski-servlet-v2/health with a 30-second interval,
+5-second timeout, healthy threshold 2, and unhealthy threshold 3.
+Cookie stickiness is configured for 300 seconds and idle timeout
+for 120 seconds.
 
-HTTP durations use System.nanoTime(), avoiding dependence
-on clock alignment between the client and server.
+The health response includes publishReady, backplaneReady, and serverId.
+Every ingest instance has a distinct SERVER_ID.
 
-LatencyStats computes mean, median, nearest-rank p95 and p99,
-minimum, and maximum. SwipeCsvAnalysis reports attempt counts,
-latency statistics, and successful throughput by resort.
+The Consumer is managed by systemd with startup and restart behavior.
+Tomcat was started manually after instance restarts.
+RabbitMQ uses Docker with a persistent data volume.
 
-ThroughputBuckets groups successful request completions
-into 10-second intervals. The final partial interval uses
-its actual duration. Completion times are approximated from
-the attempt timestamp plus measured latency.
+## Monitoring and Limitations
 
-Generation, warmup, main ingestion, and total runtime are
-reported separately. Main throughput excludes warmup.
+Client HTTP latency uses a monotonic clock. Consumer lag measures
+event age from the ingest timestamp to the point before aggregation.
+Push latency compares Consumer publication time with Mac reception time.
 
-## Little's Law and Performance
+Negative push timestamp differences occurred in formal runs, so affected
+push-latency summaries are invalid. Consumer lag also depends on
+cross-host clock alignment.
 
-The measured sequential HTTP baseline mean was 37.171 ms.
+Queue metrics are sampled every five seconds and can miss short peaks.
+System metrics describe entire hosts, not individual processes.
 
-Using L = lambda × W, with L approximated by the number
-of synchronous sender threads:
+Completed tests compare 500K events with one, two, and four ingest
+servers at 64 sender threads, plus a four-instance 1M retest.
+Increasing ingest count did not improve measured throughput at this
+client concurrency; the experiments do not isolate a single bottleneck.
 
-Predicted throughput = sender threads / 0.037171 seconds.
-
-Predictions are approximately:
-32 threads: 861 events/s;
-64 threads: 1,722 events/s;
-128 threads: 3,444 events/s;
-256 threads: 6,887 events/s.
-
-Measured main-phase throughput was:
-64 threads: 1,495.52 events/s;
-128 threads: 2,691.50 events/s;
-256 threads: 4,632.00 and 4,655.29 events/s.
-
-The second 256-thread run achieved approximately 67.6%
-of the baseline prediction. The estimate assumes constant
-response time. Under load, response time, retries, scheduling,
-logging, and resource limits may change. These measurements
-do not isolate a single bottleneck.
-
-## Connection Evidence and Limitations
-
-A separate 256-thread run attached an X-Run-ID header.
-Tomcat logged the client IP and port for matching requests.
-
-The server recorded 500,417 requests across 2,843 distinct
-client IP:port pairs, averaging 176.02 requests per pair.
-Every observed pair handled multiple requests, supporting
-connection reuse. These pairs are not an exact TCP connection
-count, and HTTP retries are not reconnection counts.
-
-Push latency uses the server timestamp and client receive
-time, so cross-machine clock error affects the result.
-Negative samples remained after Mac time synchronization.
-Raw values were retained without filtering or correction.
-
-Push timestamp differences therefore cannot be interpreted
-as precise absolute one-way latency. Subscription-only clock
-checks are reported separately from HTTP load tests.
+Dynamic Consumer scaling and the full requested thread matrix remain
+incomplete. Matching counts and drained queues support no observed
+loss in completed runs, not a guarantee under every failure condition.

@@ -7,17 +7,22 @@ import java.nio.file.Path;
 
 public class IngestLoadClient {
 
-    private static final int TOTAL_EVENTS = 500_000;
-    private static final int WARMUP_THREADS = 32;
-    private static final int WARMUP_PER_THREAD = 1000;
-    private static final int MAIN_THREADS = 256;
+    // Read load settings from JVM system properties.
+    private static final int TOTAL_EVENTS =
+            Integer.getInteger("load.events", 500_000);
+    private static final int WARMUP_THREADS =
+            Integer.getInteger("load.warmupThreads", 32);
+    private static final int WARMUP_PER_THREAD =
+            Integer.getInteger("load.warmupPerThread", 1000);
+    private static final int MAIN_THREADS =
+            Integer.getInteger("load.threads", 256);
 
     public static void main(String[] args) throws Exception {
         Path output = Path.of(
                 System.getProperty("user.home"),
                 "Downloads",
                 "6650",
-                "assignment1",
+                "assignment2",
                 "results",
                 "swipes-" + System.currentTimeMillis() + ".csv"
         );
@@ -81,7 +86,10 @@ public class IngestLoadClient {
         long generationStart = System.nanoTime();
 
         Thread generator = new Thread(
-                new SwipeGenerator(queue, TOTAL_EVENTS, 10, 2026, 1),
+                new SwipeGenerator(
+                        queue, TOTAL_EVENTS, 10, 2026,
+                        Integer.getInteger("load.day", 1)
+                ),
                 "swipe-generator"
         );
 
@@ -135,7 +143,7 @@ public class IngestLoadClient {
                 boolean allReady = true;
 
                 for (LeaderboardSubscriber subscriber : subscribers) {
-                    if (subscriber.getUpdateCount() == 0) {
+                    if (!subscriber.isConnected()) {
                         allReady = false;
                         break;
                     }
@@ -155,12 +163,16 @@ public class IngestLoadClient {
             }
 
             System.out.println(
-                    "All leaderboard subscriptions are receiving updates."
+                    "All leaderboard WebSocket connections are established."
             );
 
             long ingestStart = System.nanoTime();
 
-            int warmupEvents = WARMUP_THREADS * WARMUP_PER_THREAD;
+            // Keep the warmup count within the total event count.
+            int warmupEvents = (int) Math.min(
+                    (long) TOTAL_EVENTS,
+                    (long) WARMUP_THREADS * WARMUP_PER_THREAD
+            );
 
             runPhase(
                     "Warmup",
@@ -180,6 +192,24 @@ public class IngestLoadClient {
 
             ingestSeconds = elapsedSeconds(ingestStart);
             ingestCompleted = true;
+
+            // Keep subscriptions open until processing has been verified.
+            System.out.println();
+            System.out.println(
+                    "HTTP sending completed. WebSocket subscriptions remain open."
+            );
+            System.out.println(
+                    "Verify queue drain and the Consumer unique-event count."
+            );
+            System.out.println(
+                    "Press Enter here only after verification to close subscriptions."
+            );
+
+            if (System.in.read() == -1) {
+                throw new IllegalStateException(
+                        "Interactive input is unavailable for processing verification"
+                );
+            }
 
         } finally {
             for (LeaderboardSubscriber subscriber : subscribers) {
@@ -206,7 +236,7 @@ public class IngestLoadClient {
                     System.getProperty("user.home"),
                     "Downloads",
                     "6650",
-                    "assignment1",
+                    "assignment2",
                     "results",
                     "push-latencies-" + System.currentTimeMillis() + ".csv"
             );
@@ -259,6 +289,14 @@ public class IngestLoadClient {
             System.out.println(
                     "Negative push-latency samples: " + negativeSamples
             );
+
+            if (negativeSamples > 0) {
+                System.err.println(
+                        "INVALID PUSH-LATENCY RESULT: negative samples detected. "
+                                + "Do not report these statistics as valid latency."
+                );
+            }
+
             System.out.println("Push latency CSV: " + pushOutput);
         }
 

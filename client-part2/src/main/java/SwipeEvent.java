@@ -1,4 +1,6 @@
 public final class SwipeEvent {
+    // Generate one ID per logical swipe and preserve it across retries.
+    private final String eventId = java.util.UUID.randomUUID().toString();
 
     private final int resortID;
     private final int seasonID;
@@ -15,6 +17,10 @@ public final class SwipeEvent {
         this.skierID = skierID;
         this.time = time;
         this.liftID = liftID;
+    }
+
+    public String getEventId() {
+        return eventId;
     }
 
     public int getResortID() {

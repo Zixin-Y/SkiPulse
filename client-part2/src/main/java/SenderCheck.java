@@ -12,7 +12,7 @@ public class SenderCheck {
                 new ArrayBlockingQueue<>(totalEvents);
 
         Thread generator = new Thread(
-                new SwipeGenerator(queue, totalEvents, 10, 2026, 1),
+                new SwipeGenerator(queue, totalEvents, 10, 2026, 81),
                 "swipe-generator"
         );
 
@@ -32,7 +32,7 @@ public class SenderCheck {
 
         SwipeSender sender = new SwipeSender(
                 client,
-                "http://34.219.203.115:8080/ski-servlet"
+                "http://cs6650-a2-alb-549848062.us-west-2.elb.amazonaws.com/ski-servlet-v2"
         );
 
         SwipeEvent event;

@@ -37,7 +37,11 @@ public final class LeaderboardSubscriber implements AutoCloseable {
                 ? wsBaseUrl.substring(0, wsBaseUrl.length() - 1)
                 : wsBaseUrl;
 
-        this.uri = URI.create(base + "/leaderboard/" + resortID);
+        // Subscribe to the same day used by the load generator.
+        int dayID = Integer.getInteger("load.day", 1);
+        this.uri = URI.create(
+                base + "/leaderboard/" + resortID + "?dayID=" + dayID
+        );
     }
 
     public synchronized void start() {
@@ -137,6 +141,10 @@ public final class LeaderboardSubscriber implements AutoCloseable {
 
         private final CountDownLatch disconnected;
         private final StringBuilder message = new StringBuilder();
+        // Treat the first snapshot of each connection as a baseline.
+        private boolean baselineReceived;
+        private String lastSourceId;
+        private long lastVersion;
 
         private Listener(CountDownLatch disconnected) {
             this.disconnected = disconnected;
@@ -179,16 +187,59 @@ public final class LeaderboardSubscriber implements AutoCloseable {
                         );
                     }
 
+                    String sourceId =
+                            json.get("sourceId").getAsString();
+                    long version = json.get("version").getAsLong();
+
                     Instant serverTime = Instant.parse(
                             json.get("serverTimestamp").getAsString()
                     );
 
-                    double latencyMs = Duration.between(
-                            serverTime, receiveTime
-                    ).toNanos() / 1_000_000.0;
+                    if (!baselineReceived) {
+                        baselineReceived = true;
+                        lastSourceId = sourceId;
+                        lastVersion = version;
 
-                    synchronized (LeaderboardSubscriber.this) {
-                        pushLatenciesMs.add(latencyMs);
+                        System.out.printf(
+                                "Resort %d baseline excluded: sourceId=%s, version=%d%n",
+                                resortID, sourceId, version
+                        );
+
+                    } else if (sourceId.equals(lastSourceId)
+                            && version <= lastVersion) {
+                        // Ignore duplicate or older snapshots from the same source.
+                        System.out.printf(
+                                "Resort %d duplicate/old snapshot excluded: version=%d%n",
+                                resortID, version
+                        );
+
+                    } else {
+                        lastSourceId = sourceId;
+                        lastVersion = version;
+
+                        double latencyMs = Duration.between(
+                                serverTime, receiveTime
+                        ).toNanos() / 1_000_000.0;
+
+                        // Preserve negative samples for clock diagnostics.
+                        synchronized (LeaderboardSubscriber.this) {
+                            pushLatenciesMs.add(latencyMs);
+                        }
+
+                        if (latencyMs < 0) {
+                            System.err.printf(
+                                    java.util.Locale.ROOT,
+                                    "CLOCK_WARNING resort=%d sourceId=%s "
+                                            + "version=%d serverTime=%s "
+                                            + "receiveTime=%s latencyMs=%.6f%n",
+                                    resortID,
+                                    sourceId,
+                                    version,
+                                    serverTime,
+                                    receiveTime,
+                                    latencyMs
+                            );
+                        }
                     }
 
                 } catch (RuntimeException e) {
@@ -222,6 +273,15 @@ public final class LeaderboardSubscriber implements AutoCloseable {
 
             disconnected.countDown();
         }
+    }
+
+    // Check the current connection without waiting for leaderboard data.
+    public boolean isConnected() {
+        WebSocket current = socket;
+        return running
+                && current != null
+                && !current.isInputClosed()
+                && !current.isOutputClosed();
     }
 
     public synchronized int getUpdateCount() {

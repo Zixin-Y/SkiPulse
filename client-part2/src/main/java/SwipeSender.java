@@ -48,6 +48,8 @@ public final class SwipeSender {
                 .timeout(Duration.ofSeconds(10))
                 .header("Content-Type", "application/json")
                 .header("X-Run-ID", runId)
+                // Reuse the event ID for every attempt of this swipe.
+                .header("X-Event-ID", event.getEventId())
                 .POST(HttpRequest.BodyPublishers.ofString(
                         event.toJson()
                 ))

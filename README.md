@@ -1,270 +1,350 @@
-# CS6650 Assignment 1: Ski Event Load Testing
+# CS6650 Assignment 2: Message Distribution and the Real Leaderboard
 
 ## Project Structure
 
-- `server/`: Java servlet and WebSocket server.
-- `client-part1/`: Initial concurrent load client.
-- `client-part2/`: Load client with CSV recording, latency analysis,
-  throughput buckets, and WebSocket subscription metrics.
-- `results/`: Test logs, CSV files, screenshots, charts, and analysis notes.
+- `server-v2/`: HTTP ingestion, RabbitMQ publishing, and WebSocket leaderboard delivery.
+- `consumer/`: Validation, deduplication, vertical aggregation, Top N standings, and leaderboard broadcasting.
+- `monitoring/`: RabbitMQ monitoring script.
+- `deployment/`: Deployment documentation.
+- `client-part2/`: HTTP load generation, WebSocket subscriptions, and result analysis.
+- `results/`: Experimental logs, CSV files, and screenshots.
+- `DESIGN.md`: Architecture, threading model, and limitations.
+- `AI_USAGE.md`: AI usage reflection.
 
-## Requirements
+## Architecture
+
+```text
+Mac Load Client
+    |
+    v
+Application Load Balancer
+    |
+    v
+Ingest Servers
+    |
+    v
+RabbitMQ: skitrak.exchange
+    |
+    v
+resort.1 ... resort.10
+    |
+    v
+Consumer: Deduplication, Aggregation, and Top N
+    |
+    v
+RabbitMQ: leaderboard.fanout
+    |
+    v
+Each Ingest Server's Local WebSocket Subscribers
+```
+
+RabbitMQ and the Consumer run on separate EC2 instances.
+
+Each ingest server reuses an AMQP connection and borrows channels
+from a thread-safe pool. A valid swipe receives HTTP 201 only after
+a broker publisher confirmation.
+
+Each resort has one serial aggregation execution stream.
+The Consumer deduplicates events by `eventId` and manually acknowledges
+each delivery after successful processing and any required
+leaderboard publication.
+
+The fanout backplane bridges the connection-locality problem:
+each ingest server receives leaderboard snapshots and forwards them
+to its own WebSocket subscribers.
+
+## Requirements and Build
+
+Requirements:
 
 - Java 11
 - Maven
 - Apache Tomcat 9
-- An EC2 instance reachable from the client
-- Network access to port 8080
-- SSH access for deployment
+- RabbitMQ
+- AWS EC2 and an Application Load Balancer
+- Python 3 for queue monitoring
 
-The load client runs on the local Mac.
-The server runs on EC2.
+Each module containing a `pom.xml` is a separate Maven project.
 
-## Build
+In IntelliJ's Maven panel:
 
-Each directory containing a `pom.xml` is a separate Maven project.
+- `server-v2`: Run `package` to build the WAR.
+- `consumer`: Run `package` and deploy `consumer-1.0-SNAPSHOT.jar`.
+  Do not deploy the JAR whose name starts with `original-`.
+- `client-part2`: Run `compile`.
 
-In IntelliJ, open the relevant Maven project and use
-"Execute Maven Goal".
+Do not run the local `ConsumerMain` while the cloud Consumer is
+consuming the same resort queues.
 
-For the server, enter:
+## Queue Topology
 
-```text
-clean compile war:war
-```
+- Topic exchange: `skitrak.exchange`
+- Routing keys: `resort.{resortID}`
+- Resort queues: `resort.1` through `resort.10`
+- Dead-letter exchange: `skitrak.dlx`
+- Dead-letter queue: `skitrak.expired`
+- Leaderboard fanout exchange: `leaderboard.fanout`
 
-For either client, enter:
+Resort queues have message TTL and queue-length limits.
+Each ingest server maintains its own temporary backplane queue.
 
-```text
-compile
-```
+## Deployment
 
-When using IntelliJ's Maven goal field, do not include the `mvn` prefix.
+AWS region: `us-west-2`
 
-## Server Deployment
+Deployment components:
 
-The server WAR is built under `server/target/`.
+- One, two, or four ingest EC2 instances
+- One RabbitMQ EC2 instance using Docker and a persistent volume
+- One Consumer EC2 instance managed by systemd
+- One Application Load Balancer
 
-Copy the WAR from the local computer to EC2:
-
-```bash
-scp -i ~/.ssh/cs6650-lab1-key.pem \
-  server/target/ski-servlet-1.0-SNAPSHOT.war \
-  ec2-user@EC2_PUBLIC_IP:/tmp/
-```
-
-This command assumes the terminal is in the repository root.
-Replace the key path and EC2_PUBLIC_IP as appropriate.
-
-On EC2, stop Tomcat before replacing the deployed WAR:
-
-```bash
-/opt/tomcat9/bin/shutdown.sh
-```
-
-After Tomcat has stopped, copy the WAR:
-
-```bash
-sudo cp /tmp/ski-servlet-1.0-SNAPSHOT.war \
-  /opt/tomcat9/webapps/ski-servlet.war
-```
-
-Start Tomcat:
-
-```bash
-/opt/tomcat9/bin/startup.sh
-```
-
-Verify the server on EC2:
-
-```bash
-curl -i http://localhost:8080/ski-servlet/health
-```
-
-Expected response: HTTP 200 with `{"status":"UP"}`.
-
-## Server Endpoints
-
-### Health
+Ingest paths:
 
 ```text
-GET /ski-servlet/health
+/opt/tomcat9/bin/setenv.sh
+/opt/tomcat9/webapps/ski-servlet-v2.war
 ```
 
-### Ski Event Ingestion
+Consumer paths:
 
 ```text
-POST /ski-servlet/skiers/{resortID}/seasons/{seasonID}/days/{dayID}/skiers/{skierID}
+/opt/skitrak-consumer/consumer.jar
+/opt/skitrak-consumer/run.sh
+/etc/systemd/system/skitrak-consumer.service
 ```
 
-Example JSON body:
+Each ingest instance must have a distinct `SERVER_ID`.
 
-```json
-{"time":120,"liftID":10}
-```
+The Consumer service starts on boot and is configured to restart
+after failure. Tomcat was started manually during the experiments.
 
-Valid events receive HTTP 201.
-Invalid requests receive HTTP 400.
+Public EC2 addresses can change after stopping and starting instances.
+Verify current addresses before using SSH or deployment commands.
 
-### Leaderboard Subscription
+## Application Endpoints
+
+Health:
 
 ```text
-ws://EC2_PUBLIC_IP:8080/ski-servlet/leaderboard/{resortID}
+GET /ski-servlet-v2/health
 ```
 
-The server sends synthetic leaderboard updates approximately
-every 500 milliseconds. These updates are not computed from
-the submitted ski events.
+The response includes `status`, `publishReady`, `backplaneReady`,
+and `serverId`.
 
-## Running the Load Clients
-
-Open `client-part1` or `client-part2` as a Maven project in IntelliJ.
-
-Run the main method in `IngestLoadClient`.
-
-Set its Program arguments to:
+Swipe ingestion:
 
 ```text
-http://EC2_PUBLIC_IP:8080/ski-servlet
+POST /ski-servlet-v2/skiers/{resortID}/seasons/{seasonID}/days/{dayID}/skiers/{skierID}
 ```
 
-Always supply the current EC2 address rather than relying on
-a hard-coded default address.
-
-The formal workload contains 500,000 events:
-
-- Warmup: 32 sender threads, 32,000 events.
-- Main phase: remaining 468,000 events.
-- Main sender thread counts tested: 64, 128, and 256.
-- Ten persistent WebSocket subscriptions run alongside ingestion.
-
-The event generator prepares events before the sender phases.
-Sender threads share an HTTP client to allow connection reuse.
-Failed requests are retried up to five times with exponential backoff.
-
-## Part 2 Output
-
-Part 2 writes an HTTP attempt CSV with these columns:
+WebSocket subscription:
 
 ```text
-timestamp,requestType,latency,statusCode,resortID
+/ski-servlet-v2/leaderboard/{resortID}?dayID={dayID}
 ```
 
-A status code of zero indicates a client-side network error.
+ALB base URL used during testing:
 
-It also writes:
+```text
+http://cs6650-a2-alb-549848062.us-west-2.elb.amazonaws.com/ski-servlet-v2
+```
 
-- A push-latency CSV.
-- A throughput CSV using 10-second buckets.
-- Console summaries of ingestion and subscription metrics.
+The endpoint is available only while the lab resources are running.
 
-The final partial throughput bucket uses its actual duration.
+## Load Client Configuration
 
-To preserve console output in IntelliJ:
+Run `IngestLoadClient` in IntelliJ using the `client-part2` module.
 
-1. Open the run configuration.
-2. Select "Modify options".
-3. Enable "Save console output to file".
-4. Choose a new log filename in `results/` for each run.
+Set Program arguments to the ALB base URL.
+
+Example VM options for 500,000 events:
+
+```text
+-Xmx2g -Dload.events=500000 -Dload.threads=64 -Dload.warmupThreads=32 -Dload.warmupPerThread=1000 -Dload.day=7
+```
+
+Example VM options for 1,000,000 events:
+
+```text
+-Xmx2g -Dload.events=1000000 -Dload.threads=64 -Dload.warmupThreads=32 -Dload.warmupPerThread=1000 -Dload.day=9
+```
+
+The 32,000 warmup events are included in the total event count.
+`load.threads` controls the main-phase HTTP sender thread count.
+
+Use a separate console-output file for every run and an unused,
+valid day ID to isolate leaderboard state between experiments.
+
+The client waits until all ten WebSocket subscriptions are established
+before sending swipes. Retries of the same swipe reuse its `eventId`.
+
+After HTTP sending completes, subscriptions remain open while the
+client waits for manual confirmation. Verify:
+
+1. The Consumer `sourceId` has not changed.
+2. The unique processed-event counter increased by the expected amount.
+3. Resort queues have drained.
+4. The dead-letter queue has not grown.
+
+Then press Return in the IntelliJ Run console to close subscriptions
+and finish reporting.
+
+## Monitoring
+
+`monitoring/rabbitmq_monitor.py` polls the management HTTP API through
+an SSH tunnel and writes queue metrics to CSV.
+
+Collected fields include:
+
+- Ready, unacknowledged, and total messages
+- Consumer count
+- Publish, delivery, and acknowledgement rates
+- Publish and acknowledgement counters, when available
+
+Unavailable statistics remain blank rather than being recorded as zero.
+The sampling interval is five seconds and can miss brief peaks.
+
+Consumer logs include:
+
+```text
+CONSUMER_METRICS sourceId=... uniqueSwipesProcessed=...
+lagSamples=... lagMeanMs=... lagMinMs=... lagMaxMs=...
+lagAtLeast100Ms=... lagNegativeSamples=...
+```
+
+Consumer metrics are cumulative within one JVM process.
+Compare before-and-after values only when `sourceId` is unchanged.
+
+System CPU, memory, and network metrics were collected using `sar`.
+These describe the entire EC2 host, not an individual application process.
 
 ## Performance Results
 
-All runs listed below completed 500,000 successful events
-with zero final failed events.
+The following runs used the ALB, 64 main-phase sender threads,
+and the same 32-thread, 32,000-event warmup.
 
-| Main threads | Run | Main throughput (events/s) |
-|---|---|---:|
-| 64 | Initial formal run | 1495.52 |
-| 128 | Formal run | 2691.50 |
-| 256 | Run 1 | 4632.00 |
-| 256 | Run 2 | 4655.29 |
-| 256 | Connection observation run | 4340.52 |
+| Ingest Instances | Events | Throughput Including Warmup (events/s) | Main Throughput (events/s) | HTTP P95 (ms) |
+|---|---:|---:|---:|---:|
+| 1 | 500,000 | 1,394.04 | 1,476.95 | 59.821 |
+| 2 | 500,000 | 1,381.32 | 1,460.07 | 61.271 |
+| 4 | 500,000 | 1,328.87 | 1,399.84 | 67.428 |
 
-Main throughput excludes warmup.
-Overall and ingestion throughput use different timing boundaries
-and are reported separately in the logs.
+All three runs completed with:
 
-The sequential HTTP baseline mean was 37.171 ms.
-Assuming constant response time and no other bottlenecks,
-256 concurrent requests predict approximately 6887 events/s.
+- 500,000 successful events
+- Zero final failed events
+- Zero HTTP retries
+- A matching increase in the Consumer's unique-event counter
+- Empty resort queues and an empty dead-letter queue at final verification
 
-These predictions are estimates. Network conditions, retries,
-server resources, and client overhead can affect measured results.
+For the two-instance run, access logs matched by `X-Run-ID` showed:
 
-## WebSocket Verification
+- Ingest-1: 250,001 requests
+- Ingest-2: 249,999 requests
 
-Run `SubscriptionPoolCheck` with Program arguments:
+This verifies balanced request distribution for that run.
+
+At 64 sender threads, increasing the ingest instance count did not
+improve throughput. These experiments do not independently identify
+the limiting component.
+
+### Four-Instance 1M Retest
+
+The completed retest used four ingest instances and 64 main-phase
+sender threads.
+
+- Warmup successes: 32,000
+- Main-phase successes: 968,000
+- Final failed events: 0
+- HTTP retries: 0
+- Main-phase runtime: 679.477 seconds
+- Main-phase throughput: 1,424.62 events/s
+- Consumer unique-event counter: 0 to 1,000,000
+- Final resort and dead-letter queues: empty
+- Observed mean Consumer lag: 5.460 ms
+- Observed maximum Consumer lag: 344.881 ms
+- Lag samples at or above 100 ms: 1,682 of 1,000,000
+- Negative Consumer lag samples: 0
+
+Evidence:
 
 ```text
-ws://EC2_PUBLIC_IP:8080/ski-servlet
+results/96-four1m-retest-consumer-before.log
+results/97-four1m-retest-queues.csv
+results/98-four1m-retest-client-console.log
+results/100-four1m-retest-consumer-after.log
+results/103-four1m-retest-*-system.log
 ```
 
-This checks ten subscriptions for approximately 15 seconds.
+An earlier 1M attempt was interrupted by an infrastructure stop/start
+and is retained separately. It is not counted as a completed successful run.
 
-The clock-check run received 310 updates in total,
-with one connection and zero reconnections per resort.
-It was a subscription-only test, separate from the HTTP load tests.
+Matching event counts and drained queues support that no loss was
+observed in these completed runs. They do not prove loss-free behavior
+under every failure or load condition.
 
-## HTTP Connection Reuse Observation
+## Measurement Definitions
 
-The connection observation run attached an `X-Run-ID` header
-to each HTTP request.
+### HTTP Latency
 
-Tomcat access logging was configured with:
+HTTP request durations use the client's monotonic clock.
+They do not require synchronization between the Mac and EC2 clocks.
 
-```xml
-<Valve className="org.apache.catalina.valves.AccessLogValve"
-       directory="logs"
-       prefix="assignment1_access_log"
-       suffix=".txt"
-       pattern="%a %{remote}p %{begin:msec}t &quot;%r&quot; %s %b %D %X %{X-Run-ID}i" />
-```
+### Consumer Lag
 
-Changing this configuration requires a Tomcat restart.
+Consumer lag is the difference between the ingest event's `timestamp`
+and the time immediately before Consumer aggregation.
 
-For the observed run:
+It includes publication, transport, broker waiting, and Consumer-local
+waiting. It is not a direct measurement of broker queue residence time.
 
-- Server logged HTTP requests: 500,417.
-- Distinct client IP:port pairs: 2,843.
-- Pairs handling multiple requests: 2,843.
-- Average requests per pair: 176.02.
+Lag samples are recorded per valid delivery, so redeliveries can make
+the sample count differ from the unique-event count.
 
-These observations support HTTP connection reuse.
-Distinct IP:port pairs are not an exact TCP connection count,
-because ports may be reused across connections.
-HTTP retries are not equivalent to reconnections.
+This cross-host metric depends on clock synchronization.
+Zero negative samples alone does not establish exact timing accuracy.
 
-## Measurement Limitations
+### Push Latency
 
-HTTP request durations use a monotonic clock on the client.
+Push latency is the difference between the Consumer's leaderboard
+publication timestamp and the client's complete-message receive time.
 
-Push latency is calculated from the difference between the
-server message timestamp and the client receive timestamp.
-It therefore depends on clock alignment between the Mac and EC2.
+The first snapshot on each connection and duplicate or older versions
+from the same source are excluded from latency sampling.
+Excluding the first snapshot can also discard a valid live update.
 
-Negative push-latency samples occurred, including after a manual
-Mac time synchronization. Raw samples were retained without
-taking absolute values or removing negative measurements.
+Negative push-latency samples occurred during formal tests.
+Raw values were retained, and affected summaries were marked invalid.
+They are not reported as valid one-way latency or Consumer lag.
 
-Push timestamp differences are reported with this limitation
-and should not be interpreted as precise absolute one-way latency.
-Positive values alone do not establish accurate clock alignment.
+### Throughput
 
-Results from different runs are kept separate.
-A subscription-only test is not a substitute for a load-test result.
+Use ingestion throughput or main-phase throughput for comparisons.
+Total wall-clock time includes manual verification waits and therefore
+does not provide a comparable sending-throughput measurement.
 
-## Result Files
+## Limitations and Incomplete Work
 
-See `results/` for:
+- Aggregation and deduplication state are held in memory and reset
+  when the Consumer process restarts.
+- Each resort has one serial aggregation execution stream.
+  Effective resort aggregation concurrency is capped at ten.
+- Dynamic Consumer scaling has not been implemented.
+- The full Assignment 2 client-thread matrix of 64/128/256/512
+  and Consumer-thread matrix of 10/20/40/80 has not been completed.
+- Assignment 1 thread experiments are not used as Assignment 2 results.
+- The maximum-lag observations exceed the 100 ms target in some cases.
+- Push-latency measurement remains limited by cross-machine clock error.
+- Five-second monitoring samples may miss transient queue-depth peaks.
+- ALB request distribution was verified using backend access logs;
+  this is distinct from CloudWatch ALB metric evidence.
 
-- Part 1 baseline output and screenshots.
-- Part 2 performance logs and CSV files.
-- Throughput charts.
-- `performance-comparison.txt`.
-- `part2-256threads-http-connection-summary.txt`.
-- `part2-ws-clock-check.txt`.
+## Credentials
 
-## Security
+Do not commit SSH private keys, passwords, password files,
+access tokens, or configuration files containing real credentials.
 
-Private SSH keys and credentials must not be committed
-to the repository.
+Credentials are supplied through environment configuration or
+protected server-side files.
