@@ -208,4 +208,6 @@ My responsibility is to understand and defend the submitted code,
 verify suggestions, preserve honest results, and explain the system's
 limitations.
 
+## AI Conversation Transcript
 
+[View the Codex conversation for Assignment 2](https://chatgpt.com/s/cx_6afbd2db9d448191b0fa25d125400e6c)
